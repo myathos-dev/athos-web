@@ -1,0 +1,608 @@
+import { Button } from "@/components/ui/button";
+import { NavigationAction } from "@/components/navigation-action";
+import { useState } from "react";
+import { useTextSetting, useLongTextSetting, useImageSetting, useNavigationSetting } from "@/lib/editable-settings";
+
+// ── BENEFIT ICONS ─────────────────────────────────────────────────────────────
+
+const BenefitIcons = {
+  dual: () => (
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+      <circle cx="9" cy="12" r="5.5" stroke="#245C3A" strokeWidth="1.6" />
+      <circle cx="15" cy="12" r="5.5" stroke="#245C3A" strokeWidth="1.6" />
+      <path d="M12 8.5V15.5" stroke="#245C3A" strokeWidth="1.2" strokeLinecap="round" opacity="0.35" />
+    </svg>
+  ),
+  calendar: () => (
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+      <rect x="4" y="5" width="16" height="15" rx="2.5" stroke="#245C3A" strokeWidth="1.6" />
+      <path d="M4 10H20" stroke="#245C3A" strokeWidth="1.6" />
+      <path d="M8 3V6" stroke="#245C3A" strokeWidth="1.6" strokeLinecap="round" />
+      <path d="M16 3V6" stroke="#245C3A" strokeWidth="1.6" strokeLinecap="round" />
+      <circle cx="12" cy="15" r="1.5" fill="#245C3A" opacity="0.4" />
+    </svg>
+  ),
+  scale: () => (
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+      <path d="M12 3V21" stroke="#245C3A" strokeWidth="1.6" strokeLinecap="round" />
+      <path d="M5 8L12 5L19 8" stroke="#245C3A" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M8 21H16" stroke="#245C3A" strokeWidth="1.6" strokeLinecap="round" />
+    </svg>
+  ),
+  heart: () => (
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+      <path d="M12 20C12 20 4 14 4 9C4 6.5 6 4.5 8.5 4.5C10 4.5 11.5 5.5 12 6.5C12.5 5.5 14 4.5 15.5 4.5C18 4.5 20 6.5 20 9C20 14 12 20 12 20Z" stroke="#245C3A" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M8 12L10.5 14.5L16 9" stroke="#245C3A" strokeWidth="1.4" strokeLinecap="round" strokeLinejoin="round" opacity="0.4" />
+    </svg>
+  ),
+  syringe: () => (
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+      <path d="M15 3L17 5" stroke="#245C3A" strokeWidth="1.6" strokeLinecap="round" />
+      <path d="M10 7L15 12" stroke="#245C3A" strokeWidth="1.6" strokeLinecap="round" />
+      <path d="M13.5 4.5L16.5 7.5" stroke="#245C3A" strokeWidth="1.6" strokeLinecap="round" />
+      <path d="M8.5 8L13.5 13L12 14.5C11 15.5 9.5 15.5 8.5 14.5L7 13C6 12 6 10.5 7 9.5L8.5 8Z" stroke="#245C3A" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M5 18L6.8 16.2" stroke="#245C3A" strokeWidth="1.6" strokeLinecap="round" />
+    </svg>
+  ),
+  brain: () => (
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+      <path d="M12 4C9 4 7 6 7 8.5C5.5 9 4.5 10.5 4.5 12C4.5 13.5 5.5 15 7 15.5C7 18 9 20 12 20C15 20 17 18 17 15.5C18.5 15 19.5 13.5 19.5 12C19.5 10.5 18.5 9 17 8.5C17 6 15 4 12 4Z" stroke="#245C3A" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M12 4V20" stroke="#245C3A" strokeWidth="1.2" strokeLinecap="round" opacity="0.3" />
+    </svg>
+  ),
+  stomach: () => (
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+      <path d="M12 4C12 4 6 7 6 12C6 17 9 20 12 20C15 20 18 17 18 12C18 7 12 4 12 4Z" stroke="#245C3A" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M9 12C9 12 10 14 12 14C14 14 15 12 15 12" stroke="#245C3A" strokeWidth="1.3" strokeLinecap="round" opacity="0.5" />
+      <path d="M12 14V17" stroke="#245C3A" strokeWidth="1.3" strokeLinecap="round" opacity="0.5" />
+    </svg>
+  ),
+  pancreas: () => (
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+      <path d="M4 18L8 10L12 14L16 8L20 12" stroke="#245C3A" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" />
+      <circle cx="12" cy="14" r="2" stroke="#245C3A" strokeWidth="1.3" opacity="0.4" />
+    </svg>
+  ),
+};
+
+// ── MINI ICONS (ADD-INS) ──────────────────────────────────────────────────────
+
+const MiniIcons = {
+  droplet: () => (
+    <svg width="18" height="18" viewBox="0 0 28 28" fill="none">
+      <path d="M14 3C14 3 6 12.5 6 17.5C6 21.92 9.58 25.5 14 25.5C18.42 25.5 22 21.92 22 17.5C22 12.5 14 3 14 3Z" stroke="#245C3A" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
+    </svg>
+  ),
+  bolt: () => (
+    <svg width="18" height="18" viewBox="0 0 28 28" fill="none">
+      <path d="M15.5 3L7 16H13.5L12.5 25L21 12H14.5L15.5 3Z" stroke="#245C3A" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
+    </svg>
+  ),
+  shield: () => (
+    <svg width="18" height="18" viewBox="0 0 28 28" fill="none">
+      <path d="M14 3L5 7V13C5 19.05 8.84 24.74 14 26C19.16 24.74 23 19.05 23 13V7L14 3Z" stroke="#245C3A" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M10 14L12.5 16.5L18 11" stroke="#245C3A" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
+    </svg>
+  ),
+  hexagon: () => (
+    <svg width="18" height="18" viewBox="0 0 28 28" fill="none">
+      <path d="M14 3L22.5 8V18L14 23L5.5 18V8L14 3Z" stroke="#245C3A" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
+      <circle cx="14" cy="13" r="2.5" stroke="#245C3A" strokeWidth="1.6" />
+    </svg>
+  ),
+  moon: () => (
+    <svg width="18" height="18" viewBox="0 0 28 28" fill="none">
+      <path d="M21.5 15.5C20.43 16.47 19.04 17 17.5 17C13.91 17 11 14.09 11 10.5C11 8.96 11.53 7.57 12.5 6.5C8.41 7.28 5.5 10.85 5.5 15C5.5 19.69 9.31 23.5 14 23.5C18.15 23.5 21.72 20.59 22.5 16.5C22.18 16.2 21.85 15.88 21.5 15.5Z" stroke="#245C3A" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
+    </svg>
+  ),
+};
+
+const addinsRow1 = [
+  { icon: MiniIcons.droplet, label: "No Additives" },
+  { icon: MiniIcons.bolt, label: "Vitamin B12" },
+  { icon: MiniIcons.shield, label: "Vitamin B6" },
+];
+
+const addinsRow2 = [
+  { icon: MiniIcons.hexagon, label: "NAD+" },
+  { icon: MiniIcons.moon, label: "Glycine" },
+];
+
+// ── ABSORPTION DIAGRAM ────────────────────────────────────────────────────────
+
+const AbsorptionDiagram = () => (
+  <div className="relative">
+    <p className="text-center text-xs mb-6" style={{ color: "#245C3A", fontWeight: 600, letterSpacing: "0.03em" }}>
+      ONE INJECTION, TWO TARGETS
+    </p>
+
+    {/* Injection → Bloodstream */}
+    <div className="flex flex-col items-center mb-4">
+      <div className="w-12 h-12 rounded-lg flex items-center justify-center mb-2" style={{ backgroundColor: "rgba(36,92,58,0.06)" }}>
+        <BenefitIcons.syringe />
+      </div>
+      <p className="text-xs mb-1" style={{ color: "#245C3A", fontWeight: 600 }}>Weekly Injection</p>
+      <p className="text-xs mb-3" style={{ color: "#888" }}>81% absorbed, peaks at ~48 hours</p>
+
+      <svg width="20" height="30" viewBox="0 0 20 30" fill="none">
+        <path d="M10 0L10 24" stroke="#245C3A" strokeWidth="1.5" strokeLinecap="round" />
+        <path d="M6 20L10 26L14 20" stroke="#245C3A" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+      </svg>
+
+      <div className="rounded-lg px-5 py-3 mt-2 mb-2" style={{ backgroundColor: "rgba(36,92,58,0.06)", border: "1px solid rgba(36,92,58,0.1)" }}>
+        <p className="text-xs text-center" style={{ color: "#245C3A", fontWeight: 600 }}>Bloodstream</p>
+        <p className="text-xs text-center mt-1" style={{ color: "#888" }}>Stays active for ~5 days</p>
+      </div>
+    </div>
+
+    {/* Two-branch to receptors */}
+    <div className="relative" style={{ height: "60px" }}>
+      <svg
+        width="100%"
+        height="100%"
+        viewBox="0 0 300 60"
+        fill="none"
+        preserveAspectRatio="none"
+        className="absolute inset-0"
+      >
+        <path d="M150 0 L150 10" stroke="#245C3A" strokeWidth="1.5" strokeLinecap="round" vectorEffect="non-scaling-stroke" />
+        <path d="M150 10 Q150 35 80 55 L80 60" stroke="#245C3A" strokeWidth="1.5" fill="none" strokeLinecap="round" vectorEffect="non-scaling-stroke" />
+        <path d="M150 10 Q150 35 220 55 L220 60" stroke="#245C3A" strokeWidth="1.5" fill="none" strokeLinecap="round" vectorEffect="non-scaling-stroke" />
+      </svg>
+    </div>
+
+    {/* Two receptor circles */}
+    <div className="grid grid-cols-2 gap-6 mb-4 px-8">
+      <div className="flex justify-center">
+        <svg width="72" height="72" viewBox="0 0 72 72" fill="none">
+          <circle cx="36" cy="36" r="34" stroke="#245C3A" strokeWidth="1.8" strokeDasharray="4 3" />
+          <circle cx="36" cy="36" r="14" stroke="#245C3A" strokeWidth="1.2" opacity="0.3" />
+          <text x="36" y="39" textAnchor="middle" fill="#245C3A" fontSize="11" fontWeight="700">GLP-1</text>
+        </svg>
+      </div>
+      <div className="flex justify-center">
+        <svg width="72" height="72" viewBox="0 0 72 72" fill="none">
+          <circle cx="36" cy="36" r="34" stroke="#245C3A" strokeWidth="1.8" strokeDasharray="4 3" />
+          <circle cx="36" cy="36" r="14" stroke="#245C3A" strokeWidth="1.2" opacity="0.3" />
+          <text x="36" y="39" textAnchor="middle" fill="#245C3A" fontSize="11" fontWeight="700">GIP</text>
+        </svg>
+      </div>
+    </div>
+
+    {/* Three-branch to effects — single lines, no overlaps */}
+    <div className="relative" style={{ height: "60px" }}>
+      <svg
+        width="100%"
+        height="100%"
+        viewBox="0 0 300 60"
+        fill="none"
+        preserveAspectRatio="none"
+        className="absolute inset-0"
+      >
+        {/* Left receptor (GLP-1 at x=80) → left effect (Brain at x=50) */}
+        <path d="M80 0 L80 10 Q80 30 50 50 L50 60" stroke="#245C3A" strokeWidth="1.2" fill="none" strokeLinecap="round" vectorEffect="non-scaling-stroke" opacity="0.6" />
+
+        {/* Left receptor (GLP-1 at x=80) → center effect (Stomach at x=150) */}
+        <path d="M80 0 L80 10 Q80 25 110 35 Q130 42 150 48 L150 60" stroke="#245C3A" strokeWidth="1.2" fill="none" strokeLinecap="round" vectorEffect="non-scaling-stroke" opacity="0.6" />
+
+        {/* Right receptor (GIP at x=220) → right effect (Pancreas at x=250) */}
+        <path d="M220 0 L220 10 Q220 30 250 50 L250 60" stroke="#245C3A" strokeWidth="1.2" fill="none" strokeLinecap="round" vectorEffect="non-scaling-stroke" opacity="0.6" />
+      </svg>
+    </div>
+
+    {/* Effect labels */}
+    <div className="grid grid-cols-3 gap-3">
+      <div className="flex flex-col items-center text-center">
+        <p className="text-xs" style={{ color: "#1a4d2e", fontWeight: 600 }}>Brain</p>
+        <p className="text-xs mt-1" style={{ color: "#888", lineHeight: "1.4" }}>
+          Reduces food noise and cravings so you think about food less
+        </p>
+      </div>
+      <div className="flex flex-col items-center text-center">
+        <p className="text-xs" style={{ color: "#1a4d2e", fontWeight: 600 }}>Stomach</p>
+        <p className="text-xs mt-1" style={{ color: "#888", lineHeight: "1.4" }}>
+          Slows digestion so you feel full longer after meals
+        </p>
+      </div>
+      <div className="flex flex-col items-center text-center">
+        <p className="text-xs" style={{ color: "#1a4d2e", fontWeight: 600 }}>Pancreas & Liver</p>
+        <p className="text-xs mt-1" style={{ color: "#888", lineHeight: "1.4" }}>
+          Improves insulin response and reduces excess sugar produced by the liver
+        </p>
+      </div>
+    </div>
+  </div>
+);
+
+// ── WEIGHT LOSS TIMELINE ──────────────────────────────────────────────────────
+// Y-axis: 0% at bottom (y=196), 25% at top (y=0)
+// Each 1% = 7.84px. So 20.9% → y≈32, 22.5% → y≈20
+
+const WeightLossTimeline = () => (
+  <div>
+    <div className="relative" style={{ height: "220px", marginLeft: "36px", marginRight: "8px" }}>
+      {/* Y-axis labels */}
+      <div className="absolute left-0 top-0 bottom-0 flex flex-col justify-between" style={{ transform: "translateX(-36px)", paddingTop: "4px", paddingBottom: "24px" }}>
+        {["25%", "20%", "15%", "10%", "5%", "0%"].map((label) => (
+          <span key={label} className="text-xs" style={{ color: "#999", fontSize: "10px" }}>{label}</span>
+        ))}
+      </div>
+
+      {/* Grid lines */}
+      <div className="absolute inset-0" style={{ paddingBottom: "24px" }}>
+        {[0, 1, 2, 3, 4, 5].map((i) => (
+          <div
+            key={i}
+            className="absolute w-full"
+            style={{ top: `${(i / 5) * 100}%`, borderTop: i === 5 ? "1.5px solid #245C3A" : "1px solid rgba(36,92,58,0.08)" }}
+          />
+        ))}
+      </div>
+
+      {/* SVG Curves */}
+      <svg className="absolute inset-0" width="100%" height="100%" viewBox="0 0 400 196" preserveAspectRatio="none" fill="none" style={{ marginBottom: "24px" }}>
+        {/* Shaded area under dashed line (diet+exercise) */}
+        <path d="M0 196 Q50 186 100 162 Q150 130 200 98 Q250 68 300 42 Q350 26 400 20 L400 196 Z" fill="rgba(36,92,58,0.04)" />
+
+        {/* Dashed line — compound + diet & exercise (~22.5% endpoint → y≈20) */}
+        <path d="M0 196 Q50 186 100 162 Q150 130 200 98 Q250 68 300 42 Q350 26 400 20" stroke="#245C3A" strokeWidth="2.5" strokeDasharray="8 4" fill="none" strokeLinecap="round" vectorEffect="non-scaling-stroke" />
+
+        {/* Solid line — compound alone (~20.9% endpoint → y≈32) */}
+        <path d="M0 196 Q50 188 100 168 Q150 140 200 110 Q250 82 300 58 Q350 40 400 32" stroke="#245C3A" strokeWidth="2.5" fill="none" strokeLinecap="round" vectorEffect="non-scaling-stroke" />
+
+        {/* Endpoint dots */}
+        <circle cx="400" cy="20" r="4" fill="#245C3A" />
+        <circle cx="400" cy="32" r="4" fill="#245C3A" opacity="0.4" />
+      </svg>
+
+      {/* Endpoint labels */}
+      <div className="absolute" style={{ right: "-4px", top: "0px" }}>
+        <span className="text-xs" style={{ color: "#245C3A", fontWeight: 700 }}>~22.5%</span>
+      </div>
+      <div className="absolute" style={{ right: "-4px", top: "22px" }}>
+        <span className="text-xs" style={{ color: "#245C3A", fontWeight: 600, opacity: 0.7 }}>~20.9%</span>
+      </div>
+
+      {/* X-axis labels */}
+      <div className="absolute bottom-0 left-0 right-0 flex justify-between" style={{ transform: "translateY(20px)" }}>
+        {["Wk 0", "Wk 12", "Wk 24", "Wk 48", "Wk 72"].map((label) => (
+          <span key={label} className="text-xs" style={{ color: "#999", fontSize: "10px" }}>{label}</span>
+        ))}
+      </div>
+    </div>
+
+    {/* Legend */}
+    <div className="flex gap-6 mt-8 justify-center">
+      <div className="flex items-center gap-2">
+        <div style={{ width: "20px", height: "2.5px", backgroundColor: "#245C3A", borderRadius: "2px" }} />
+        <span className="text-xs" style={{ color: "#666" }}>Compounded Dual-Action</span>
+      </div>
+      <div className="flex items-center gap-2">
+        <div style={{ width: "20px", height: "0", borderTop: "2.5px dashed #245C3A" }} />
+        <span className="text-xs" style={{ color: "#666" }}>+ Diet and exercise</span>
+      </div>
+    </div>
+  </div>
+);
+
+// ── COMPONENT ─────────────────────────────────────────────────────────────────
+
+export default function Block() {
+  const [activeSection, setActiveSection] = useState("overview");
+
+  const eyebrow = useTextSetting({
+    name: "eyebrow",
+    label: "Eyebrow Text",
+    initialValue: "ADVANCED  |  DUAL-ACTION INJECTABLE",
+  });
+
+  const headline = useTextSetting({
+    name: "headline",
+    label: "Headline",
+    initialValue: "Two Hormones.\nOne Weekly Dose.",
+  });
+
+  const description = useLongTextSetting({
+    name: "description",
+    label: "Description",
+    initialValue: "This compounded dual-action injectable mimics two hormones at once — GLP-1 and GIP — to reduce cravings, slow digestion, and improve how your body handles blood sugar. In clinical trials, it delivered 20.9% average weight loss at 72 weeks.",
+  });
+
+  const ctaText = useTextSetting({
+    name: "cta-text",
+    label: "CTA Button Text",
+    initialValue: "Get Started for \$0",
+  });
+
+  const ctaLink = useNavigationSetting({
+    name: "cta-link",
+    label: "CTA Button Link",
+    initialValue: {
+      destination: "/sign-up",
+      openIn: "SELF",
+    },
+  });
+
+  const heroImage = useImageSetting({
+    name: "hero-image",
+    label: "Hero Image",
+    initialValue: {
+      src: "https://replicate.delivery/xezq/2odFb62wHs4mA1hKlcDIoGOvPuTEID12s1EbNqUtU4xdG3lF/out-0.webp",
+      alt: "Compounded dual-action injectable",
+    },
+  });
+
+  const sections = [
+    { key: "overview", label: "Overview" },
+    { key: "absorption", label: "How It Works" },
+    { key: "timeline", label: "Results Timeline" },
+  ];
+
+  const benefits = [
+    {
+      icon: BenefitIcons.dual,
+      title: "Dual-Action Formula",
+      desc: "The only compound that targets two metabolic hormones — GLP-1 and GIP — working together for stronger results than either pathway alone.",
+    },
+    {
+      icon: BenefitIcons.calendar,
+      title: "Once a Week",
+      desc: "A single injection each week. Peaks at 48 hours and stays active in your body for approximately 5 days.",
+    },
+    {
+      icon: BenefitIcons.scale,
+      title: "20.9% Average Weight Loss",
+      desc: "Clinically proven at 72 weeks — the highest published result for any dual-action compound in a placebo-controlled trial.",
+    },
+    {
+      icon: BenefitIcons.heart,
+      title: "Cardiovascular & Metabolic Benefits",
+      desc: "Clinical trials showed improvements in blood pressure, triglycerides, LDL cholesterol, and A1c reductions of up to 2.7%.",
+    },
+  ];
+
+  const comparisonData = [
+    { label: "Pathways targeted", dual: "2 (GLP-1 + GIP)", glp1: "1", triple: "3" },
+    { label: "Average weight loss", dual: "20.9%", glp1: "15–17%", triple: "28.7%" },
+    { label: "Trial duration", dual: "72 weeks", glp1: "68 weeks", triple: "68 weeks" },
+    { label: "Dosing", dual: "Weekly injection", glp1: "Weekly injection", triple: "Weekly injection" },
+    { label: "A1c reduction", dual: "Up to 2.7%", glp1: "Up to 1.8%", triple: "Early data" },
+    { label: "Cardiovascular data", dual: "Positive", glp1: "Positive", triple: "Limited" },
+  ];
+
+  return (
+    <div className="py-16 md:py-24" style={{ backgroundColor: "#FFFFFF" }}>
+      <div className="container">
+        <div className="content grid md:grid-cols-2 gap-12 md:gap-16 items-start">
+          {/* ── LEFT COLUMN ── */}
+          <div>
+            <p className="text-sm tracking-wide mb-4" style={{ color: "#16625F", fontWeight: 500, letterSpacing: "0.05em" }}>
+              {eyebrow}
+            </p>
+
+            <h1 className="text-4xl md:text-5xl mb-5 leading-tight whitespace-pre-line" style={{ color: "#1a4d2e" }}>
+              {headline}
+            </h1>
+
+            <p className="text-base mb-8" style={{ color: "#4A4A4A", lineHeight: "1.7", maxWidth: "520px" }}>
+              {description}
+            </p>
+
+            {/* 3-site visual strip */}
+            <div className="grid grid-cols-3 gap-2 mb-8">
+              {[
+                { icon: BenefitIcons.brain, label: "Reduces Cravings", sub: "GLP-1 + GIP" },
+                { icon: BenefitIcons.stomach, label: "Slows Digestion", sub: "GLP-1" },
+                { icon: BenefitIcons.pancreas, label: "Blood Sugar Control", sub: "GLP-1 + GIP" },
+              ].map((p, i) => {
+                const Icon = p.icon;
+                return (
+                  <div
+                    key={i}
+                    className="rounded-lg p-3 flex flex-col items-center text-center"
+                    style={{ backgroundColor: "rgba(36,92,58,0.04)", border: "1px solid rgba(36,92,58,0.08)" }}
+                  >
+                    <div className="w-9 h-9 rounded-md flex items-center justify-center mb-2" style={{ backgroundColor: "rgba(36,92,58,0.08)" }}>
+                      <Icon />
+                    </div>
+                    <p className="text-xs" style={{ color: "#1a4d2e", fontWeight: 600 }}>{p.label}</p>
+                    <p className="text-xs mt-0.5" style={{ color: "#999" }}>{p.sub}</p>
+                  </div>
+                );
+              })}
+            </div>
+
+            {/* Benefits */}
+            <div className="space-y-4 mb-8">
+              {benefits.map((b, i) => {
+                const Icon = b.icon;
+                return (
+                  <div key={i} className="flex gap-3.5 items-start">
+                    <div className="flex-shrink-0 w-10 h-10 rounded-lg flex items-center justify-center" style={{ backgroundColor: "rgba(36,92,58,0.06)" }}>
+                      <Icon />
+                    </div>
+                    <div>
+                      <p className="text-sm" style={{ color: "#1a4d2e", fontWeight: 600, marginBottom: "2px" }}>{b.title}</p>
+                      <p className="text-sm" style={{ color: "#666", lineHeight: "1.5" }}>{b.desc}</p>
+                    </div>
+                  </div>
+                );
+              })}
+            </div>
+
+            {/* Add-ins box — 3/2 layout */}
+            <div className="rounded-lg p-5 mb-8" style={{ backgroundColor: "rgba(36, 92, 58, 0.04)" }}>
+              <p className="text-xs tracking-wide mb-3" style={{ color: "#245C3A", fontWeight: 600, letterSpacing: "0.04em" }}>
+                INCLUDED ADD-INS AT NO EXTRA COST
+              </p>
+              <div className="flex gap-5 mb-2">
+                {addinsRow1.map((item, i) => {
+                  const Icon = item.icon;
+                  return (
+                    <div key={i} className="flex items-center gap-1.5">
+                      <Icon />
+                      <span className="text-sm" style={{ color: "#333", fontWeight: 450 }}>{item.label}</span>
+                    </div>
+                  );
+                })}
+              </div>
+              <div className="flex gap-5">
+                {addinsRow2.map((item, i) => {
+                  const Icon = item.icon;
+                  return (
+                    <div key={i} className="flex items-center gap-1.5">
+                      <Icon />
+                      <span className="text-sm" style={{ color: "#333", fontWeight: 450 }}>{item.label}</span>
+                    </div>
+                  );
+                })}
+              </div>
+            </div>
+
+            {/* CTA */}
+            <Button
+              asChild
+              size="lg"
+              className="text-white hover:opacity-90 shadow-sm px-10 py-6 rounded-md font-semibold"
+              style={{ backgroundColor: "#245C3A" }}
+            >
+              <NavigationAction navigation={ctaLink}>{ctaText}</NavigationAction>
+            </Button>
+          </div>
+
+          {/* ── RIGHT COLUMN ── */}
+          <div>
+            <div className="flex gap-2 mb-6">
+              {sections.map((s) => (
+                <button
+                  key={s.key}
+                  onClick={() => setActiveSection(s.key)}
+                  className="text-xs px-4 py-2 rounded-full transition-all duration-200"
+                  style={{
+                    backgroundColor: activeSection === s.key ? "#245C3A" : "rgba(36,92,58,0.08)",
+                    color: activeSection === s.key ? "#fff" : "#245C3A",
+                    fontWeight: 500,
+                    border: "none",
+                    cursor: "pointer",
+                  }}
+                >
+                  {s.label}
+                </button>
+              ))}
+            </div>
+
+            {/* OVERVIEW */}
+            {activeSection === "overview" && (
+              <div className="rounded-lg overflow-hidden" style={{ border: "1px solid rgba(36,92,58,0.1)" }}>
+                <img src={heroImage.src} alt={heroImage.alt} className="w-full h-auto object-cover" style={{ maxHeight: "280px" }} />
+                <div className="p-6" style={{ backgroundColor: "#FAFAF8" }}>
+                  <h3 className="text-lg mb-4" style={{ color: "#1a4d2e", fontWeight: 600 }}>
+                    How It Compares
+                  </h3>
+                  <div className="grid grid-cols-4 gap-2 py-2 px-3 rounded-t-md" style={{ backgroundColor: "rgba(36,92,58,0.06)" }}>
+                    <span className="text-xs" style={{ color: "#245C3A", fontWeight: 600 }}></span>
+                    <span className="text-xs text-center" style={{ color: "#245C3A", fontWeight: 700 }}>Dual-Action</span>
+                    <span className="text-xs text-center" style={{ color: "#245C3A", fontWeight: 500, opacity: 0.6 }}>GLP-1</span>
+                    <span className="text-xs text-center" style={{ color: "#245C3A", fontWeight: 500, opacity: 0.6 }}>Triple-Action</span>
+                  </div>
+                  {comparisonData.map((row, i) => (
+                    <div
+                      key={i}
+                      className="grid grid-cols-4 gap-2 py-2.5 px-3"
+                      style={{ borderBottom: i < comparisonData.length - 1 ? "1px solid rgba(0,0,0,0.05)" : "none" }}
+                    >
+                      <span className="text-xs" style={{ color: "#1a4d2e", fontWeight: 500 }}>{row.label}</span>
+                      <span className="text-xs text-center" style={{ color: "#245C3A", fontWeight: 600 }}>{row.dual}</span>
+                      <span className="text-xs text-center" style={{ color: "#999" }}>{row.glp1}</span>
+                      <span className="text-xs text-center" style={{ color: "#999" }}>{row.triple}</span>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            )}
+
+            {/* HOW IT WORKS */}
+            {activeSection === "absorption" && (
+              <div className="rounded-lg p-6" style={{ backgroundColor: "#FAFAF8", border: "1px solid rgba(36,92,58,0.1)" }}>
+                <h3 className="text-lg mb-2" style={{ color: "#1a4d2e", fontWeight: 600 }}>
+                  How Your Body Uses It
+                </h3>
+                <p className="text-sm mb-6" style={{ color: "#666", lineHeight: "1.6" }}>
+                  After injection, approximately 81% of the dose is absorbed into your bloodstream, peaking at around 48 hours. It then activates two different receptor types — GLP-1 and GIP — which together act on three areas of your body.
+                </p>
+
+                <AbsorptionDiagram />
+
+                <div className="mt-6 space-y-3">
+                  <div className="rounded-lg p-4" style={{ backgroundColor: "rgba(36,92,58,0.04)", border: "1px solid rgba(36,92,58,0.08)" }}>
+                    <div className="flex items-center gap-2 mb-2">
+                      <BenefitIcons.brain />
+                      <p className="text-sm" style={{ color: "#245C3A", fontWeight: 600 }}>Brain — Reduces Food Noise</p>
+                    </div>
+                    <p className="text-xs" style={{ color: "#666", lineHeight: "1.6" }}>
+                      Targets receptors in the hypothalamus to quiet constant thoughts about food. Most people describe it as simply not thinking about their next meal — cravings fade rather than requiring willpower to resist.
+                    </p>
+                  </div>
+
+                  <div className="rounded-lg p-4" style={{ backgroundColor: "rgba(36,92,58,0.04)", border: "1px solid rgba(36,92,58,0.08)" }}>
+                    <div className="flex items-center gap-2 mb-2">
+                      <BenefitIcons.stomach />
+                      <p className="text-sm" style={{ color: "#245C3A", fontWeight: 600 }}>Stomach — Slows Emptying</p>
+                    </div>
+                    <p className="text-xs" style={{ color: "#666", lineHeight: "1.6" }}>
+                      Food moves through your stomach more slowly, keeping you physically full for longer after meals. This naturally reduces portion sizes without calorie counting or restrictive diets.
+                    </p>
+                  </div>
+
+                  <div className="rounded-lg p-4" style={{ backgroundColor: "rgba(36,92,58,0.04)", border: "1px solid rgba(36,92,58,0.08)" }}>
+                    <div className="flex items-center gap-2 mb-2">
+                      <BenefitIcons.pancreas />
+                      <p className="text-sm" style={{ color: "#245C3A", fontWeight: 600 }}>Pancreas & Liver — Blood Sugar Balance</p>
+                    </div>
+                    <p className="text-xs" style={{ color: "#666", lineHeight: "1.6" }}>
+                      Stimulates insulin only when blood sugar is high and reduces the excess sugar your liver produces. In trials, over 50% of participants reached normal A1c levels below 5.7%.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            )}
+
+            {/* RESULTS TIMELINE */}
+            {activeSection === "timeline" && (
+              <div className="rounded-lg p-6" style={{ backgroundColor: "#FAFAF8", border: "1px solid rgba(36,92,58,0.1)" }}>
+                <h3 className="text-lg mb-2" style={{ color: "#1a4d2e", fontWeight: 600 }}>
+                  Expected Weight Loss Timeline
+                </h3>
+                <p className="text-sm mb-6" style={{ color: "#666", lineHeight: "1.6" }}>
+                  Based on clinical trial data at the 15 mg dose over 72 weeks. Results with structured diet and exercise shown as the dashed line.
+                </p>
+
+                <WeightLossTimeline />
+
+                <div className="mt-8 space-y-3">
+                  {[
+                    { week: "Weeks 1–4", pct: "2–4%", note: "Dose gradually increases. Appetite noticeably decreases. Mild GI side effects are common and typically temporary." },
+                    { week: "Weeks 4–12", pct: "5–9%", note: "Steady weight loss begins. Food noise quiets significantly. Energy levels often improve." },
+                    { week: "Weeks 12–24", pct: "10–15%", note: "Significant change. Clothes fit differently. Blood pressure and cholesterol markers begin improving." },
+                    { week: "Weeks 24–48", pct: "16–19%", note: "Major results. A1c drops measurably. Dual-action effect sustains progress through typical plateaus." },
+                    { week: "Weeks 48–72", pct: "19–20.9%", note: "Peak results in clinical trials. Cardiovascular markers show continued improvement." },
+                  ].map((m, i) => (
+                    <div key={i} className="flex gap-3 items-start">
+                      <div className="flex-shrink-0 w-16 text-center rounded-md py-1" style={{ backgroundColor: "rgba(36,92,58,0.06)" }}>
+                        <span className="text-xs" style={{ color: "#245C3A", fontWeight: 600 }}>{m.pct}</span>
+                      </div>
+                      <div>
+                        <p className="text-sm" style={{ color: "#1a4d2e", fontWeight: 600 }}>{m.week}</p>
+                        <p className="text-xs" style={{ color: "#666", lineHeight: "1.5" }}>{m.note}</p>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            )}
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
