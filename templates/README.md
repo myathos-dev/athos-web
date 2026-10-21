@@ -1,4 +1,4 @@
-# template-for-clients — v0 proposal
+# templates — v0 proposal
 
 **Goal:** onboard a new telehealth client by picking modules and filling in one config file, instead of copying 61 pages and editing them by hand.
 
@@ -19,7 +19,7 @@ This is a proposal for the dev, not a finished system. The inventory files are g
 To rerun them:
 
 ```bash
-# from template-for-clients/
+# from templates/
 python3 scripts/extract_fields.py ../_softr-original > fields.json
 python3 scripts/audit_hardcoded.py .. > audit.json
 ```

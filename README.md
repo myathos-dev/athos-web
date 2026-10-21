@@ -23,7 +23,7 @@ Other folders:
 
 | Folder | What it's for |
 |---|---|
-| `template-for-clients/` | v0 proposal for onboarding clients from these pages. Start with its README. |
+| `templates/` | v0 proposal for onboarding clients from these pages. Start with its README. |
 | `_softr-original/` | The exact code exported from Softr, for reference. Same page layout, no section folders. |
 | `app/` | The viewer that serves every page |
 | `scripts/` | The block check and the Softr → React converter |
@@ -65,7 +65,7 @@ Requires Node 18+. The blocks use Tailwind classes. The fonts (DM Sans, DM Serif
 
 ## Known issues
 
-The full list is in `template-for-clients/README.md`, under "Fix before templating". In short:
+The full list is in `templates/README.md`, under "Fix before templating". In short:
 - placeholder phone numbers and addresses on the legal pages;
 - `\$` showing up literally on the partner legal pages;
 - broken links;

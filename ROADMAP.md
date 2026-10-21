@@ -1,6 +1,6 @@
 # Roadmap
 
-Website work ahead, taken from "Fix before templating" in [template-for-clients/README.md](template-for-clients/README.md) and "Still pointing at Softr" in the [README](README.md).
+Website work ahead, taken from "Fix before templating" in [templates/README.md](templates/README.md) and "Still pointing at Softr" in the [README](README.md).
 
 ## Fix bugs
 - [ ] `/getpeptides/recovery/product-info` crashes on "Continue to health intake" (hook order)
@@ -19,4 +19,4 @@ Website work ahead, taken from "Fix before templating" in [template-for-clients/
 - [ ] Replace the Unsplash placeholders on `core/men` and the product page heroes with product photos
 
 ## Client template
-- [ ] Choose an approach from `template-for-clients/README.md` (option A, B or C) and build it
+- [ ] Choose an approach from `templates/README.md` (option A, B or C) and build it

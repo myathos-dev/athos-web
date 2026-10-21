@@ -8,7 +8,7 @@ import { tmpdir } from "node:os";
 import { pathToFileURL } from "node:url";
 
 const ROOT = new URL("..", import.meta.url).pathname;
-const SKIP = new Set(["node_modules", "_softr-original", "app", "scripts", "dist", "template-for-clients", ".git"]);
+const SKIP = new Set(["node_modules", "_softr-original", "app", "scripts", "dist", "templates", ".git"]);
 const files = [];
 (function walk(d) {
   for (const n of readdirSync(d)) {
