@@ -1,0 +1,466 @@
+{
+ "_about": "Every migrated page, assigned to an onboarding module. base = every client; sales = optional add-on; web = pick pages by category; ops = internal.",
+ "modules": {
+  "base": "Teleforms + patient legal. Required for every client.",
+  "sales": "Partner program (pages + partner legal) and B2B clinic/enterprise pages. Optional.",
+  "web": "Marketing site. Client picks pages per category: home, landing, product, guide.",
+  "ops": "Internal tools. Not part of client onboarding by default."
+ },
+ "pages": [
+  {
+   "route": "/admin/sales",
+   "module": "ops",
+   "group": "internal-crm",
+   "category": "internal",
+   "blocks": 1,
+   "notes": "Reads/writes the leads table; data-bound (props: items, onUpdate). Likely Athos-internal, not per client"
+  },
+  {
+   "route": "/admin/sales/leads",
+   "module": "ops",
+   "group": "internal-crm",
+   "category": "internal",
+   "blocks": 1,
+   "notes": "Reads/writes the leads table; data-bound (props: items, onUpdate). Likely Athos-internal, not per client"
+  },
+  {
+   "route": "/admin/sales/queue",
+   "module": "ops",
+   "group": "internal-crm",
+   "category": "internal",
+   "blocks": 1,
+   "notes": "Reads/writes the leads table; data-bound (props: items, onUpdate). Likely Athos-internal, not per client"
+  },
+  {
+   "route": "/bpc-157",
+   "module": "web",
+   "group": "site",
+   "category": "product",
+   "blocks": 9,
+   "notes": "Product page template: hero, explainer, product block, FAQ are unique; subscription, banner, how-it-works, why-athos are shared"
+  },
+  {
+   "route": "/clinic",
+   "module": "sales",
+   "group": "b2b",
+   "category": "sales",
+   "blocks": 10
+  },
+  {
+   "route": "/clinic/signup",
+   "module": "sales",
+   "group": "b2b",
+   "category": "sales",
+   "blocks": 1
+  },
+  {
+   "route": "/enterprise",
+   "module": "sales",
+   "group": "b2b",
+   "category": "sales",
+   "blocks": 10
+  },
+  {
+   "route": "/enterprise/pharmacy-list",
+   "module": "sales",
+   "group": "b2b",
+   "category": "sales",
+   "blocks": 1
+  },
+  {
+   "route": "/enterprise/signup",
+   "module": "sales",
+   "group": "b2b",
+   "category": "sales",
+   "blocks": 1
+  },
+  {
+   "route": "/getpeptides",
+   "module": "base",
+   "group": "teleforms",
+   "category": "teleform",
+   "blocks": 1,
+   "notes": "Entry: category selector"
+  },
+  {
+   "route": "/getpeptides/longevity",
+   "module": "base",
+   "group": "teleforms",
+   "category": "teleform",
+   "blocks": 1
+  },
+  {
+   "route": "/getpeptides/longevity/product",
+   "module": "base",
+   "group": "teleforms",
+   "category": "teleform",
+   "blocks": 1
+  },
+  {
+   "route": "/getpeptides/longevity/product-info",
+   "module": "base",
+   "group": "teleforms",
+   "category": "teleform",
+   "blocks": 1
+  },
+  {
+   "route": "/getpeptides/longevity/profile",
+   "module": "base",
+   "group": "teleforms",
+   "category": "teleform",
+   "blocks": 1
+  },
+  {
+   "route": "/getpeptides/recovery",
+   "module": "base",
+   "group": "teleforms",
+   "category": "teleform",
+   "blocks": 1
+  },
+  {
+   "route": "/getpeptides/recovery/product",
+   "module": "base",
+   "group": "teleforms",
+   "category": "teleform",
+   "blocks": 1
+  },
+  {
+   "route": "/getpeptides/recovery/product-info",
+   "module": "base",
+   "group": "teleforms",
+   "category": "teleform",
+   "blocks": 1
+  },
+  {
+   "route": "/getpeptides/recovery/profile",
+   "module": "base",
+   "group": "teleforms",
+   "category": "teleform",
+   "blocks": 1
+  },
+  {
+   "route": "/getpeptides/weight-loss",
+   "module": "base",
+   "group": "teleforms",
+   "category": "teleform",
+   "blocks": 1
+  },
+  {
+   "route": "/getpeptides/weight-loss/product",
+   "module": "base",
+   "group": "teleforms",
+   "category": "teleform",
+   "blocks": 1
+  },
+  {
+   "route": "/getpeptides/weight-loss/product-info",
+   "module": "base",
+   "group": "teleforms",
+   "category": "teleform",
+   "blocks": 1
+  },
+  {
+   "route": "/getpeptides/weight-loss/profile",
+   "module": "base",
+   "group": "teleforms",
+   "category": "teleform",
+   "blocks": 1
+  },
+  {
+   "route": "/glp-weight-management",
+   "module": "web",
+   "group": "site",
+   "category": "landing",
+   "blocks": 8
+  },
+  {
+   "route": "/home",
+   "module": "web",
+   "group": "site",
+   "category": "home",
+   "blocks": 6
+  },
+  {
+   "route": "/legal",
+   "module": "base",
+   "group": "legal-patient",
+   "category": "legal",
+   "blocks": 1
+  },
+  {
+   "route": "/legal/ada-compliance",
+   "module": "base",
+   "group": "legal-patient",
+   "category": "legal",
+   "blocks": 1
+  },
+  {
+   "route": "/legal/ccpa",
+   "module": "base",
+   "group": "legal-patient",
+   "category": "legal",
+   "blocks": 1
+  },
+  {
+   "route": "/legal/medical-consent",
+   "module": "base",
+   "group": "legal-patient",
+   "category": "legal",
+   "blocks": 1
+  },
+  {
+   "route": "/legal/medical-weight-loss-bill-of-rights",
+   "module": "base",
+   "group": "legal-patient",
+   "category": "legal",
+   "blocks": 1
+  },
+  {
+   "route": "/legal/partners",
+   "module": "sales",
+   "group": "partner-program",
+   "category": "legal",
+   "blocks": 1,
+   "notes": "Only needed if the client runs a partner program"
+  },
+  {
+   "route": "/legal/partners/addendum-1",
+   "module": "sales",
+   "group": "partner-program",
+   "category": "legal",
+   "blocks": 1,
+   "notes": "Only needed if the client runs a partner program"
+  },
+  {
+   "route": "/legal/partners/agreement",
+   "module": "sales",
+   "group": "partner-program",
+   "category": "legal",
+   "blocks": 1,
+   "notes": "Only needed if the client runs a partner program"
+  },
+  {
+   "route": "/legal/partners/cash-pay-policy",
+   "module": "sales",
+   "group": "partner-program",
+   "category": "legal",
+   "blocks": 1,
+   "notes": "Only needed if the client runs a partner program"
+  },
+  {
+   "route": "/legal/partners/compliance",
+   "module": "sales",
+   "group": "partner-program",
+   "category": "legal",
+   "blocks": 1,
+   "notes": "Only needed if the client runs a partner program"
+  },
+  {
+   "route": "/legal/partners/disclosure",
+   "module": "sales",
+   "group": "partner-program",
+   "category": "legal",
+   "blocks": 1,
+   "notes": "Only needed if the client runs a partner program"
+  },
+  {
+   "route": "/legal/partners/fmv-certification",
+   "module": "sales",
+   "group": "partner-program",
+   "category": "legal",
+   "blocks": 1,
+   "notes": "Only needed if the client runs a partner program"
+  },
+  {
+   "route": "/legal/partners/msa",
+   "module": "sales",
+   "group": "partner-program",
+   "category": "legal",
+   "blocks": 1,
+   "notes": "Only needed if the client runs a partner program"
+  },
+  {
+   "route": "/legal/partners/privacy",
+   "module": "sales",
+   "group": "partner-program",
+   "category": "legal",
+   "blocks": 1,
+   "notes": "Only needed if the client runs a partner program"
+  },
+  {
+   "route": "/legal/partners/terms",
+   "module": "sales",
+   "group": "partner-program",
+   "category": "legal",
+   "blocks": 1,
+   "notes": "Only needed if the client runs a partner program"
+  },
+  {
+   "route": "/legal/pcmso",
+   "module": "base",
+   "group": "legal-patient",
+   "category": "legal",
+   "blocks": 1
+  },
+  {
+   "route": "/legal/privacy-policy",
+   "module": "base",
+   "group": "legal-patient",
+   "category": "legal",
+   "blocks": 1
+  },
+  {
+   "route": "/legal/rrr-policy",
+   "module": "base",
+   "group": "legal-patient",
+   "category": "legal",
+   "blocks": 1
+  },
+  {
+   "route": "/legal/terms-of-service",
+   "module": "base",
+   "group": "legal-patient",
+   "category": "legal",
+   "blocks": 1
+  },
+  {
+   "route": "/men",
+   "module": "web",
+   "group": "site",
+   "category": "landing",
+   "blocks": 2
+  },
+  {
+   "route": "/mots-c",
+   "module": "web",
+   "group": "site",
+   "category": "product",
+   "blocks": 9,
+   "notes": "Product page template: hero, explainer, product block, FAQ are unique; subscription, banner, how-it-works, why-athos are shared"
+  },
+  {
+   "route": "/nad",
+   "module": "web",
+   "group": "site",
+   "category": "product",
+   "blocks": 8,
+   "notes": "Product page template: hero, explainer, product block, FAQ are unique; subscription, banner, how-it-works, why-athos are shared"
+  },
+  {
+   "route": "/partners",
+   "module": "sales",
+   "group": "partner-program",
+   "category": "sales",
+   "blocks": 6
+  },
+  {
+   "route": "/partners/intake",
+   "module": "sales",
+   "group": "partner-program",
+   "category": "sales",
+   "blocks": 1
+  },
+  {
+   "route": "/partners/intake/category",
+   "module": "sales",
+   "group": "partner-program",
+   "category": "sales",
+   "blocks": 1
+  },
+  {
+   "route": "/partners/intake/complete",
+   "module": "sales",
+   "group": "partner-program",
+   "category": "sales",
+   "blocks": 3
+  },
+  {
+   "route": "/peptides/guide",
+   "module": "web",
+   "group": "site",
+   "category": "guide",
+   "blocks": 1,
+   "notes": "Guide hub"
+  },
+  {
+   "route": "/peptides/guide/cognitive",
+   "module": "web",
+   "group": "site",
+   "category": "guide",
+   "blocks": 1,
+   "notes": "CTA links to /getpeptides/<category>"
+  },
+  {
+   "route": "/peptides/guide/fitness",
+   "module": "web",
+   "group": "site",
+   "category": "guide",
+   "blocks": 1,
+   "notes": "CTA links to /getpeptides/<category>"
+  },
+  {
+   "route": "/peptides/guide/longevity",
+   "module": "web",
+   "group": "site",
+   "category": "guide",
+   "blocks": 1,
+   "notes": "CTA links to /getpeptides/<category>"
+  },
+  {
+   "route": "/peptides/guide/recovery",
+   "module": "web",
+   "group": "site",
+   "category": "guide",
+   "blocks": 1,
+   "notes": "CTA links to /getpeptides/<category>"
+  },
+  {
+   "route": "/peptides/guide/weightloss",
+   "module": "web",
+   "group": "site",
+   "category": "guide",
+   "blocks": 1,
+   "notes": "CTA links to /getpeptides/<category>"
+  },
+  {
+   "route": "/peptides/shop",
+   "module": "base",
+   "group": "teleforms",
+   "category": "teleform",
+   "blocks": 1,
+   "notes": "All-in-one shop + intake; writes tf_intake"
+  },
+  {
+   "route": "/semaglutide-injectable",
+   "module": "web",
+   "group": "site",
+   "category": "product",
+   "blocks": 9,
+   "notes": "Product page template: hero, explainer, product block, FAQ are unique; subscription, banner, how-it-works, why-athos are shared"
+  },
+  {
+   "route": "/semaglutide-oral",
+   "module": "web",
+   "group": "site",
+   "category": "product",
+   "blocks": 9,
+   "notes": "Product page template: hero, explainer, product block, FAQ are unique; subscription, banner, how-it-works, why-athos are shared"
+  },
+  {
+   "route": "/tb-500",
+   "module": "web",
+   "group": "site",
+   "category": "product",
+   "blocks": 9,
+   "notes": "Product page template: hero, explainer, product block, FAQ are unique; subscription, banner, how-it-works, why-athos are shared"
+  },
+  {
+   "route": "/tirzepatide-injectable",
+   "module": "web",
+   "group": "site",
+   "category": "product",
+   "blocks": 9,
+   "notes": "Product page template: hero, explainer, product block, FAQ are unique; subscription, banner, how-it-works, why-athos are shared"
+  }
+ ]
+}

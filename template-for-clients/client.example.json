@@ -1,0 +1,82 @@
+{
+  "_about": "One file per client. Values below are Athos's current values, taken from the migrated pages. null = not set on the live pages yet (placeholder).",
+
+  "slug": "athos",
+
+  "brand": {
+    "name": "Athos",
+    "logo": null,
+    "colors": {
+      "primary": "#245C3A",
+      "accent": "#16625F",
+      "heading": "#1a4d2e",
+      "muted": "#558E8D",
+      "surface": "#f5f2ed"
+    },
+    "fonts": {
+      "heading": "DM Serif Display",
+      "body": "DM Sans",
+      "display": "Canela",
+      "ui": "Telegraf"
+    }
+  },
+
+  "company": {
+    "operatorName": "Athos",
+    "legalEntity": "Symbiotix LLC, d/b/a Athos",
+    "domain": "athoshealth.com",
+    "emails": {
+      "legal": "legal@athoshealth.com",
+      "privacy": "privacy@athoshealth.com",
+      "support": "support@athoshealth.com",
+      "compliance": "compliance@athoshealth.com",
+      "partners": "partners@athoshealth.com",
+      "security": "security@athoshealth.com",
+      "accessibility": "accessibility@athoshealth.com"
+    },
+    "phone": null,
+    "postalAddress": null,
+    "supportHours": "Monday to Saturday, 5:00am – 5:00pm (Pacific Time)"
+  },
+
+  "clinical": {
+    "msoName": "Dhruv Physician Assistant, A Professional Corporation P.C.",
+    "msoShortName": "Dhruv Physician PC",
+    "checkout": {
+      "provider": "MyOrbit",
+      "baseUrl": "https://onboard.myorbithealth.com/form/",
+      "clientSlug": "athos-wellness"
+    }
+  },
+
+  "legal": {
+    "lastUpdated": "April 19, 2026",
+    "governingLawState": null,
+    "arbitrationVenue": null
+  },
+
+  "modules": {
+    "base": {
+      "teleformCategories": ["weight-loss", "longevity", "recovery"],
+      "shop": true
+    },
+    "sales": {
+      "partnerProgram": true,
+      "b2b": { "clinic": true, "enterprise": true }
+    },
+    "web": {
+      "home": true,
+      "landing": ["men", "glp-weight-management"],
+      "product": ["semaglutide-injectable", "semaglutide-oral", "tirzepatide-injectable", "nad", "mots-c", "bpc-157", "tb-500"],
+      "guide": ["weightloss", "longevity", "recovery", "cognitive", "fitness"]
+    }
+  },
+
+  "partnerProgram": {
+    "commissionPercent": { "individual": 20, "company": 30 },
+    "flatFeeMonthly": { "individual": 37, "company": 55 },
+    "flatFeeStates": ["TN", "VA"],
+    "customerDiscountPercent": 10,
+    "minimumPayout": 50
+  }
+}

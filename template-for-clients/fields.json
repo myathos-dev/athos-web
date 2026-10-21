@@ -1,0 +1,3590 @@
+{
+ "bpc-157": {
+  "block-01": [
+   {
+    "hook": "text",
+    "name": "eyebrow",
+    "label": "Eyebrow Text",
+    "default": "PHYSICIAN-PRESCRIBED BPC-157 THERAPY"
+   },
+   {
+    "hook": "text",
+    "name": "headline",
+    "label": "Headline",
+    "default": "Your Body's Repair Signal"
+   },
+   {
+    "hook": "text",
+    "name": "subheadline",
+    "label": "Subheadline",
+    "default": "BPC-157 accelerates tendon, ligament, and gut repair by upregulating new blood vessel formation — available as injectable, oral, or nasal spray. Prescribed and delivered."
+   },
+   {
+    "hook": "text",
+    "name": "cta-text",
+    "label": "CTA Button Text",
+    "default": "Claim Free Evaluation"
+   },
+   {
+    "hook": "navigation",
+    "name": "cta-link",
+    "label": "CTA Link",
+    "default": "{\n      action: \"OPEN_PAGE\",\n      destination: \"/sign-up\",\n      openIn: \"SELF\",\n    }"
+   },
+   {
+    "hook": "image",
+    "name": "lifestyle-image",
+    "label": "Lifestyle Photo",
+    "default": "{\n      src: \"https://images.unsplash.com/photo-1512290923902-8a9f81dc236c\",\n      alt: \"Recovery and wellness lifestyle scene\",\n    }"
+   },
+   {
+    "hook": "image",
+    "name": "product-image",
+    "label": "Product Composite",
+    "default": "{\n      src: \"https://images.unsplash.com/photo-1620916566398-39f1143ab7be\",\n      alt: \"BPC-157 therapy vial\",\n    }"
+   }
+  ],
+  "block-02": [
+   {
+    "hook": "text",
+    "name": "heading",
+    "label": "Heading",
+    "default": "If prescribed, your subscription includes:"
+   }
+  ],
+  "block-03": [
+   {
+    "hook": "text",
+    "name": "heading",
+    "label": "Heading",
+    "default": "What is BPC-157 Therapy?"
+   },
+   {
+    "hook": "longtext",
+    "name": "body-text",
+    "label": "Body text",
+    "default": "BPC-157 is a 15-amino acid peptide isolated from human gastric juice, clinically recognized for accelerating the repair of tendons, ligaments, muscle, and gut lining. It works by stimulating new blood vessel formation directly at the injury site while reducing systemic inflammation without the gut damage caused by traditional NSAIDs.\n\nCompounded BPC-157 is prepared in regulated 503A pharmacies and third-party tested for purity and potency. Every batch includes a Certificate of Analysis.\n\nAthos exclusively works with licensed, FDA-registered compounding pharmacies in the United States."
+   },
+   {
+    "hook": "image",
+    "name": "product-image",
+    "label": "Product image",
+    "default": "{\n      src: \"https://replicate.delivery/xezq/F27bLNRR5FLfQ6Mzxy2nbyT3TnL6rkCXAfdMX73CFjZVvOXWA/out-0.webp\",\n      alt: \"Compounded BPC-157 vial\",\n    }"
+   }
+  ],
+  "block-04": [
+   {
+    "hook": "text",
+    "name": "eyebrow",
+    "label": "Eyebrow Text",
+    "default": "REGENERATIVE  |  BODY PROTECTION PEPTIDE"
+   },
+   {
+    "hook": "text",
+    "name": "headline",
+    "label": "Headline",
+    "default": "Your Body's Built-In\nRepair Signal."
+   },
+   {
+    "hook": "longtext",
+    "name": "description",
+    "label": "Description",
+    "default": "BPC-157 is a 15-amino acid peptide originally discovered in human gastric juice. It accelerates tissue repair, heals the gut lining, reduces systemic inflammation, and supports brain recovery — available as an injectable, capsule, or nasal spray, each targeting a different priority."
+   },
+   {
+    "hook": "text",
+    "name": "cta-text",
+    "label": "CTA Button Text",
+    "default": "Get Started for \\$0"
+   },
+   {
+    "hook": "navigation",
+    "name": "cta-link",
+    "label": "CTA Button Link",
+    "default": "{\n      destination: \"/sign-up\",\n      openIn: \"SELF\",\n    }"
+   },
+   {
+    "hook": "image",
+    "name": "hero-image-all",
+    "label": "Hero Image — All Routes",
+    "default": "{\n      src: \"https://replicate.delivery/xezq/2odFb62wHs4mA1hKlcDIoGOvPuTEID12s1EbNqUtU4xdG3lF/out-0.webp\",\n      alt: \"BPC-157 injectable, capsule, and nasal spray\",\n    }"
+   },
+   {
+    "hook": "image",
+    "name": "hero-image-injectable",
+    "label": "Hero Image — Injectable",
+    "default": "{\n      src: \"https://replicate.delivery/xezq/2odFb62wHs4mA1hKlcDIoGOvPuTEID12s1EbNqUtU4xdG3lF/out-0.webp\",\n      alt: \"BPC-157 injectable\",\n    }"
+   },
+   {
+    "hook": "image",
+    "name": "hero-image-oral",
+    "label": "Hero Image — Oral",
+    "default": "{\n      src: \"https://replicate.delivery/xezq/2odFb62wHs4mA1hKlcDIoGOvPuTEID12s1EbNqUtU4xdG3lF/out-0.webp\",\n      alt: \"BPC-157 oral capsules\",\n    }"
+   },
+   {
+    "hook": "image",
+    "name": "hero-image-nasal",
+    "label": "Hero Image — Nasal",
+    "default": "{\n      src: \"https://replicate.delivery/xezq/2odFb62wHs4mA1hKlcDIoGOvPuTEID12s1EbNqUtU4xdG3lF/out-0.webp\",\n      alt: \"BPC-157 nasal spray\",\n    }"
+   }
+  ],
+  "block-05": [
+   {
+    "hook": "text",
+    "name": "banner-text",
+    "label": "Banner Text",
+    "default": "Millions already use injectable peptides from unregulated sources without medical oversight. Athos doctor-backed platform provides verified purity, proper dosing, and safe access."
+   },
+   {
+    "hook": "image",
+    "name": "vial-image",
+    "label": "Vial Image",
+    "default": "{\n      src: \"https://replicate.delivery/xezq/zVmDRGbSBFbuBdd6VzQEARA5nJAi0ulGKDK65px4SFZaF3lF/out-0.webp\",\n      alt: \"Semaglutide vial\",\n    }"
+   }
+  ],
+  "block-06": [
+   {
+    "hook": "text",
+    "name": "section-title",
+    "label": "Section Title",
+    "default": "How Athos Works"
+   },
+   {
+    "hook": "longtext",
+    "name": "section-subtitle",
+    "label": "Section Subtitle",
+    "default": "Get started with no insurance required."
+   },
+   {
+    "hook": "array",
+    "name": "steps",
+    "label": "Steps",
+    "default": "[\n      {\n        title: \"Medical Forms\",\n        description: \"Share your medical details — takes less than 5 minutes\",\n      },\n      {\n        title: \"Get Your Personalized Treatment Plan\",\n        description: \"Your healthcare provider will determine if treatment is right for you\",\n      },\n      {\n        title: \"Receive Medication\",\n        description: \"If prescribed, medication and supplies mailed straight to your door\",\n      },\n    ]"
+   }
+  ],
+  "block-07": [
+   {
+    "hook": "text",
+    "name": "heading",
+    "label": "Heading",
+    "default": "Your Body Already Makes BPC-157. It Just Doesn't Make Enough."
+   },
+   {
+    "hook": "text",
+    "name": "subtitle",
+    "label": "Subtitle",
+    "default": "Isolated from human gastric juice, BPC-157 accelerates tissue repair, resolves gut inflammation, and modulates dopaminergic pathways. Athos delivers it three ways — each one clinician-prescribed."
+   },
+   {
+    "hook": "image",
+    "name": "lifestyle-image",
+    "label": "Lifestyle Image",
+    "default": "{\n      src: \"https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b\",\n      alt: \"Lifestyle photo\",\n    }"
+   },
+   {
+    "hook": "array",
+    "name": "features",
+    "label": "Features",
+    "default": "[\n      {\n        title: \"Injectable — Systemic Repair at Peak Plasma Concentration\",\n        description:\n          \"Subcutaneous delivery reaches peak bioavailability fast. Upregulates VEGFR2 to drive angiogenesis — new blood vessel formation at the injury site. Built for tendons, ligaments, muscle tears, and systemic inflammatory conditions.\",\n        icon: \"syringe\",\n      },\n      {\n        title: \"Oral — The Gold Standard for Gut Restoration\",\n        description:\n          \"Remarkably stable in stomach acid. Stays in the GI tract to repair mucosal lining directly — clinically studied for leaky gut, IBD, and gastric ulcers. Protects the gut wall while reducing inflammation, unlike NSAIDs that destroy it.\",\n        icon: \"pill\",\n      },\n      {\n        title: \"Intranasal — Neuro-Targeted Cognitive Repair\",\n        description:\n          \"Bypasses the blood-brain barrier for direct central nervous system delivery. Modulates dopaminergic and serotonergic systems to reduce neuroinflammation — studied for TBI recovery and persistent brain fog.\",\n        icon: \"nasal\",\n      },\n    ]"
+   }
+  ],
+  "block-08": [
+   {
+    "hook": "text",
+    "name": "main-title",
+    "label": "Main Title",
+    "default": "Why Athos"
+   },
+   {
+    "hook": "text",
+    "name": "subtitle",
+    "label": "Subtitle",
+    "default": "The same products you believe in — prescribed legally, dosed correctly, backed by clinical oversight."
+   },
+   {
+    "hook": "text",
+    "name": "others-heading",
+    "label": "Others Column Heading",
+    "default": "Gray Market"
+   },
+   {
+    "hook": "text",
+    "name": "athos-heading",
+    "label": "Athos Column Heading",
+    "default": "Athos"
+   },
+   {
+    "hook": "longtext",
+    "name": "closing-text",
+    "label": "Closing Text",
+    "default": "Millions of people are already self-administering peptides with no licensed provider, no regulated pharmacy, and no purity verification. Athos is the clinical alternative that never existed — until now."
+   },
+   {
+    "hook": "text",
+    "name": "cta-text",
+    "label": "CTA Button Text",
+    "default": "Start Treatment"
+   },
+   {
+    "hook": "navigation",
+    "name": "cta-link",
+    "label": "CTA Link",
+    "default": "{\n      destination: \"/\",\n      openIn: \"SELF\",\n    }"
+   }
+  ],
+  "block-09": [
+   {
+    "hook": "text",
+    "name": "heading",
+    "label": "Heading",
+    "default": "Frequently Asked Questions"
+   },
+   {
+    "hook": "array",
+    "name": "faqs",
+    "label": "FAQ Items",
+    "default": "[\n      {\n        question: \"What is BPC-157?\",\n        answer: \"It is a \\\"Body Protection Compound\\\" modeled after a natural peptide found in human gastric juice. It acts as a universal repair signal, instructing your body to accelerate the healing of tendons, ligaments, muscles, and the gut lining.\",\n      },\n      {\n        question: \"What is the best way to take BPC-157?\",\n        answer: \"The \\\"best\\\" route depends entirely on your specific goals. Oral is the gold standard for gut health—because BPC-157 is acid-stable, capsules target the digestive lining directly to help with issues like \\\"Leaky Gut.\\\" Nasal spray is the preferred choice for cognitive support, bypassing the blood-brain barrier to target neuroinflammation and \\\"brain fog.\\\" Your provider will recommend the right route for you.\",\n      },\n      {\n        question: \"How does it actually help me heal?\",\n        answer: \"BPC-157 triggers \\\"angiogenesis,\\\" which is the formation of new blood vessels. By increasing blood flow to damaged areas—especially tissues like tendons that normally have poor circulation—it delivers the oxygen and nutrients needed to speed up the biological clock of recovery.\",\n      },\n      {\n        question: \"Is it safe?\",\n        answer: \"Yes. BPC-157 is a very stable molecule and is highly biocompatible because it mimics a compound your body already produces. We partner with top-tier, US-based pharmacies that test every batch for 99%+ purity to ensure maximum safety and effectiveness.\",\n      },\n      {\n        question: \"Will I have side effects?\",\n        answer: \"Side effects are rare and typically very mild. Unlike many other treatments, BPC-157 is not a hormone or a stimulant, so it doesn't cause jitters or hormonal imbalances. Most users find it exceptionally easy to tolerate.\",\n      },\n      {\n        question: \"How soon will I see results?\",\n        answer: \"For acute pain or minor strains, many users feel a noticeable improvement in mobility and a reduction in discomfort within the first 48 to 72 hours. For chronic structural repair or deep gut healing, the most significant changes usually occur over a 4 to 6-week consistent cycle.\",\n      },\n      {\n        question: \"How do I take it?\",\n        answer: \"Simply take your daily oral dose as directed by your provider—either as a capsule or sublingual liquid placed under the tongue for rapid absorption. No needles, no mixing, no guesswork. It fits seamlessly into your daily routine.\",\n      },\n      {\n        question: \"Can I take BPC-157 with weight-loss peptides?\",\n        answer: \"Absolutely. Many people use BPC-157 alongside metabolic peptides to ensure their joints and muscles stay healthy as they increase their activity levels. It helps prevent \\\"sidelining\\\" injuries, keeping you consistent on your transformation journey.\",\n      },\n    ]"
+   }
+  ]
+ },
+ "clinic": {
+  "block-01": [
+   {
+    "hook": "image",
+    "name": "logo",
+    "label": "Brand Logo",
+    "default": "{\n      src: \"https://assets.softr-files.com/applications/9da2c9c4-100f-4a3e-bd8f-4c76ad65641a/assets/c62f37e0-e84b-4e99-8a52-6e2e1ebb3e27.png\",\n      alt: \"Athos\",\n    }"
+   },
+   {
+    "hook": "text",
+    "name": "subheadline",
+    "label": "Subheadline",
+    "default": "Single-source pharmacies backorder without warning. Fulfillment stretches to weeks. Patients leave. You built the program — one vendor is undermining it. That ends here."
+   },
+   {
+    "hook": "navigation",
+    "name": "cta1-link",
+    "label": "Primary CTA Link",
+    "default": "{ action: \"OPEN_PAGE\", destination: \"/clinic/signup\", openIn: \"SELF\" }"
+   },
+   {
+    "hook": "navigation",
+    "name": "cta2-link",
+    "label": "Secondary CTA Link",
+    "default": "{ action: \"OPEN_PAGE\", destination: \"/clinic\", openIn: \"SELF\" }"
+   },
+   {
+    "hook": "navigation",
+    "name": "cta3-link",
+    "label": "Telehealth Link",
+    "default": "{ action: \"OPEN_PAGE\", destination: \"/enterprise\", openIn: \"SELF\" }"
+   }
+  ],
+  "block-02": [
+   {
+    "hook": "text",
+    "name": "body",
+    "label": "Body Text",
+    "default": "You tried to fix it. Added more pharmacies. Switched EMRs. Built workarounds. Now you are managing 9 vendor relationships across 3 systems — and patients are still waiting. The problem was never the number of pharmacies. It is that nothing is coordinated."
+   }
+  ],
+  "block-03": [
+   {
+    "hook": "text",
+    "name": "body",
+    "label": "Body Text",
+    "default": "Athos operates an 11-pharmacy supply chain built on 3M+ scripts of buying power. When one source is backordered, the system routes to another. Your patients get their medication. You never have the conversation about delays again."
+   }
+  ],
+  "block-04": [
+   {
+    "hook": "text",
+    "name": "subhead",
+    "label": "Subhead",
+    "default": "Three steps. No white label. No platform fees. Just a better pharmacy."
+   }
+  ],
+  "block-05": [
+   {
+    "hook": "text",
+    "name": "body",
+    "label": "Body Text",
+    "default": "$2,500 one-time onboarding — compared to $20,000+ elsewhere. After that, you pay $7.50 per item fulfilled. That is the entire platform cost. No monthly subscription. No minimum volume. No long-term contract."
+   }
+  ],
+  "block-06": [
+   {
+    "hook": "text",
+    "name": "body",
+    "label": "Body Text",
+    "default": "This is not a pharmacy referral. This is an 11-source compounding network with automated routing, cold chain logistics, and the buying power of 3M+ prescriptions. You plug into infrastructure that took years and millions to build."
+   }
+  ],
+  "block-07": [
+   {
+    "hook": "text",
+    "name": "subhead",
+    "label": "Subhead",
+    "default": "12 clinical categories. 2.5–3x margins. If your MDs prescribe it, we can source it — from 11 pharmacies."
+   },
+   {
+    "hook": "navigation",
+    "name": "catalog-link",
+    "label": "Full Catalog Link",
+    "default": "{ action: \"OPEN_PAGE\", destination: \"/enterprise/pharmacy-list\", openIn: \"SELF\" }"
+   }
+  ],
+  "block-08": [
+   {
+    "hook": "text",
+    "name": "subhead",
+    "label": "Subhead",
+    "default": "Side by side. Every metric that matters."
+   }
+  ],
+  "block-09": [
+   {
+    "hook": "text",
+    "name": "body",
+    "label": "Body Text",
+    "default": "You have the MD. You have the patients. You have the clinical expertise. The only thing broken is the pharmacy. We fix that — permanently. 11 sources. 3M+ scripts of buying power. $7.50 per item. No monthly fee."
+   },
+   {
+    "hook": "navigation",
+    "name": "cta-link",
+    "label": "Primary CTA Link",
+    "default": "{ action: \"OPEN_PAGE\", destination: \"/clinic/signup\", openIn: \"SELF\" }"
+   },
+   {
+    "hook": "navigation",
+    "name": "cta2-link",
+    "label": "Secondary CTA Link",
+    "default": "{ action: \"OPEN_PAGE\", destination: \"/clinic/signup\", openIn: \"SELF\" }"
+   }
+  ]
+ },
+ "clinic/signup": {
+  "block-01": [
+   {
+    "hook": "image",
+    "name": "logo",
+    "label": "Brand Logo",
+    "default": "{\n      src: \"https://assets.softr-files.com/applications/9da2c9c4-100f-4a3e-bd8f-4c76ad65641a/assets/c62f37e0-e84b-4e99-8a52-6e2e1ebb3e27.png\",\n      alt: \"Athos\",\n    }"
+   },
+   {
+    "hook": "text",
+    "name": "page-label",
+    "label": "Page Label",
+    "default": "Clinic Signup"
+   },
+   {
+    "hook": "text",
+    "name": "headline",
+    "label": "Headline",
+    "default": "Book your onboarding call."
+   },
+   {
+    "hook": "text",
+    "name": "subhead",
+    "label": "Subhead",
+    "default": "30 minutes. Learn about our pharmacy network and how we can help you with a more reliable fulfillment chain."
+   }
+  ]
+ },
+ "enterprise": {
+  "block-01": [
+   {
+    "hook": "image",
+    "name": "logo",
+    "label": "Brand Logo",
+    "default": "{\n      src: \"https://assets.softr-files.com/applications/9da2c9c4-100f-4a3e-bd8f-4c76ad65641a/assets/c62f37e0-e84b-4e99-8a52-6e2e1ebb3e27.png\",\n      alt: \"Athos\",\n    }"
+   },
+   {
+    "hook": "text",
+    "name": "page-label",
+    "label": "Page Label",
+    "default": "Enterprise"
+   },
+   {
+    "hook": "text",
+    "name": "subheadline",
+    "label": "Subheadline",
+    "default": "Peptides, GLP-1s, hormones, sexual health, dermatology, thyroid — 12 clinical categories. 2.5–3x margins. Physician-supervised. Pharmacy-fulfilled. Launched under your brand in 72 hours, or under ours the same day."
+   },
+   {
+    "hook": "text",
+    "name": "cta1-text",
+    "label": "Primary CTA Text",
+    "default": "Apply for Enterprise"
+   },
+   {
+    "hook": "navigation",
+    "name": "cta1-link",
+    "label": "Primary CTA Link",
+    "default": "{\n      action: \"OPEN_PAGE\",\n      destination: \"/enterprise/signup\",\n      openIn: \"SELF\",\n    }"
+   },
+   {
+    "hook": "text",
+    "name": "cta2-text",
+    "label": "Secondary CTA Text",
+    "default": "See How It Works"
+   },
+   {
+    "hook": "navigation",
+    "name": "cta2-link",
+    "label": "Secondary CTA Link",
+    "default": "{\n      action: \"OPEN_PAGE\",\n      destination: \"/enterprise\",\n      openIn: \"SELF\",\n    }"
+   },
+   {
+    "hook": "navigation",
+    "name": "cta3-link",
+    "label": "Clinic Link",
+    "default": "{\n      action: \"OPEN_PAGE\",\n      destination: \"/clinic\",\n      openIn: \"SELF\",\n    }"
+   }
+  ],
+  "block-02": [
+   {
+    "hook": "text",
+    "name": "section-eyebrow",
+    "label": "Section Eyebrow",
+    "default": "WHY ATHOS ENTERPRISE"
+   }
+  ],
+  "block-03": [
+   {
+    "hook": "text",
+    "name": "market-headline",
+    "label": "Market Headline",
+    "default": "The peptide market is"
+   },
+   {
+    "hook": "text",
+    "name": "market-body",
+    "label": "Market Body",
+    "default": "Millions of patients are searching for peptides, GLP-1s, and clinical wellness — most of them unsupervised. The operators who build compliant infrastructure now will own this market for the next decade."
+   },
+   {
+    "hook": "text",
+    "name": "barrier-body",
+    "label": "Barrier Body",
+    "default": "Most operators see the opportunity and spend 12–18 months trying to figure out how to do it legally. Most never launch. We built the entire infrastructure so that step takes days."
+   },
+   {
+    "hook": "image",
+    "name": "market-image-1",
+    "label": "Market Image (Large)",
+    "default": "{\n      src: \"https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=600&q=80\",\n      alt: \"Wellness lifestyle\",\n    }"
+   },
+   {
+    "hook": "image",
+    "name": "market-image-2",
+    "label": "Market Image (Small Top)",
+    "default": "{\n      src: \"https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=400&q=80\",\n      alt: \"Clinical consultation\",\n    }"
+   },
+   {
+    "hook": "image",
+    "name": "market-image-3",
+    "label": "Market Image (Small Bottom)",
+    "default": "{\n      src: \"https://images.unsplash.com/photo-1559757175-5700dde675bc?w=400&q=80\",\n      alt: \"Health and fitness\",\n    }"
+   }
+  ],
+  "block-04": [
+   {
+    "hook": "text",
+    "name": "headline",
+    "label": "Headline",
+    "default": "If you have patients, clients, or an audience — you have everything you need."
+   }
+  ],
+  "block-05": [
+   {
+    "hook": "text",
+    "name": "subhead",
+    "label": "How It Works Subhead",
+    "default": "Three steps. Days, not months. No technical or medical background required."
+   }
+  ],
+  "block-06": [
+   {
+    "hook": "text",
+    "name": "headline",
+    "label": "Headline",
+    "default": "Black Label vs White Label."
+   },
+   {
+    "hook": "text",
+    "name": "subhead",
+    "label": "Subhead",
+    "default": "Same infrastructure. Different levels of ownership."
+   },
+   {
+    "hook": "navigation",
+    "name": "cta-black",
+    "label": "Black Label CTA Link",
+    "default": "{\n      action: \"OPEN_PAGE\",\n      destination: \"/enterprise/signup?tier=black\",\n      openIn: \"SELF\",\n    }"
+   },
+   {
+    "hook": "navigation",
+    "name": "cta-white",
+    "label": "White Label CTA Link",
+    "default": "{\n      action: \"OPEN_PAGE\",\n      destination: \"/enterprise/signup?tier=white\",\n      openIn: \"SELF\",\n    }"
+   }
+  ],
+  "block-07": [
+   {
+    "hook": "text",
+    "name": "subhead",
+    "label": "Subhead",
+    "default": "224 compounds. 13 delivery methods. 2.5–3x partner margins. The full 503 compounding catalog — not a subset."
+   },
+   {
+    "hook": "navigation",
+    "name": "catalog-link",
+    "label": "Full Catalog Link",
+    "default": "{\n      action: \"OPEN_PAGE\",\n      destination: \"/enterprise/pharmacy-list\",\n      openIn: \"SELF\",\n    }"
+   }
+  ],
+  "block-08": [
+   {
+    "hook": "text",
+    "name": "subhead",
+    "label": "Subhead",
+    "default": "Adjust the inputs. See what each tier generates. The math does the talking."
+   }
+  ],
+  "block-09": [
+   {
+    "hook": "navigation",
+    "name": "cta-link",
+    "label": "Primary CTA Link",
+    "default": "{\n      action: \"OPEN_PAGE\",\n      destination: \"/enterprise/signup\",\n      openIn: \"SELF\",\n    }"
+   },
+   {
+    "hook": "navigation",
+    "name": "cta2-link",
+    "label": "Secondary CTA Link",
+    "default": "{\n      action: \"OPEN_PAGE\",\n      destination: \"/enterprise/signup\",\n      openIn: \"SELF\",\n    }"
+   },
+   {
+    "hook": "text",
+    "name": "closing-body",
+    "label": "Closing Body",
+    "default": "The demand for GLP-1s, peptides, and clinical wellness is accelerating. The window to launch something legitimate is open right now. We take on a limited number of enterprise partners at a time."
+   }
+  ]
+ },
+ "enterprise/signup": {
+  "block-01": [
+   {
+    "hook": "image",
+    "name": "logo",
+    "label": "Brand Logo",
+    "default": "{\n      src: \"https://assets.softr-files.com/applications/9da2c9c4-100f-4a3e-bd8f-4c76ad65641a/assets/c62f37e0-e84b-4e99-8a52-6e2e1ebb3e27.png\",\n      alt: \"Athos\",\n    }"
+   },
+   {
+    "hook": "text",
+    "name": "page-label",
+    "label": "Page Label",
+    "default": "Enterprise Signup"
+   },
+   {
+    "hook": "text",
+    "name": "headline",
+    "label": "Headline",
+    "default": "Book your onboarding call."
+   },
+   {
+    "hook": "text",
+    "name": "subhead",
+    "label": "Subhead",
+    "default": "30 minutes. Learn how to acquire more patients and revenue through peptide telehealth — under your brand or ours."
+   }
+  ]
+ },
+ "glp-weight-management": {
+  "block-01": [
+   {
+    "hook": "text",
+    "name": "eyebrow",
+    "label": "Eyebrow Text",
+    "default": "NEW COLLECTION"
+   },
+   {
+    "hook": "text",
+    "name": "headline",
+    "label": "Headline",
+    "default": "Discover Natural Beauty"
+   },
+   {
+    "hook": "text",
+    "name": "subheadline",
+    "label": "Subheadline",
+    "default": "Premium skincare crafted with organic ingredients for radiant, healthy skin."
+   },
+   {
+    "hook": "text",
+    "name": "cta-text",
+    "label": "CTA Button Text",
+    "default": "Get Started"
+   },
+   {
+    "hook": "navigation",
+    "name": "cta-link",
+    "label": "CTA Link",
+    "default": "{\n      action: \"OPEN_PAGE\",\n      destination: \"/sign-up\",\n      openIn: \"SELF\",\n    }"
+   },
+   {
+    "hook": "image",
+    "name": "lifestyle-image",
+    "label": "Lifestyle Photo",
+    "default": "{\n      src: \"https://images.unsplash.com/photo-1512290923902-8a9f81dc236c\",\n      alt: \"Natural lifestyle scene\",\n    }"
+   },
+   {
+    "hook": "image",
+    "name": "product-image",
+    "label": "Product Composite",
+    "default": "{\n      src: \"https://assets.softr-files.com/applications/9da2c9c4-100f-4a3e-bd8f-4c76ad65641a/assets/b7c08fa8-79a2-4119-a96d-563b2fcbbae1.png\",\n      alt: \"Semaglutide capsules and injection vial\",\n    }"
+   }
+  ],
+  "block-02": [
+   {
+    "hook": "text",
+    "name": "heading",
+    "label": "Heading",
+    "default": "If prescribed, your subscription includes:"
+   }
+  ],
+  "block-03": [
+   {
+    "hook": "text",
+    "name": "heading",
+    "label": "Heading",
+    "default": "What are Compounded Peptides?"
+   },
+   {
+    "hook": "longtext",
+    "name": "body-text",
+    "label": "Body text",
+    "default": "Think of GLP (Glucagon-Like Peptide) medications as a way to reset the communication between your gut and your brain. Naturally, your body produces these hormones to tell you when you’re full and to keep your blood sugar steady. However, for many, those signals can get quiet over time. GLP medications amplify those signals, helping you feel satisfied sooner, reducing food noise (those constant cravings), and allowing your metabolism to work with you rather than against you. It isn’t about willpower; it’s about giving your body the right biological tools to find its balance.\n\nAthos exclusively works with licensed, FDA-registered compounding pharmacies in the United States."
+   },
+   {
+    "hook": "image",
+    "name": "product-image",
+    "label": "Product image",
+    "default": "{\n      src: \"https://replicate.delivery/xezq/F27bLNRR5FLfQ6Mzxy2nbyT3TnL6rkCXAfdMX73CFjZVvOXWA/out-0.webp\",\n      alt: \"Compounded peptide vial\",\n    }"
+   }
+  ],
+  "block-04": [
+   {
+    "hook": "text",
+    "name": "eyebrow",
+    "label": "Eyebrow Text",
+    "default": "3 COMPOUNDED GLPS  |  PRESCRIPTION WEIGHT LOSS"
+   },
+   {
+    "hook": "text",
+    "name": "headline",
+    "label": "Headline",
+    "default": "Three Pathways to Meaningful Weight Loss"
+   },
+   {
+    "hook": "text",
+    "name": "cta-text",
+    "label": "CTA Button Text",
+    "default": "Get Started for \\$0"
+   },
+   {
+    "hook": "navigation",
+    "name": "cta-link",
+    "label": "CTA Button Link",
+    "default": "{\n      destination: \"/sign-up\",\n      openIn: \"SELF\",\n    }"
+   },
+   {
+    "hook": "image",
+    "name": "hero-image",
+    "label": "Hero Image",
+    "default": "{\n      src: \"https://replicate.delivery/xezq/2odFb62wHs4mA1hKlcDIoGOvPuTEID12s1EbNqUtU4xdG3lF/out-0.webp\",\n      alt: \"Pharmaceutical compounding process\",\n    }"
+   }
+  ],
+  "block-05": [
+   {
+    "hook": "text",
+    "name": "section-title",
+    "label": "Section Title",
+    "default": "How Athos Works"
+   },
+   {
+    "hook": "longtext",
+    "name": "section-subtitle",
+    "label": "Section Subtitle",
+    "default": "Get started with no insurance required."
+   },
+   {
+    "hook": "array",
+    "name": "steps",
+    "label": "Steps",
+    "default": "[\n      {\n        title: \"Medical Forms\",\n        description: \"Share your medical details — takes less than 5 minutes\",\n      },\n      {\n        title: \"Get Your Personalized Treatment Plan\",\n        description: \"Your healthcare provider will determine if treatment is right for you\",\n      },\n      {\n        title: \"Receive Medication\",\n        description: \"If prescribed, medication and supplies mailed straight to your door\",\n      },\n    ]"
+   }
+  ],
+  "block-06": [
+   {
+    "hook": "text",
+    "name": "heading",
+    "label": "Heading",
+    "default": "Overcome Weight Management Roadblocks"
+   },
+   {
+    "hook": "text",
+    "name": "subtitle",
+    "label": "Subtitle",
+    "default": "Athos offers the support you've been waiting for."
+   },
+   {
+    "hook": "image",
+    "name": "lifestyle-image",
+    "label": "Lifestyle Image",
+    "default": "{\n      src: \"https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b\",\n      alt: \"Lifestyle photo\",\n    }"
+   },
+   {
+    "hook": "array",
+    "name": "features",
+    "label": "Features",
+    "default": "[\n      {\n        title: \"Medically Supervised Weight Management Treatments\",\n        description: \"Weight management is personal. Our providers review your history and goals to create a plan that fits your body and lifestyle.\",\n        icon: \"stethoscope\",\n      },\n      {\n        title: \"Ongoing Provider Support\",\n        description: \"Message your care team anytime and get guidance as you progress — adjustments, check-ins, and answers when you need them.\",\n        icon: \"chat\",\n      },\n      {\n        title: \"Trusted, Licensed Care\",\n        description: \"Work with licensed clinicians and vetted partner pharmacies for safe, discreet delivery and consistent follow-up.\",\n        icon: \"badge\",\n      },\n    ]"
+   }
+  ],
+  "block-07": [
+   {
+    "hook": "text",
+    "name": "main-title",
+    "label": "Main Title",
+    "default": "Why Athos"
+   },
+   {
+    "hook": "text",
+    "name": "subtitle",
+    "label": "Subtitle",
+    "default": "The same products you believe in — prescribed legally, dosed correctly, backed by clinical oversight."
+   },
+   {
+    "hook": "text",
+    "name": "others-heading",
+    "label": "Others Column Heading",
+    "default": "Gray Market"
+   },
+   {
+    "hook": "text",
+    "name": "athos-heading",
+    "label": "Athos Column Heading",
+    "default": "Athos"
+   },
+   {
+    "hook": "longtext",
+    "name": "closing-text",
+    "label": "Closing Text",
+    "default": "Millions of people are already self-administering peptides with no licensed provider, no regulated pharmacy, and no purity verification. Athos is the clinical alternative that never existed — until now."
+   },
+   {
+    "hook": "text",
+    "name": "cta-text",
+    "label": "CTA Button Text",
+    "default": "Start Treatment"
+   },
+   {
+    "hook": "navigation",
+    "name": "cta-link",
+    "label": "CTA Link",
+    "default": "{\n      destination: \"/\",\n      openIn: \"SELF\",\n    }"
+   }
+  ],
+  "block-08": [
+   {
+    "hook": "text",
+    "name": "heading",
+    "label": "Heading",
+    "default": "Frequently Asked Questions"
+   },
+   {
+    "hook": "array",
+    "name": "faqs",
+    "label": "FAQ Items",
+    "default": "[\n      {\n        question: \"What are GLP-based weight loss medications?\",\n        answer: \"GLP-based medications are a class of metabolic treatments—including Semaglutide, Tirzepatide, and Retatrutide—that mimic natural hormones in your body. They help regulate appetite, improve how your body processes sugar, and slow down digestion, making it easier to achieve sustainable weight loss by reducing 'food noise' and hunger.\",\n      },\n      {\n        question: \"What is the difference between Semaglutide, Tirzepatide, and Retatrutide?\",\n        answer: \"While all three target hunger, they use different pathways. Semaglutide mimics one hormone (GLP-1), Tirzepatide mimics two (GLP-1 and GIP) for added metabolic support, and Retatrutide is a 'triple-action' therapy targeting three hormones (GLP-1, GIP, and Glucagon) to potentially increase energy expenditure. Your provider will help determine which 'level' of support is right for your unique biology.\",\n      },\n      {\n        question: \"How are these medications administered?\",\n        answer: \"To fit your lifestyle and preferences, we offer these medications in several forms: traditional weekly subcutaneous injections, convenient oral options, and sublingual liquid formulations. During your consultation, you can discuss which delivery method—oral, injectable, or liquid—best matches your comfort level and health goals.\",\n      },\n      {\n        question: \"How do compounded GLP medications differ from brand names?\",\n        answer: \"Compounded medications are custom-prepared by licensed 503A or 503B pharmacies. They contain the same active ingredients as brand-name versions but allow for flexible dosing and alternative delivery methods (like liquids or orals) when commercial products are in short supply or don't meet a patient's specific needs. Every batch we provide is third-party tested for purity and potency.\",\n      },\n      {\n        question: \"Are these medications safe?\",\n        answer: \"GLP medications have been widely studied and are considered safe when prescribed by a licensed healthcare provider and sourced from regulated pharmacies. However, compounded versions are not FDA-approved and may carry different risks than brand-name drugs. We prioritize safety by only working with FDA-registered compounding facilities that provide a Certificate of Analysis for every medication.\",\n      },\n      {\n        question: \"What are the common side effects?\",\n        answer: \"The most common side effects are gastrointestinal, such as mild nausea, indigestion, or changes in bowel habits. These typically occur when first starting the medication or increasing a dose and usually subside as your body adjusts. Starting at a lower dose and following your provider's guidance helps minimize these effects.\",\n      },\n      {\n        question: \"How long does it take to see weight loss results?\",\n        answer: \"Many patients notice a decrease in appetite within the first few weeks, with visible weight loss usually beginning within the first month. Because these medications work best when your body acclimates slowly, results are typically most significant after 3 to 6 months of consistent use alongside healthy lifestyle choices.\",\n      },\n      {\n        question: \"Can I switch between different GLP medications or delivery methods?\",\n        answer: \"Yes, under medical supervision. Many patients start with one medication or delivery method (like an oral liquid) and may transition to another (like an injectable) based on their progress and how their body responds. Your healthcare provider will manage any transitions to ensure safety and continued results.\",\n      },\n    ]"
+   }
+  ]
+ },
+ "home": {
+  "block-01": [
+   {
+    "hook": "text",
+    "name": "eyebrow",
+    "label": "Eyebrow text",
+    "default": "No insurance. No waiting rooms."
+   },
+   {
+    "hook": "text",
+    "name": "headline",
+    "label": "Headline",
+    "default": "Your health, simplified."
+   },
+   {
+    "hook": "longtext",
+    "name": "description",
+    "label": "Description",
+    "default": "Weight loss, HRT, and sexual health — with medications shipped to your door. Start with a quick intake, meet a licensed provider, and get treatment delivered."
+   },
+   {
+    "hook": "text",
+    "name": "primary-cta-text",
+    "label": "Primary CTA text",
+    "default": "Get started"
+   },
+   {
+    "hook": "navigation",
+    "name": "primary-cta-link",
+    "label": "Primary CTA link",
+    "default": "{\n      action: \"OPEN_PAGE\",\n      destination: \"/getpeptides\",\n      openIn: \"SELF\",\n    }"
+   },
+   {
+    "hook": "image",
+    "name": "lifestyle-image",
+    "label": "Lifestyle image",
+    "default": "{\n      src: \"https://replicate.delivery/xezq/3glqwnqFSzLIBZIsPWohUAIG7w1yFXUK0Ynfgsf5bfMUibusA/out-0.webp\",\n      alt: \"Modern home interior with natural light\",\n    }"
+   },
+   {
+    "hook": "image",
+    "name": "provider-image",
+    "label": "Provider headshot",
+    "default": "{\n      src: \"https://replicate.delivery/xezq/xMZG84sMwQrDIpWKAe30QWgZfVkYuLlWhPeCOiPgCJ1VibusA/out-0.webp\",\n      alt: \"Healthcare provider\",\n    }"
+   }
+  ],
+  "block-03": [
+   {
+    "hook": "text",
+    "name": "heading",
+    "label": "Heading",
+    "default": "Physician-Supervised Peptide Therapy. Finally."
+   },
+   {
+    "hook": "text",
+    "name": "subtitle",
+    "label": "Subtitle",
+    "default": "Millions are injecting peptides from unregulated sources with zero oversight. Athos is the doctor-backed alternative they've been waiting for."
+   },
+   {
+    "hook": "image",
+    "name": "lifestyle-image",
+    "label": "Lifestyle Image",
+    "default": "{\n      src: \"https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b\",\n      alt: \"Lifestyle photo\",\n    }"
+   },
+   {
+    "hook": "array",
+    "name": "features",
+    "label": "Features",
+    "default": "[\n      {\n        title: \"Licensed Providers. Real Decisions.\",\n        description:\n          \"Every protocol — BPC-157, ipamorelin, tesamorelin, TB-500 — is reviewed and recomended by a licensed clinician through a proper clinical intake. No chatbots. No auto-approvals.\",\n        icon: \"shield\",\n      },\n      {\n        title: \"COA-Verified Purity From Vetted Pharmacies\",\n        description:\n          \"Every compound ships from vetted U.S. partner pharmacies with full Certificate of Analysis transparency. No research chemical gray market. No guessing what's in the vial.\",\n        icon: \"flask\",\n      },\n      {\n        title: \"Personalized Dosing and Coordinated Oversight\",\n        description:\n          \"Your provider builds your protocol around your labs, history, and goals — then monitors your progress with real check-ins. One platform for weight loss, recovery, and hormone optimization.\",\n        icon: \"user\",\n      },\n    ]"
+   }
+  ],
+  "block-04": [
+   {
+    "hook": "text",
+    "name": "section-title",
+    "label": "Section Title",
+    "default": "How Athos Works"
+   },
+   {
+    "hook": "longtext",
+    "name": "section-subtitle",
+    "label": "Section Subtitle",
+    "default": "Get started with no insurance required."
+   },
+   {
+    "hook": "array",
+    "name": "steps",
+    "label": "Steps",
+    "default": "[\n      {\n        title: \"Medical Forms\",\n        description: \"Share your medical details — takes less than 5 minutes\",\n      },\n      {\n        title: \"Get Your Personalized Treatment Plan\",\n        description: \"Your healthcare provider will determine if treatment is right for you\",\n      },\n      {\n        title: \"Receive Medication\",\n        description: \"If prescribed, medication and supplies mailed straight to your door\",\n      },\n    ]"
+   }
+  ],
+  "block-05": [
+   {
+    "hook": "text",
+    "name": "headline",
+    "label": "Headline",
+    "default": "Ready to get started?"
+   },
+   {
+    "hook": "text",
+    "name": "banner-text",
+    "label": "Banner Text",
+    "default": "Millions of people are already injecting peptides they bought from unregulated \"research chemical\" sites with zero medical oversight, zero purity verification, and zero dosing guidance — and no branded, doctor-backed platform exists to give them a legitimate alternative."
+   },
+   {
+    "hook": "image",
+    "name": "vial-image",
+    "label": "Vial Image",
+    "default": "{\n      src: \"https://replicate.delivery/xezq/zVmDRGbSBFbuBdd6VzQEARA5nJAi0ulGKDK65px4SFZaF3lF/out-0.webp\",\n      alt: \"Semaglutide vial\",\n    }"
+   },
+   {
+    "hook": "text",
+    "name": "primary-button-text",
+    "label": "Primary button text",
+    "default": "Get Started"
+   },
+   {
+    "hook": "navigation",
+    "name": "primary-button-link",
+    "label": "Primary button link",
+    "default": "{\n      action: \"OPEN_PAGE\",\n      destination: \"/sign-up\",\n      openIn: \"SELF\",\n    }"
+   }
+  ],
+  "block-06": [
+   {
+    "hook": "text",
+    "name": "heading",
+    "label": "Heading",
+    "default": "Frequently Asked Questions"
+   },
+   {
+    "hook": "array",
+    "name": "faqs",
+    "label": "FAQ Items",
+    "default": "[\n      {\n        question: \"What is compounded medication?\",\n        answer: \"Compounded medications are personalized prescriptions created specifically for your unique needs, combining FDA-approved ingredients in custom formulations.\",\n      },\n      {\n        question: \"How does the intake work?\",\n        answer: \"Our intake process is simple and online. Complete a brief health questionnaire, and our medical team will review your information to determine the best treatment plan for you.\",\n      },\n      {\n        question: \"Do I need labs?\",\n        answer: \"Lab work may be required depending on your specific treatment plan. Our medical team will let you know if labs are necessary during your consultation.\",\n      },\n      {\n        question: \"How quickly can I get started?\",\n        answer: \"Most patients can get started within 24-48 hours after completing their intake and medical review. Medication typically ships within 3-5 business days.\",\n      },\n      {\n        question: \"What's included in the subscription?\",\n        answer: \"Your subscription includes ongoing medical support, medication refills, dosage adjustments as needed, and unlimited messaging with our care team.\",\n      },\n      {\n        question: \"Can I cancel anytime?\",\n        answer: \"Yes, you can cancel your subscription at any time with no penalties or fees. Simply contact our support team or manage your subscription in your account settings.\",\n      },\n      {\n        question: \"Do you take insurance?\",\n        answer: \"We currently do not accept insurance, but we can provide documentation for you to submit to your insurance provider for potential reimbursement.\",\n      },\n      {\n        question: \"How is shipping handled?\",\n        answer: \"All medications are shipped discreetly to your door via secure courier. Shipping is included in your subscription, and you can track your package every step of the way.\",\n      },\n      {\n        question: \"Is my information private?\",\n        answer: \"Absolutely. We are fully HIPAA compliant and use bank-level encryption to protect your personal health information. Your privacy is our top priority.\",\n      },\n    ]"
+   }
+  ]
+ },
+ "legal": {
+  "block-01": [
+   {
+    "hook": "text",
+    "name": "page-title",
+    "label": "Page title",
+    "default": "Legal & Transparency"
+   },
+   {
+    "hook": "text",
+    "name": "last-updated",
+    "label": "Last updated date",
+    "default": "April 19, 2026"
+   },
+   {
+    "hook": "text",
+    "name": "contact-email",
+    "label": "Legal contact email",
+    "default": "legal@athoshealth.com"
+   },
+   {
+    "hook": "navigation",
+    "name": "privacy-policy-link",
+    "label": "Privacy Policy link",
+    "default": "{ action: \"OPEN_PAGE\", destination: \"/legal/privacy-policy\", openIn: \"SELF\" }"
+   },
+   {
+    "hook": "navigation",
+    "name": "ccpa-link",
+    "label": "CCPA Notice link",
+    "default": "{ action: \"OPEN_PAGE\", destination: \"/legal/ccpa\", openIn: \"SELF\" }"
+   },
+   {
+    "hook": "navigation",
+    "name": "tos-link",
+    "label": "Terms of Service link",
+    "default": "{ action: \"OPEN_PAGE\", destination: \"/legal/terms-of-service\", openIn: \"SELF\" }"
+   },
+   {
+    "hook": "navigation",
+    "name": "rrr-link",
+    "label": "Refunds, Returns & Replacements link",
+    "default": "{ action: \"OPEN_PAGE\", destination: \"/legal/rrr-policy\", openIn: \"SELF\" }"
+   },
+   {
+    "hook": "navigation",
+    "name": "weight-loss-link",
+    "label": "Weight-Loss Consumer Bill of Rights link",
+    "default": "{ action: \"OPEN_PAGE\", destination: \"/legal/medical-weight-loss-consumer-bill-of-rights\", openIn: \"SELF\" }"
+   },
+   {
+    "hook": "navigation",
+    "name": "ada-link",
+    "label": "ADA Compliance link",
+    "default": "{ action: \"OPEN_PAGE\", destination: \"/legal/ada-compliance\", openIn: \"SELF\" }"
+   },
+   {
+    "hook": "navigation",
+    "name": "consent-link",
+    "label": "Telehealth Medical Consent link",
+    "default": "{ action: \"OPEN_PAGE\", destination: \"/legal/medical-consent\", openIn: \"SELF\" }"
+   },
+   {
+    "hook": "navigation",
+    "name": "npp-link",
+    "label": "Notice of Privacy Practices link",
+    "default": "{ action: \"OPEN_PAGE\", destination: \"/legal/pcmso\", openIn: \"SELF\" }"
+   }
+  ]
+ },
+ "legal/ada-compliance": {
+  "block-01": [
+   {
+    "hook": "text",
+    "name": "page-title",
+    "label": "Page title",
+    "default": "ADA Compliance"
+   },
+   {
+    "hook": "text",
+    "name": "last-updated",
+    "label": "Last updated date",
+    "default": "April 19, 2026"
+   },
+   {
+    "hook": "text",
+    "name": "accessibility-email",
+    "label": "Accessibility email",
+    "default": "accessibility@athoshealth.com"
+   },
+   {
+    "hook": "text",
+    "name": "accessibility-phone",
+    "label": "Accessibility phone",
+    "default": "(000) 000-0000"
+   }
+  ]
+ },
+ "legal/ccpa": {
+  "block-01": [
+   {
+    "hook": "text",
+    "name": "page-title",
+    "label": "Page title",
+    "default": "California Consumer Privacy Act (CCPA) Notice"
+   },
+   {
+    "hook": "text",
+    "name": "last-updated",
+    "label": "Last updated date",
+    "default": "April 19, 2026"
+   },
+   {
+    "hook": "text",
+    "name": "contact-email",
+    "label": "Privacy contact email",
+    "default": "privacy@athoshealth.com"
+   },
+   {
+    "hook": "text",
+    "name": "contact-phone",
+    "label": "Contact phone number",
+    "default": "(000) 000-0000"
+   },
+   {
+    "hook": "longtext",
+    "name": "postal-address",
+    "label": "Postal address",
+    "default": "[Registered Agent Address]"
+   }
+  ]
+ },
+ "legal/medical-consent": {
+  "block-01": [
+   {
+    "hook": "text",
+    "name": "page-title",
+    "label": "Page title",
+    "default": "Telehealth Medical Consent"
+   },
+   {
+    "hook": "text",
+    "name": "last-updated",
+    "label": "Last updated date",
+    "default": "April 19, 2026"
+   },
+   {
+    "hook": "text",
+    "name": "contact-email",
+    "label": "Contact email",
+    "default": "support@athoshealth"
+   },
+   {
+    "hook": "text",
+    "name": "contact-phone",
+    "label": "Contact phone number",
+    "default": "(000) 000-0000"
+   },
+   {
+    "hook": "text",
+    "name": "support-hours",
+    "label": "Support hours",
+    "default": "Monday to Saturday, 5:00am – 5:00pm (Pacific Time)"
+   }
+  ]
+ },
+ "legal/medical-weight-loss-bill-of-rights": {
+  "block-01": [
+   {
+    "hook": "text",
+    "name": "page-title",
+    "label": "Page title",
+    "default": "Weight-Loss Consumer Bill of Rights"
+   },
+   {
+    "hook": "text",
+    "name": "last-updated",
+    "label": "Last updated date",
+    "default": "April 19, 2026"
+   },
+   {
+    "hook": "text",
+    "name": "contact-email",
+    "label": "Contact email",
+    "default": "support@athoshealth.com"
+   }
+  ]
+ },
+ "legal/partners": {
+  "block-01": [
+   {
+    "hook": "text",
+    "name": "page-title",
+    "label": "Page title",
+    "default": "Partner Legal & Compliance"
+   },
+   {
+    "hook": "text",
+    "name": "last-updated",
+    "label": "Last updated date",
+    "default": "April 22, 2026"
+   },
+   {
+    "hook": "text",
+    "name": "contact-email",
+    "label": "Compliance contact email",
+    "default": "compliance@athoshealth.com"
+   },
+   {
+    "hook": "navigation",
+    "name": "msa-link",
+    "label": "Marketing Services Agreement link",
+    "default": "{ action: \"OPEN_PAGE\", destination: \"/legal/partners/msa\", openIn: \"SELF\" }"
+   },
+   {
+    "hook": "navigation",
+    "name": "disclosure-link",
+    "label": "Affiliate Disclosure link",
+    "default": "{ action: \"OPEN_PAGE\", destination: \"/legal/partners/disclosure\", openIn: \"SELF\" }"
+   },
+   {
+    "hook": "navigation",
+    "name": "compliance-link",
+    "label": "Partner Compliance Guidelines link",
+    "default": "{ action: \"OPEN_PAGE\", destination: \"/legal/partners/compliance\", openIn: \"SELF\" }"
+   },
+   {
+    "hook": "navigation",
+    "name": "privacy-link",
+    "label": "Privacy Policy link",
+    "default": "{ action: \"OPEN_PAGE\", destination: \"/legal/partners/privacy\", openIn: \"SELF\" }"
+   },
+   {
+    "hook": "navigation",
+    "name": "terms-link",
+    "label": "Terms of Use link",
+    "default": "{ action: \"OPEN_PAGE\", destination: \"/legal/partners/terms\", openIn: \"SELF\" }"
+   },
+   {
+    "hook": "navigation",
+    "name": "fmv-link",
+    "label": "FMV Certification link",
+    "default": "{ action: \"OPEN_PAGE\", destination: \"/legal/partners/fmv-certification\", openIn: \"SELF\" }"
+   },
+   {
+    "hook": "navigation",
+    "name": "cash-pay-link",
+    "label": "Cash-Pay Policy link",
+    "default": "{ action: \"OPEN_PAGE\", destination: \"/legal/partners/cash-pay-policy\", openIn: \"SELF\" }"
+   },
+   {
+    "hook": "navigation",
+    "name": "agreement-link",
+    "label": "Partner Agreement link",
+    "default": "{ action: \"OPEN_PAGE\", destination: \"/legal/partners/agreement\", openIn: \"SELF\" }"
+   },
+   {
+    "hook": "navigation",
+    "name": "application-link",
+    "label": "Partner Application link",
+    "default": "{ action: \"OPEN_PAGE\", destination: \"/partners/intake/category\", openIn: \"SELF\" }"
+   }
+  ]
+ },
+ "legal/partners/addendum-1": {
+  "block-01": [
+   {
+    "hook": "text",
+    "name": "page-title",
+    "label": "Page title",
+    "default": "State Anti-Kickback & Fee-Splitting Addendum"
+   },
+   {
+    "hook": "text",
+    "name": "last-updated",
+    "label": "Last updated date",
+    "default": "April 22, 2026"
+   },
+   {
+    "hook": "text",
+    "name": "contact-email",
+    "label": "Legal contact email",
+    "default": "legal@athoshealth.com"
+   },
+   {
+    "hook": "longtext",
+    "name": "emergency-notice",
+    "label": "Emergency notice",
+    "default": "Athos is limited to providing consultations for specific non-emergency medical conditions. If you believe you are experiencing a medical emergency, please dial 911 or contact your local medical provider immediately."
+   }
+  ]
+ },
+ "legal/partners/agreement": {
+  "block-01": [
+   {
+    "hook": "text",
+    "name": "page-title",
+    "label": "Page title",
+    "default": "Referral Partner Agreement"
+   },
+   {
+    "hook": "text",
+    "name": "last-updated",
+    "label": "Last updated date",
+    "default": "April 19, 2026"
+   },
+   {
+    "hook": "text",
+    "name": "contact-email",
+    "label": "Contact email",
+    "default": "partners@athoshealth.com"
+   },
+   {
+    "hook": "text",
+    "name": "legal-email",
+    "label": "Legal email",
+    "default": "legal@athoshealth.com"
+   }
+  ]
+ },
+ "legal/partners/cash-pay-policy": {
+  "block-01": [
+   {
+    "hook": "text",
+    "name": "page-title",
+    "label": "Page title",
+    "default": "Cash-Pay Policy"
+   },
+   {
+    "hook": "text",
+    "name": "last-updated",
+    "label": "Last updated date",
+    "default": "April 22, 2026"
+   },
+   {
+    "hook": "text",
+    "name": "contact-email",
+    "label": "Legal contact email",
+    "default": "legal@athoshealth.com"
+   },
+   {
+    "hook": "longtext",
+    "name": "emergency-notice",
+    "label": "Emergency notice",
+    "default": "Athos is limited to providing consultations for specific non-emergency medical conditions. If you believe you are experiencing a medical emergency, please dial 911 or contact your local medical provider immediately."
+   }
+  ]
+ },
+ "legal/partners/compliance": {
+  "block-01": [
+   {
+    "hook": "text",
+    "name": "page-title",
+    "label": "Page title",
+    "default": "Partner Compliance Guidelines & Acceptable Use Policy"
+   },
+   {
+    "hook": "text",
+    "name": "last-updated",
+    "label": "Last updated date",
+    "default": "April 22, 2026"
+   },
+   {
+    "hook": "text",
+    "name": "contact-email",
+    "label": "Compliance contact email",
+    "default": "compliance@athoshealth.com"
+   },
+   {
+    "hook": "longtext",
+    "name": "emergency-notice",
+    "label": "Emergency notice",
+    "default": "Athos is limited to providing consultations for specific non-emergency medical conditions. If you believe you are experiencing a medical emergency, please dial 911 or contact your local medical provider immediately."
+   }
+  ]
+ },
+ "legal/partners/disclosure": {
+  "block-01": [
+   {
+    "hook": "text",
+    "name": "page-title",
+    "label": "Page title",
+    "default": "Affiliate Disclosure"
+   },
+   {
+    "hook": "text",
+    "name": "last-updated",
+    "label": "Last updated date",
+    "default": "April 22, 2026"
+   },
+   {
+    "hook": "text",
+    "name": "contact-email",
+    "label": "Contact email",
+    "default": "legal@athoshealth.com"
+   },
+   {
+    "hook": "longtext",
+    "name": "emergency-notice",
+    "label": "Emergency notice",
+    "default": "Athos is limited to providing consultations for specific non-emergency medical conditions. If you believe you are experiencing a medical emergency, please dial 911 or contact your local medical provider immediately."
+   }
+  ]
+ },
+ "legal/partners/fmv-certification": {
+  "block-01": [
+   {
+    "hook": "text",
+    "name": "page-title",
+    "label": "Page title",
+    "default": "Fair Market Value Certification"
+   },
+   {
+    "hook": "text",
+    "name": "last-updated",
+    "label": "Last updated date",
+    "default": "April 22, 2026"
+   },
+   {
+    "hook": "text",
+    "name": "contact-email",
+    "label": "Legal contact email",
+    "default": "legal@athoshealth.com"
+   },
+   {
+    "hook": "longtext",
+    "name": "emergency-notice",
+    "label": "Emergency notice",
+    "default": "Athos is limited to providing consultations for specific non-emergency medical conditions. If you believe you are experiencing a medical emergency, please dial 911 or contact your local medical provider immediately."
+   }
+  ]
+ },
+ "legal/partners/msa": {
+  "block-01": [
+   {
+    "hook": "text",
+    "name": "page-title",
+    "label": "Page title",
+    "default": "Marketing Services Agreement"
+   },
+   {
+    "hook": "text",
+    "name": "last-updated",
+    "label": "Last updated date",
+    "default": "April 22, 2026"
+   },
+   {
+    "hook": "text",
+    "name": "contact-email",
+    "label": "Legal contact email",
+    "default": "legal@athoshealth.com"
+   },
+   {
+    "hook": "text",
+    "name": "support-email",
+    "label": "Support contact email",
+    "default": "support@athoshealth.com"
+   },
+   {
+    "hook": "longtext",
+    "name": "emergency-notice",
+    "label": "Emergency notice",
+    "default": "Athos is limited to providing consultations for specific non-emergency medical conditions. If you believe you are experiencing a medical emergency, please dial 911 or contact your local medical provider immediately."
+   }
+  ]
+ },
+ "legal/partners/privacy": {
+  "block-01": [
+   {
+    "hook": "text",
+    "name": "page-title",
+    "label": "Page title",
+    "default": "Privacy Policy"
+   },
+   {
+    "hook": "text",
+    "name": "last-updated",
+    "label": "Last updated date",
+    "default": "April 22, 2026"
+   },
+   {
+    "hook": "text",
+    "name": "contact-email",
+    "label": "Privacy contact email",
+    "default": "privacy@athoshealth.com"
+   },
+   {
+    "hook": "text",
+    "name": "support-email",
+    "label": "Support contact email",
+    "default": "support@athoshealth.com"
+   },
+   {
+    "hook": "longtext",
+    "name": "emergency-notice",
+    "label": "Emergency notice",
+    "default": "Athos is limited to providing consultations for specific non-emergency medical conditions. If you believe you are experiencing a medical emergency, please dial 911 or contact your local medical provider immediately."
+   }
+  ]
+ },
+ "legal/partners/terms": {
+  "block-01": [
+   {
+    "hook": "text",
+    "name": "page-title",
+    "label": "Page title",
+    "default": "Terms of Use"
+   },
+   {
+    "hook": "text",
+    "name": "last-updated",
+    "label": "Last updated date",
+    "default": "April 22, 2026"
+   },
+   {
+    "hook": "text",
+    "name": "contact-email",
+    "label": "Legal contact email",
+    "default": "legal@athoshealth.com"
+   },
+   {
+    "hook": "longtext",
+    "name": "emergency-notice",
+    "label": "Emergency notice",
+    "default": "Athos is limited to providing consultations for specific non-emergency medical conditions. If you believe you are experiencing a medical emergency, please dial 911 or contact your local medical provider immediately."
+   }
+  ]
+ },
+ "legal/pcmso": {
+  "block-01": [
+   {
+    "hook": "text",
+    "name": "page-title",
+    "label": "Page title",
+    "default": "Notice of Privacy Practices"
+   },
+   {
+    "hook": "text",
+    "name": "last-updated",
+    "label": "Last updated date",
+    "default": "April 19, 2026"
+   },
+   {
+    "hook": "text",
+    "name": "contact-email",
+    "label": "Privacy contact email",
+    "default": "privacy@athoshealth.com"
+   },
+   {
+    "hook": "text",
+    "name": "contact-phone",
+    "label": "Contact phone number",
+    "default": "(000) 000-0000"
+   },
+   {
+    "hook": "longtext",
+    "name": "postal-address",
+    "label": "Postal address",
+    "default": "[Registered Agent Address]"
+   }
+  ]
+ },
+ "legal/privacy-policy": {
+  "block-01": [
+   {
+    "hook": "text",
+    "name": "page-title",
+    "label": "Page title",
+    "default": "Privacy Policy"
+   },
+   {
+    "hook": "text",
+    "name": "last-updated",
+    "label": "Last updated date",
+    "default": "April 19, 2026"
+   },
+   {
+    "hook": "text",
+    "name": "contact-email",
+    "label": "Privacy contact email",
+    "default": "privacy@athoshealth.com"
+   },
+   {
+    "hook": "text",
+    "name": "support-email",
+    "label": "Support contact email",
+    "default": "support@athoshealth.com"
+   },
+   {
+    "hook": "longtext",
+    "name": "emergency-notice",
+    "label": "Emergency notice",
+    "default": "Athos is limited to providing consultations for specific non-emergency medical conditions. If you believe you are experiencing a medical emergency, please dial 911 or contact your local medical provider immediately."
+   }
+  ]
+ },
+ "legal/rrr-policy": {
+  "block-01": [
+   {
+    "hook": "text",
+    "name": "page-title",
+    "label": "Page title",
+    "default": "Refunds, Returns & Replacements"
+   },
+   {
+    "hook": "text",
+    "name": "last-updated",
+    "label": "Last updated date",
+    "default": "April 19, 2026"
+   },
+   {
+    "hook": "text",
+    "name": "contact-email",
+    "label": "Contact email",
+    "default": "support@athoshealth.com"
+   },
+   {
+    "hook": "text",
+    "name": "contact-phone",
+    "label": "Contact phone number",
+    "default": "(000) 000-0000"
+   }
+  ]
+ },
+ "legal/terms-of-service": {
+  "block-01": [
+   {
+    "hook": "text",
+    "name": "page-title",
+    "label": "Page title",
+    "default": "Terms of Service"
+   },
+   {
+    "hook": "text",
+    "name": "last-updated",
+    "label": "Last updated date",
+    "default": "April 19, 2026"
+   },
+   {
+    "hook": "text",
+    "name": "legal-email",
+    "label": "Legal email",
+    "default": "legal@athoshealth.com"
+   },
+   {
+    "hook": "text",
+    "name": "support-email",
+    "label": "Support email",
+    "default": "support@athoshealth.com"
+   },
+   {
+    "hook": "text",
+    "name": "security-email",
+    "label": "Security email",
+    "default": "security@athoshealth.com"
+   },
+   {
+    "hook": "text",
+    "name": "contact-phone",
+    "label": "Contact phone",
+    "default": "(000) 000-0000"
+   },
+   {
+    "hook": "longtext",
+    "name": "postal-address",
+    "label": "Postal address",
+    "default": "[Registered Agent Address]"
+   }
+  ]
+ },
+ "men": {
+  "block-01": [
+   {
+    "hook": "text",
+    "name": "headline",
+    "label": "Headline",
+    "default": "Your Solution For"
+   },
+   {
+    "hook": "text",
+    "name": "subhead",
+    "label": "Subhead",
+    "default": "Modern men's healthcare. Clear. Simple. Effective."
+   },
+   {
+    "hook": "text",
+    "name": "cta-text",
+    "label": "CTA Text",
+    "default": "Get Started"
+   },
+   {
+    "hook": "navigation",
+    "name": "cta-link",
+    "label": "CTA Link",
+    "default": "{ destination: \"/men/assessment\", openIn: \"SELF\" }"
+   },
+   {
+    "hook": "text",
+    "name": "trust-line",
+    "label": "Trust Line",
+    "default": "195 Protocols  |  10 Partner Pharmacies  |  503A Compliant"
+   },
+   {
+    "hook": "image",
+    "name": "hero-image",
+    "label": "Hero Image",
+    "default": "{ src: \"https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=800&q=80\", alt: \"Man\" }"
+   },
+   {
+    "hook": "image",
+    "name": "t1-img",
+    "label": "Fitness Product",
+    "default": "{ src: \"https://images.unsplash.com/photo-1587854692152-cbe660dbde88?w=200&q=80\", alt: \"Prometheus vial\" }"
+   },
+   {
+    "hook": "image",
+    "name": "t2-img",
+    "label": "Weight Loss Product",
+    "default": "{ src: \"https://images.unsplash.com/photo-1587854692152-cbe660dbde88?w=200&q=80\", alt: \"Tirzepatide vial\" }"
+   },
+   {
+    "hook": "image",
+    "name": "t3-img",
+    "label": "Performance Product",
+    "default": "{ src: \"https://images.unsplash.com/photo-1587854692152-cbe660dbde88?w=200&q=80\", alt: \"Samson vial\" }"
+   },
+   {
+    "hook": "image",
+    "name": "t4-img",
+    "label": "Longevity Product",
+    "default": "{ src: \"https://images.unsplash.com/photo-1587854692152-cbe660dbde88?w=200&q=80\", alt: \"GLO vial\" }"
+   },
+   {
+    "hook": "image",
+    "name": "t5-img",
+    "label": "Recovery Product",
+    "default": "{ src: \"https://images.unsplash.com/photo-1587854692152-cbe660dbde88?w=200&q=80\", alt: \"KLOW vial\" }"
+   }
+  ],
+  "block-02": [
+   {
+    "hook": "text",
+    "name": "headline",
+    "label": "Headline",
+    "default": "Fitness"
+   },
+   {
+    "hook": "text",
+    "name": "subhead",
+    "label": "Subhead",
+    "default": "Build muscle, optimize body composition, and recover faster with science-backed GH secretagogue protocols."
+   },
+   {
+    "hook": "text",
+    "name": "hero-number",
+    "label": "Hero Number",
+    "default": "10x"
+   },
+   {
+    "hook": "text",
+    "name": "hero-context",
+    "label": "Hero Context",
+    "default": "GH pulse increase per dose"
+   },
+   {
+    "hook": "text",
+    "name": "citation",
+    "label": "Citation",
+    "default": "Teichman et al., JCEM 2006"
+   },
+   {
+    "hook": "text",
+    "name": "sol-title",
+    "label": "Solutions Title",
+    "default": "Fitness Solutions"
+   },
+   {
+    "hook": "text",
+    "name": "cta-text",
+    "label": "CTA Text",
+    "default": "Start Fitness Protocol"
+   },
+   {
+    "hook": "navigation",
+    "name": "cta-link",
+    "label": "CTA Link",
+    "default": "{ destination: \"/shop?goal=fitness\", openIn: \"SELF\" }"
+   },
+   {
+    "hook": "image",
+    "name": "man-image",
+    "label": "Background Person",
+    "default": "{ src: \"https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?w=800&q=60\", alt: \"Man training\" }"
+   },
+   {
+    "hook": "image",
+    "name": "hero-product",
+    "label": "Hero Product (floating)",
+    "default": "{ src: \"https://images.unsplash.com/photo-1587854692152-cbe660dbde88?w=400&q=80\", alt: \"Prometheus vial\" }"
+   },
+   {
+    "hook": "image",
+    "name": "sol-product",
+    "label": "Solutions Product",
+    "default": "{ src: \"https://images.unsplash.com/photo-1587854692152-cbe660dbde88?w=300&q=80\", alt: \"Product showcase\" }"
+   }
+  ]
+ },
+ "mots-c": {
+  "block-01": [
+   {
+    "hook": "text",
+    "name": "eyebrow",
+    "label": "Eyebrow Text",
+    "default": "PHYSICIAN-PRESCRIBED MOTS-C THERAPY"
+   },
+   {
+    "hook": "text",
+    "name": "headline",
+    "label": "Headline",
+    "default": "Exercise in a Peptide"
+   },
+   {
+    "hook": "text",
+    "name": "subheadline",
+    "label": "Subheadline",
+    "default": "MOTS-c activates your metabolic master switch — improving insulin sensitivity, preserving muscle, and mimicking exercise at the cellular level. Prescribed and delivered."
+   },
+   {
+    "hook": "text",
+    "name": "cta-text",
+    "label": "CTA Button Text",
+    "default": "Claim Free Evaluation"
+   },
+   {
+    "hook": "navigation",
+    "name": "cta-link",
+    "label": "CTA Link",
+    "default": "{\n      action: \"OPEN_PAGE\",\n      destination: \"/sign-up\",\n      openIn: \"SELF\",\n    }"
+   },
+   {
+    "hook": "image",
+    "name": "lifestyle-image",
+    "label": "Lifestyle Photo",
+    "default": "{\n      src: \"https://images.unsplash.com/photo-1512290923902-8a9f81dc236c\",\n      alt: \"Active lifestyle scene\",\n    }"
+   },
+   {
+    "hook": "image",
+    "name": "product-image",
+    "label": "Product Composite",
+    "default": "{\n      src: \"https://images.unsplash.com/photo-1620916566398-39f1143ab7be\",\n      alt: \"MOTS-c therapy vial\",\n    }"
+   }
+  ],
+  "block-02": [
+   {
+    "hook": "text",
+    "name": "heading",
+    "label": "Heading",
+    "default": "If prescribed, your subscription includes:"
+   }
+  ],
+  "block-03": [
+   {
+    "hook": "text",
+    "name": "heading",
+    "label": "Heading",
+    "default": "What are MOTS-c Blends?"
+   },
+   {
+    "hook": "longtext",
+    "name": "body-text",
+    "label": "Body text",
+    "default": "MOTS-c blends pair a mitochondrial exercise mimetic with complementary peptides to target multiple biological pathways simultaneously — fat loss, tissue repair, cognitive performance, or hormonal vitality. Injectable-only formulations ensure 100% bioavailability for every compound in the stack.\n\nEach blend is compounded in regulated 503A pharmacies and third-party tested for purity and potency. Every batch includes a Certificate of Analysis.\n\nAthos exclusively works with licensed, FDA-registered compounding pharmacies in the United States."
+   },
+   {
+    "hook": "image",
+    "name": "product-image",
+    "label": "Product image",
+    "default": "{\n      src: \"https://replicate.delivery/xezq/F27bLNRR5FLfQ6Mzxy2nbyT3TnL6rkCXAfdMX73CFjZVvOXWA/out-0.webp\",\n      alt: \"Compounded MOTS-c blend vial\",\n    }"
+   }
+  ],
+  "block-04": [
+   {
+    "hook": "text",
+    "name": "eyebrow",
+    "label": "Eyebrow Text",
+    "default": "INJECTABLE  |  PEPTIDE BLEND"
+   },
+   {
+    "hook": "text",
+    "name": "headline",
+    "label": "Headline",
+    "default": "Your Cells' Built-In\nWorkout Signal."
+   },
+   {
+    "hook": "longtext",
+    "name": "description",
+    "label": "Description",
+    "default": "MOTS-c is a mitochondrial peptide that mimics what happens to your metabolism during exercise — increasing energy output, burning stored fat, and protecting lean muscle. Your natural levels rise 11.9× during a workout. Our injectable blends deliver that same signal at 100% bioavailability, amplified with targeted compounds for your specific goal. One subcutaneous injection, approximately every 5 days."
+   },
+   {
+    "hook": "text",
+    "name": "cta-text",
+    "label": "CTA Button Text",
+    "default": "Get Started for $0"
+   },
+   {
+    "hook": "navigation",
+    "name": "cta-link",
+    "label": "CTA Button Link",
+    "default": "{ destination: \"/sign-up\", openIn: \"SELF\" }"
+   },
+   {
+    "hook": "image",
+    "name": "hero-image-all",
+    "label": "Hero Image — All Blends",
+    "default": "{ src: \"https://replicate.delivery/xezq/2odFb62wHs4mA1hKlcDIoGOvPuTEID12s1EbNqUtU4xdG3lF/out-0.webp\", alt: \"MOTS-c injectable peptide blends collection\" }"
+   },
+   {
+    "hook": "image",
+    "name": "hero-image-adonix",
+    "label": "Hero Image — Adonix",
+    "default": "{ src: \"https://replicate.delivery/xezq/2odFb62wHs4mA1hKlcDIoGOvPuTEID12s1EbNqUtU4xdG3lF/out-0.webp\", alt: \"Adonix injectable blend\" }"
+   },
+   {
+    "hook": "image",
+    "name": "hero-image-inferno",
+    "label": "Hero Image — Inferno",
+    "default": "{ src: \"https://replicate.delivery/xezq/2odFb62wHs4mA1hKlcDIoGOvPuTEID12s1EbNqUtU4xdG3lF/out-0.webp\", alt: \"Inferno injectable blend\" }"
+   },
+   {
+    "hook": "image",
+    "name": "hero-image-kali",
+    "label": "Hero Image — Kali",
+    "default": "{ src: \"https://replicate.delivery/xezq/2odFb62wHs4mA1hKlcDIoGOvPuTEID12s1EbNqUtU4xdG3lF/out-0.webp\", alt: \"Kali injectable blend\" }"
+   },
+   {
+    "hook": "image",
+    "name": "hero-image-empress",
+    "label": "Hero Image — Empress",
+    "default": "{ src: \"https://replicate.delivery/xezq/2odFb62wHs4mA1hKlcDIoGOvPuTEID12s1EbNqUtU4xdG3lF/out-0.webp\", alt: \"Empress injectable blend\" }"
+   },
+   {
+    "hook": "image",
+    "name": "hero-image-lucid",
+    "label": "Hero Image — Lucid",
+    "default": "{ src: \"https://replicate.delivery/xezq/2odFb62wHs4mA1hKlcDIoGOvPuTEID12s1EbNqUtU4xdG3lF/out-0.webp\", alt: \"Lucid injectable blend\" }"
+   }
+  ],
+  "block-05": [
+   {
+    "hook": "text",
+    "name": "banner-text",
+    "label": "Banner Text",
+    "default": "Millions already use injectable peptides from unregulated sources without medical oversight. Athos doctor-backed platform provides verified purity, proper dosing, and safe access."
+   },
+   {
+    "hook": "image",
+    "name": "vial-image",
+    "label": "Vial Image",
+    "default": "{\n      src: \"https://replicate.delivery/xezq/zVmDRGbSBFbuBdd6VzQEARA5nJAi0ulGKDK65px4SFZaF3lF/out-0.webp\",\n      alt: \"Semaglutide vial\",\n    }"
+   }
+  ],
+  "block-06": [
+   {
+    "hook": "text",
+    "name": "section-title",
+    "label": "Section Title",
+    "default": "How Athos Works"
+   },
+   {
+    "hook": "longtext",
+    "name": "section-subtitle",
+    "label": "Section Subtitle",
+    "default": "Get started with no insurance required."
+   },
+   {
+    "hook": "array",
+    "name": "steps",
+    "label": "Steps",
+    "default": "[\n      {\n        title: \"Medical Forms\",\n        description: \"Share your medical details — takes less than 5 minutes\",\n      },\n      {\n        title: \"Get Your Personalized Treatment Plan\",\n        description: \"Your healthcare provider will determine if treatment is right for you\",\n      },\n      {\n        title: \"Receive Medication\",\n        description: \"If prescribed, medication and supplies mailed straight to your door\",\n      },\n    ]"
+   }
+  ],
+  "block-07": [
+   {
+    "hook": "text",
+    "name": "heading",
+    "label": "Heading",
+    "default": "MOTS-c Powers Every Blend. Here's How."
+   },
+   {
+    "hook": "text",
+    "name": "subtitle",
+    "label": "Subtitle",
+    "default": "MOTS-c is the mitochondrial engine inside five precision peptide stacks — each one targeting a different system, all physician-supervised."
+   },
+   {
+    "hook": "image",
+    "name": "lifestyle-image",
+    "label": "Lifestyle Image",
+    "default": "{\n      src: \"https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b\",\n      alt: \"Lifestyle photo\",\n    }"
+   },
+   {
+    "hook": "array",
+    "name": "features",
+    "label": "Features",
+    "default": "[\n      {\n        title: \"Adonix — Visceral Fat Specialist\",\n        description:\n          \"Tesamorelin, Ipamorelin, and AOD-9604 mobilize stubborn organ fat. MOTS-c ensures that mobilized fat is actually oxidized for energy in muscle tissue — not just relocated.\",\n        icon: \"flame\",\n      },\n      {\n        title: \"Empress — Vitality and Repair\",\n        description:\n          \"BPC-157 heals tissue, GHK-Cu rebuilds collagen, and Kisspeptin-10 supports hormonal signaling. MOTS-c provides the cellular ATP required to fuel every repair process.\",\n        icon: \"sparkles\",\n      },\n      {\n        title: \"Inferno — Aggressive Metabolic Shred\",\n        description:\n          \"CJC-1295 and Ipamorelin create sustained Growth Hormone elevation. AOD-9604 targets fat cells directly. MOTS-c keeps basal metabolic rate elevated even at rest.\",\n        icon: \"zap\",\n      },\n      {\n        title: \"Kali — Metabolic Healing\",\n        description:\n          \"5-Amino-1MQ inhibits NNMT to boost intracellular NAD+ levels. Tesamorelin mobilizes visceral fat. BPC-157 protects tissues. MOTS-c increases mitochondrial density throughout.\",\n        icon: \"shield\",\n      },\n      {\n        title: \"Lucid — Cognitive Performance\",\n        description:\n          \"Semax elevates BDNF for focus and memory. Selank reduces anxiety without sedation. Tesamorelin increases brain IGF-1. MOTS-c ensures neurons have the ATP for high-level processing.\",\n        icon: \"brain\",\n      },\n    ]"
+   }
+  ],
+  "block-08": [
+   {
+    "hook": "text",
+    "name": "main-title",
+    "label": "Main Title",
+    "default": "Why Athos"
+   },
+   {
+    "hook": "text",
+    "name": "subtitle",
+    "label": "Subtitle",
+    "default": "The same products you believe in — prescribed legally, dosed correctly, backed by clinical oversight."
+   },
+   {
+    "hook": "text",
+    "name": "others-heading",
+    "label": "Others Column Heading",
+    "default": "Gray Market"
+   },
+   {
+    "hook": "text",
+    "name": "athos-heading",
+    "label": "Athos Column Heading",
+    "default": "Athos"
+   },
+   {
+    "hook": "longtext",
+    "name": "closing-text",
+    "label": "Closing Text",
+    "default": "Millions of people are already self-administering peptides with no licensed provider, no regulated pharmacy, and no purity verification. Athos is the clinical alternative that never existed — until now."
+   },
+   {
+    "hook": "text",
+    "name": "cta-text",
+    "label": "CTA Button Text",
+    "default": "Start Treatment"
+   },
+   {
+    "hook": "navigation",
+    "name": "cta-link",
+    "label": "CTA Link",
+    "default": "{\n      destination: \"/\",\n      openIn: \"SELF\",\n    }"
+   }
+  ],
+  "block-09": [
+   {
+    "hook": "text",
+    "name": "heading",
+    "label": "Heading",
+    "default": "Frequently Asked Questions"
+   },
+   {
+    "hook": "array",
+    "name": "faqs",
+    "label": "FAQ Items",
+    "default": "[\n      {\n        question: \"What are these peptide blends?\",\n        answer: \"These are \\\"synergistic stacks\\\" that combine multiple high-end peptides into a single oral formulation. Instead of targeting just one biological pathway, these blends are engineered to hit several targets at once—such as fat mobilization, tissue repair, and cognitive clarity—making your regimen much more efficient.\",\n      },\n      {\n        question: \"Why should I choose a blend over a single peptide?\",\n        answer: \"Efficiency and synergy. A blend combines compounds that move fat out of storage with peptides that help your body actually \\\"burn\\\" that fat. It's the difference between having a map and having a map plus a professional guide; the results are typically faster and more comprehensive.\",\n      },\n      {\n        question: \"How do I know which blend is right for me?\",\n        answer: \"It depends on your primary goal. Some blends are best for aggressive fat loss and body composition, targeting stubborn visceral fat. Others are best for recovery, cellular healing, and metabolic \\\"resets\\\" including skin, joints, and NAD+ support. And others are designed specifically for mental performance, focus, and eliminating \\\"brain fog.\\\"\",\n      },\n      {\n        question: \"Are these blends safe?\",\n        answer: \"Yes, when used under medical supervision. We only use ingredients from top-tier, US-based pharmacies that test for extreme purity. By combining these at specific, balanced ratios, we can often achieve better results with lower individual doses of each compound, which can actually improve the overall safety profile.\",\n      },\n      {\n        question: \"Will I have side effects?\",\n        answer: \"Because these blends are potent, you might notice mild effects like temporary digestive discomfort or a brief \\\"flush.\\\" Blends containing growth hormone secretagogues may cause slight water retention or tingling in the fingers as your body adjusts. These are usually mild and fade quickly.\",\n      },\n      {\n        question: \"How soon will I see results?\",\n        answer: \"Most users report an immediate \\\"feeling\\\" of improved energy or mental clarity within the first week. For physical body changes and fat loss, you'll typically notice significant visual progress and improved clothing fit within 3 to 5 weeks of consistent use.\",\n      },\n      {\n        question: \"How do I take them?\",\n        answer: \"Simply take your daily oral dose as directed by your provider—either as a tablet or sublingual liquid placed under the tongue for rapid absorption. No needles, no mixing, no guesswork. It fits seamlessly into your morning routine.\",\n      },\n      {\n        question: \"Can I switch between blends?\",\n        answer: \"Many people do. You might start with one blend to kickstart a transformation and then move to another for maintenance and repair. Your doctor can help you design a \\\"rotation\\\" that prevents your body from plateauing and keeps your results moving forward.\",\n      },\n    ]"
+   }
+  ]
+ },
+ "nad": {
+  "block-01": [
+   {
+    "hook": "text",
+    "name": "eyebrow",
+    "label": "Eyebrow Text",
+    "default": "PHYSICIAN-PRESCRIBED NAD+ THERAPY"
+   },
+   {
+    "hook": "text",
+    "name": "headline",
+    "label": "Headline",
+    "default": "Cellular Repair Starts Here"
+   },
+   {
+    "hook": "text",
+    "name": "subheadline",
+    "label": "Subheadline",
+    "default": "NAD+ fuels DNA repair, mitochondrial energy, and neuroprotection — prescribed by a licensed provider and delivered to your door."
+   },
+   {
+    "hook": "text",
+    "name": "cta-text",
+    "label": "CTA Button Text",
+    "default": "Claim Free Evaluation"
+   },
+   {
+    "hook": "navigation",
+    "name": "cta-link",
+    "label": "CTA Link",
+    "default": "{\n      action: \"OPEN_PAGE\",\n      destination: \"/sign-up\",\n      openIn: \"SELF\",\n    }"
+   },
+   {
+    "hook": "image",
+    "name": "lifestyle-image",
+    "label": "Lifestyle Photo",
+    "default": "{\n      src: \"https://images.unsplash.com/photo-1512290923902-8a9f81dc236c\",\n      alt: \"Natural lifestyle scene\",\n    }"
+   },
+   {
+    "hook": "image",
+    "name": "product-image",
+    "label": "Product Composite",
+    "default": "{\n      src: \"https://images.unsplash.com/photo-1620916566398-39f1143ab7be\",\n      alt: \"NAD+ therapy vial\",\n    }"
+   }
+  ],
+  "block-02": [
+   {
+    "hook": "text",
+    "name": "heading",
+    "label": "Heading",
+    "default": "If prescribed, your subscription includes:"
+   }
+  ],
+  "block-03": [
+   {
+    "hook": "text",
+    "name": "heading",
+    "label": "Heading",
+    "default": "What is NAD+ Therapy?"
+   },
+   {
+    "hook": "longtext",
+    "name": "body-text",
+    "label": "Body text",
+    "default": "NAD+ is a coenzyme in every living cell that powers energy production, DNA repair, and longevity gene regulation. As levels naturally decline with age, cells lose their ability to function efficiently — leading to fatigue, cognitive decline, and accelerated aging.\n\nCompounded NAD+ is prepared in regulated 503A pharmacies and third-party tested for purity and potency. Every batch includes a Certificate of Analysis.\n\nAthos exclusively works with licensed, FDA-registered compounding pharmacies in the United States."
+   },
+   {
+    "hook": "image",
+    "name": "product-image",
+    "label": "Product image",
+    "default": "{\n      src: \"https://replicate.delivery/xezq/F27bLNRR5FLfQ6Mzxy2nbyT3TnL6rkCXAfdMX73CFjZVvOXWA/out-0.webp\",\n      alt: \"Compounded NAD+ vial\",\n    }"
+   }
+  ],
+  "block-04": [
+   {
+    "hook": "text",
+    "name": "eyebrow",
+    "label": "Eyebrow Text",
+    "default": "CELLULAR  |  NAD+ THERAPY"
+   },
+   {
+    "hook": "text",
+    "name": "headline",
+    "label": "Headline",
+    "default": "The Molecule Behind\nEvery Cell's Energy."
+   },
+   {
+    "hook": "longtext",
+    "name": "description",
+    "label": "Description",
+    "default": "NAD+ is a molecule your body needs to turn food into energy, repair damaged DNA, and keep your brain sharp. Your levels drop by up to 50% between ages 40 and 60. We offer 3 ways to restore it — injectable, oral, and nasal — each designed for a different goal."
+   },
+   {
+    "hook": "text",
+    "name": "cta-text",
+    "label": "CTA Button Text",
+    "default": "Get Started for \\$0"
+   },
+   {
+    "hook": "navigation",
+    "name": "cta-link",
+    "label": "CTA Button Link",
+    "default": "{\n      destination: \"/sign-up\",\n      openIn: \"SELF\",\n    }"
+   },
+   {
+    "hook": "image",
+    "name": "hero-image-all",
+    "label": "Hero Image — All Formats",
+    "default": "{\n      src: \"https://replicate.delivery/xezq/2odFb62wHs4mA1hKlcDIoGOvPuTEID12s1EbNqUtU4xdG3lF/out-0.webp\",\n      alt: \"NAD+ injectable, oral, and nasal formats\",\n    }"
+   },
+   {
+    "hook": "image",
+    "name": "hero-image-injectable",
+    "label": "Hero Image — Injectable",
+    "default": "{\n      src: \"https://replicate.delivery/xezq/2odFb62wHs4mA1hKlcDIoGOvPuTEID12s1EbNqUtU4xdG3lF/out-0.webp\",\n      alt: \"NAD+ injectable\",\n    }"
+   },
+   {
+    "hook": "image",
+    "name": "hero-image-oral",
+    "label": "Hero Image — Oral",
+    "default": "{\n      src: \"https://replicate.delivery/xezq/2odFb62wHs4mA1hKlcDIoGOvPuTEID12s1EbNqUtU4xdG3lF/out-0.webp\",\n      alt: \"NAD+ oral capsules\",\n    }"
+   },
+   {
+    "hook": "image",
+    "name": "hero-image-nasal",
+    "label": "Hero Image — Nasal",
+    "default": "{\n      src: \"https://replicate.delivery/xezq/2odFb62wHs4mA1hKlcDIoGOvPuTEID12s1EbNqUtU4xdG3lF/out-0.webp\",\n      alt: \"NAD+ nasal spray\",\n    }"
+   }
+  ],
+  "block-05": [
+   {
+    "hook": "text",
+    "name": "banner-text",
+    "label": "Banner Text",
+    "default": "Millions already use injectable peptides from unregulated sources without medical oversight. Athos doctor-backed platform provides verified purity, proper dosing, and safe access."
+   },
+   {
+    "hook": "image",
+    "name": "vial-image",
+    "label": "Vial Image",
+    "default": "{\n      src: \"https://replicate.delivery/xezq/zVmDRGbSBFbuBdd6VzQEARA5nJAi0ulGKDK65px4SFZaF3lF/out-0.webp\",\n      alt: \"Semaglutide vial\",\n    }"
+   }
+  ],
+  "block-06": [
+   {
+    "hook": "text",
+    "name": "section-title",
+    "label": "Section Title",
+    "default": "How Athos Works"
+   },
+   {
+    "hook": "longtext",
+    "name": "section-subtitle",
+    "label": "Section Subtitle",
+    "default": "Get started with no insurance required."
+   },
+   {
+    "hook": "array",
+    "name": "steps",
+    "label": "Steps",
+    "default": "[\n      {\n        title: \"Medical Forms\",\n        description: \"Share your medical details — takes less than 5 minutes\",\n      },\n      {\n        title: \"Get Your Personalized Treatment Plan\",\n        description: \"Your healthcare provider will determine if treatment is right for you\",\n      },\n      {\n        title: \"Receive Medication\",\n        description: \"If prescribed, medication and supplies mailed straight to your door\",\n      },\n    ]"
+   }
+  ],
+  "block-07": [
+   {
+    "hook": "text",
+    "name": "main-title",
+    "label": "Main Title",
+    "default": "Why Athos"
+   },
+   {
+    "hook": "text",
+    "name": "subtitle",
+    "label": "Subtitle",
+    "default": "The same products you believe in — prescribed legally, dosed correctly, backed by clinical oversight."
+   },
+   {
+    "hook": "text",
+    "name": "others-heading",
+    "label": "Others Column Heading",
+    "default": "Gray Market"
+   },
+   {
+    "hook": "text",
+    "name": "athos-heading",
+    "label": "Athos Column Heading",
+    "default": "Athos"
+   },
+   {
+    "hook": "longtext",
+    "name": "closing-text",
+    "label": "Closing Text",
+    "default": "Millions of people are already self-administering peptides with no licensed provider, no regulated pharmacy, and no purity verification. Athos is the clinical alternative that never existed — until now."
+   },
+   {
+    "hook": "text",
+    "name": "cta-text",
+    "label": "CTA Button Text",
+    "default": "Start Treatment"
+   },
+   {
+    "hook": "navigation",
+    "name": "cta-link",
+    "label": "CTA Link",
+    "default": "{\n      destination: \"/\",\n      openIn: \"SELF\",\n    }"
+   }
+  ],
+  "block-08": [
+   {
+    "hook": "text",
+    "name": "heading",
+    "label": "Heading",
+    "default": "Frequently Asked Questions"
+   },
+   {
+    "hook": "array",
+    "name": "faqs",
+    "label": "FAQ Items",
+    "default": "[\n      {\n        question: \"What is the NAD+ Injection?\",\n        answer: \"It is a \\\"master coenzyme\\\" found in every cell of your body. NAD+ acts as the essential fuel for your mitochondria (the power plants of your cells) and powers the enzymes that repair your DNA. Since our natural levels drop as we age, this injection restores that vital energy source directly.\",\n      },\n      {\n        question: \"How does it actually help me feel better?\",\n        answer: \"Think of it as a cellular \\\"recharge.\\\" By boosting NAD+ levels, you improve how your body converts nutrients into energy. Users typically report a significant lift in mental clarity, sharper focus, better sleep quality, and much faster recovery after physical or mental exertion.\",\n      },\n      {\n        question: \"Which route of administration is best for me?\",\n        answer: \"It depends on your primary goal. Injectable is the most powerful for \\\"whole-body\\\" energy and metabolic health with 100% bioavailability. Nasal Spray is best for immediate mental performance, bypassing the blood-brain barrier to target \\\"brain fog\\\" directly. Oral is best for daily maintenance, helping keep your baseline levels steady after you've achieved a \\\"reset\\\" via other routes.\",\n      },\n      {\n        question: \"Is it safe?\",\n        answer: \"Yes. NAD+ is a molecule your body already produces naturally. Our formulations are produced in high-end, regulated pharmacies and tested for extreme purity. Because it is a natural coenzyme, it is very well-tolerated when administered under professional guidance.\",\n      },\n      {\n        question: \"Will I have side effects?\",\n        answer: \"NAD+ is very safe, but it is \\\"biologically active.\\\" If administered too quickly, you may feel a brief \\\"flush,\\\" mild nausea, or a slight pressure in the chest or stomach. These sensations are temporary and usually disappear within a few minutes as the coenzyme is absorbed by your cells.\",\n      },\n      {\n        question: \"How soon will I see results?\",\n        answer: \"Many people notice a \\\"lift\\\" in mental clarity and physical energy within hours of an injection or nasal spray. While the immediate energy boost is exciting, the deeper cellular benefits—like DNA repair and anti-aging effects—accumulate over 3 to 4 weeks of consistent use.\",\n      },\n      {\n        question: \"Does the injection hurt?\",\n        answer: \"Hardly. It uses a tiny, thin needle for a quick shot just under the skin (subcutaneous) or into the muscle. The process takes about 30 seconds once or twice a week, and most people find it nearly painless compared to the significant boost in well-being they receive.\",\n      },\n      {\n        question: \"Can I use it with weight-loss peptides like Semaglutide?\",\n        answer: \"Yes. In fact, many people use them together. While weight-loss peptides manage appetite, NAD+ supports the cellular energy and metabolic rate needed to feel your best during a body transformation.\",\n      },\n    ]"
+   }
+  ]
+ },
+ "partners": {
+  "block-01": [
+   {
+    "hook": "text",
+    "name": "eyebrow",
+    "label": "Eyebrow text",
+    "default": "Referral Partner Program"
+   },
+   {
+    "hook": "text",
+    "name": "headline",
+    "label": "Headline",
+    "default": "Earn 30% residual, every month."
+   },
+   {
+    "hook": "longtext",
+    "name": "description",
+    "label": "Description",
+    "default": "Earn 20-30% of net revenue for every patient you refer — not once, but every month they stay subscribed. No cap. No exclusivity. No minimum volume."
+   },
+   {
+    "hook": "text",
+    "name": "primary-cta-text",
+    "label": "Primary CTA text",
+    "default": "Become a partner"
+   },
+   {
+    "hook": "navigation",
+    "name": "primary-cta-link",
+    "label": "Primary CTA link",
+    "default": "{\n      action: \"OPEN_PAGE\",\n      destination: \"/partners/intake/category\",\n      openIn: \"SELF\",\n    }"
+   },
+   {
+    "hook": "image",
+    "name": "lifestyle-image",
+    "label": "Lifestyle image",
+    "default": "{\n      src: \"https://replicate.delivery/xezq/3glqwnqFSzLIBZIsPWohUAIG7w1yFXUK0Ynfgsf5bfMUibusA/out-0.webp\",\n      alt: \"Modern home interior with natural light\",\n    }"
+   }
+  ],
+  "block-02": [
+   {
+    "hook": "text",
+    "name": "heading",
+    "label": "Heading",
+    "default": "Your referrals earn. Every single month."
+   },
+   {
+    "hook": "text",
+    "name": "subtitle",
+    "label": "Subtitle",
+    "default": "Earn 20-30% of net revenue for every patient you refer — not once, but every month they stay subscribed. No cap. No exclusivity. No minimum volume."
+   },
+   {
+    "hook": "array",
+    "name": "features",
+    "label": "Features",
+    "default": "[\n      {\n        title: \"20-30% Residual Commission\",\n        description:\n          \"Earn on every patient you refer — not a one-time payout, but recurring revenue every month they stay subscribed. Average net revenue per patient is $150/mo. At 30%, that is $45/patient/mo flowing to you.\",\n        icon: \"shield\",\n      },\n      {\n        title: \"10% Lifetime Discount for Your Community\",\n        description:\n          \"Every patient you refer gets 10% off their subscription for life — auto-applied at checkout with your partner code. You bring them real value, and they stay longer. Everyone wins.\",\n        icon: \"flask\",\n      },\n      {\n        title: \"Zero Barrier to Entry\",\n        description:\n          \"No fees. No minimums. No exclusivity. Run clubs, Pilates studios, CrossFit boxes, personal trainers, med spas — if you have an audience that cares about their health, you qualify.\",\n        icon: \"user\",\n      },\n    ]"
+   }
+  ],
+  "block-03": [
+   {
+    "hook": "text",
+    "name": "eyebrow",
+    "label": "Eyebrow Text",
+    "default": "ONE PROGRAM  |  5 PARTNER TYPES"
+   },
+   {
+    "hook": "text",
+    "name": "headline",
+    "label": "Headline",
+    "default": "Built for the people your audience trusts."
+   },
+   {
+    "hook": "text",
+    "name": "cta-text",
+    "label": "CTA Button Text",
+    "default": "Become a partner"
+   },
+   {
+    "hook": "navigation",
+    "name": "cta-link",
+    "label": "CTA Button Link",
+    "default": "{ destination: \"/sign-up\", openIn: \"SELF\" }"
+   },
+   {
+    "hook": "image",
+    "name": "hero-image",
+    "label": "Hero Image",
+    "default": "{ src: \"https://replicate.delivery/xezq/2odFb62wHs4mA1hKlcDIoGOvPuTEID12s1EbNqUtU4xdG3lF/out-0.webp\", alt: \"Therapeutic peptide formulations\" }"
+   }
+  ],
+  "block-04": [
+   {
+    "hook": "text",
+    "name": "section-title",
+    "label": "Section Title",
+    "default": "How the Referral Works"
+   },
+   {
+    "hook": "longtext",
+    "name": "section-subtitle",
+    "label": "Section Subtitle",
+    "default": "Your referral earns — every single month they stay subscribed."
+   },
+   {
+    "hook": "array",
+    "name": "steps",
+    "label": "Steps",
+    "default": "[\n      {\n        title: \"Customer Enters Your Promo Code\",\n        description: \"Your unique code gives them 10% off for life — applied automatically at checkout\",\n      },\n      {\n        title: \"Customer Gets a Personalized Treatment Plan\",\n        description: \"A licensed provider reviews their intake and builds a protocol around their goals\",\n      },\n      {\n        title: \"They Get Medication. You Get Paid.\",\n        description: \"Medication ships to their door. You earn 20-30% of net revenue every month they stay active.\",\n      },\n    ]"
+   }
+  ],
+  "block-05": [
+   {
+    "hook": "text",
+    "name": "headline",
+    "label": "Headline",
+    "default": "Ready to get started?"
+   },
+   {
+    "hook": "text",
+    "name": "banner-text",
+    "label": "Banner Text",
+    "default": "Millions of people are already injecting peptides they bought from unregulated \"research chemical\" sites with zero medical oversight, zero purity verification, and zero dosing guidance — and no branded, doctor-backed platform exists to give them a legitimate alternative."
+   },
+   {
+    "hook": "image",
+    "name": "vial-image",
+    "label": "Vial Image",
+    "default": "{\n      src: \"https://replicate.delivery/xezq/zVmDRGbSBFbuBdd6VzQEARA5nJAi0ulGKDK65px4SFZaF3lF/out-0.webp\",\n      alt: \"Semaglutide vial\",\n    }"
+   },
+   {
+    "hook": "text",
+    "name": "primary-button-text",
+    "label": "Primary button text",
+    "default": "Get Started"
+   },
+   {
+    "hook": "navigation",
+    "name": "primary-button-link",
+    "label": "Primary button link",
+    "default": "{\n      action: \"OPEN_PAGE\",\n      destination: \"/sign-up\",\n      openIn: \"SELF\",\n    }"
+   }
+  ],
+  "block-06": [
+   {
+    "hook": "text",
+    "name": "heading",
+    "label": "Heading",
+    "default": "Partner Program FAQ"
+   },
+   {
+    "hook": "array",
+    "name": "faqs",
+    "label": "FAQ Items",
+    "default": "[\n      {\n        question: \"How much can I earn?\",\n        answer: \"You earn 20-30% of net revenue for every patient you refer — every month they stay subscribed. Net revenue averages $150/patient/mo after processing fees. At 30%, that is $45/patient/mo. There is no cap on earnings.\",\n      },\n      {\n        question: \"What does my referral get?\",\n        answer: \"Every patient who uses your promo code receives 10% off their subscription for life. The discount is auto-applied at checkout and renews every billing cycle with no action required.\",\n      },\n      {\n        question: \"How do I get paid?\",\n        answer: \"Payouts are sent monthly via Venmo, Zelle, or ACH within 7 days of the billing cycle close. You receive a monthly earnings report with clicks, active patients, and payout breakdown.\",\n      },\n      {\n        question: \"Is there a minimum referral volume?\",\n        answer: \"No. There is no minimum number of referrals required. You earn from your first successful referral and every one after that.\",\n      },\n      {\n        question: \"Do I need to be exclusive to Athos?\",\n        answer: \"No. There is no exclusivity requirement. You can partner with other brands and programs simultaneously.\",\n      },\n      {\n        question: \"Who qualifies as a partner?\",\n        answer: \"Run clubs, Pilates studios, CrossFit boxes, personal trainers, chiropractors, med spas, influencers — anyone with an audience that invests in their health. There are no fees to join.\",\n      },\n      {\n        question: \"What tools do I receive?\",\n        answer: \"You receive a unique tracking link and promo code, a co-branded digital flyer ready for Instagram or email, a monthly earnings report, and a dedicated partner contact.\",\n      },\n      {\n        question: \"How is commission calculated?\",\n        answer: \"Commission is based on net revenue — gross subscription minus approximately 5% payment processing costs. For a $250/mo subscription, net is approximately $238. Your commission is 20-30% of that amount, recurring monthly.\",\n      },\n      {\n        question: \"When does my commission start?\",\n        answer: \"Commission activates on the first successful payment from a referred patient. It recurs automatically every month the patient remains subscribed with no action required from you.\",\n      },\n    ]"
+   }
+  ]
+ },
+ "partners/intake/complete": {
+  "block-01": [
+   {
+    "hook": "text",
+    "name": "eyebrow",
+    "label": "Eyebrow text",
+    "default": "ONBOARDING COMPLETE! "
+   },
+   {
+    "hook": "text",
+    "name": "headline",
+    "label": "Headline",
+    "default": "Please allow up to 48 hours for review."
+   },
+   {
+    "hook": "longtext",
+    "name": "description",
+    "label": "Description",
+    "default": "We will review your information and have our team prepare your promo code. Please check your email for updates. Welcome to Athos."
+   },
+   {
+    "hook": "text",
+    "name": "primary-cta-text",
+    "label": "Primary CTA text",
+    "default": "Learn More"
+   },
+   {
+    "hook": "navigation",
+    "name": "primary-cta-link",
+    "label": "Primary CTA link",
+    "default": "{\n      action: \"OPEN_PAGE\",\n      destination: \"/\",\n      openIn: \"SELF\",\n    }"
+   },
+   {
+    "hook": "image",
+    "name": "lifestyle-image",
+    "label": "Lifestyle image",
+    "default": "{\n      src: \"https://replicate.delivery/xezq/3glqwnqFSzLIBZIsPWohUAIG7w1yFXUK0Ynfgsf5bfMUibusA/out-0.webp\",\n      alt: \"Modern home interior with natural light\",\n    }"
+   }
+  ],
+  "block-02": [
+   {
+    "hook": "text",
+    "name": "section-title",
+    "label": "Section Title",
+    "default": "How Partner Onboarding Works"
+   },
+   {
+    "hook": "longtext",
+    "name": "section-subtitle",
+    "label": "Section Subtitle",
+    "default": "Three steps to start earning with Athos."
+   },
+   {
+    "hook": "array",
+    "name": "steps",
+    "label": "Steps",
+    "default": "[\n      {\n        title: \"We Review Your Information\",\n        description: \"Submit your details and our team verifies your profile to ensure a strong partner fit.\",\n      },\n      {\n        title: \"We Create Your Promo Code\",\n        description: \"Once approved, we generate a unique promo code tied directly to your account.\",\n      },\n      {\n        title: \"You Share Your Code\",\n        description: \"Customers who use your code get 10% off when they shop — every time.\",\n      },\n    ]"
+   }
+  ],
+  "block-03": [
+   {
+    "hook": "text",
+    "name": "heading",
+    "label": "Heading",
+    "default": "Partner Program FAQ"
+   },
+   {
+    "hook": "array",
+    "name": "faqs",
+    "label": "FAQ Items",
+    "default": "[\n      {\n        question: \"How much can I earn?\",\n        answer: \"You earn 20-30% of net revenue for every patient you refer — every month they stay subscribed. Net revenue averages $150/patient/mo after processing fees. At 30%, that is $45/patient/mo. There is no cap on earnings.\",\n      },\n      {\n        question: \"What does my referral get?\",\n        answer: \"Every patient who uses your promo code receives 10% off their subscription for life. The discount is auto-applied at checkout and renews every billing cycle with no action required.\",\n      },\n      {\n        question: \"How do I get paid?\",\n        answer: \"Payouts are sent monthly via Venmo, Zelle, or ACH within 7 days of the billing cycle close. You receive a monthly earnings report with clicks, active patients, and payout breakdown.\",\n      },\n      {\n        question: \"Is there a minimum referral volume?\",\n        answer: \"No. There is no minimum number of referrals required. You earn from your first successful referral and every one after that.\",\n      },\n      {\n        question: \"Do I need to be exclusive to Athos?\",\n        answer: \"No. There is no exclusivity requirement. You can partner with other brands and programs simultaneously.\",\n      },\n      {\n        question: \"Who qualifies as a partner?\",\n        answer: \"Run clubs, Pilates studios, CrossFit boxes, personal trainers, chiropractors, med spas, influencers — anyone with an audience that invests in their health. There are no fees to join.\",\n      },\n      {\n        question: \"What tools do I receive?\",\n        answer: \"You receive a unique tracking link and promo code, a co-branded digital flyer ready for Instagram or email, a monthly earnings report, and a dedicated partner contact.\",\n      },\n      {\n        question: \"How is commission calculated?\",\n        answer: \"Commission is based on net revenue — gross subscription minus approximately 5% payment processing costs. For a $250/mo subscription, net is approximately $238. Your commission is 20-30% of that amount, recurring monthly.\",\n      },\n      {\n        question: \"When does my commission start?\",\n        answer: \"Commission activates on the first successful payment from a referred patient. It recurs automatically every month the patient remains subscribed with no action required from you.\",\n      },\n    ]"
+   }
+  ]
+ },
+ "peptides/guide": {
+  "block-01": [
+   {
+    "hook": "text",
+    "name": "page-title",
+    "label": "Page title",
+    "default": "Peptide Wellness Guide"
+   },
+   {
+    "hook": "longtext",
+    "name": "page-subtitle",
+    "label": "Subtitle",
+    "default": "A clinical overview of five peptide therapy categories — what each compound does, who it is for, and how it is delivered."
+   },
+   {
+    "hook": "image",
+    "name": "hero-image",
+    "label": "Hero Image",
+    "default": "{ src: \"https://replicate.delivery/xezq/2odFb62wHs4mA1hKlcDIoGOvPuTEID12s1EbNqUtU4xdG3lF/out-0.webp\", alt: \"Peptide therapy\" }"
+   }
+  ]
+ },
+ "peptides/guide/cognitive": {
+  "block-01": [
+   {
+    "hook": "text",
+    "name": "page-title",
+    "label": "Page title",
+    "default": "Cognitive Guide"
+   },
+   {
+    "hook": "longtext",
+    "name": "page-subtitle",
+    "label": "Subtitle",
+    "default": "How peptides sharpen focus, reduce brain fog, and restore the mental clarity you used to take for granted."
+   },
+   {
+    "hook": "image",
+    "name": "hero-image",
+    "label": "Hero Image",
+    "default": "{ src: \"https://replicate.delivery/xezq/2odFb62wHs4mA1hKlcDIoGOvPuTEID12s1EbNqUtU4xdG3lF/out-0.webp\", alt: \"Cognitive guide\" }"
+   },
+   {
+    "hook": "image",
+    "name": "product-image",
+    "label": "Product Lifestyle Photo",
+    "default": "{ src: \"https://replicate.delivery/xezq/2odFb62wHs4mA1hKlcDIoGOvPuTEID12s1EbNqUtU4xdG3lF/out-0.webp\", alt: \"Cognitive lifestyle\" }"
+   }
+  ]
+ },
+ "peptides/guide/fitness": {
+  "block-01": [
+   {
+    "hook": "text",
+    "name": "page-title",
+    "label": "Page title",
+    "default": "Fitness Guide"
+   },
+   {
+    "hook": "longtext",
+    "name": "page-subtitle",
+    "label": "Subtitle",
+    "default": "How MOTS-C peptide blends burn fat, protect muscle, and break through plateaus — without appetite suppression."
+   },
+   {
+    "hook": "image",
+    "name": "hero-image",
+    "label": "Hero Image",
+    "default": "{ src: \"https://replicate.delivery/xezq/2odFb62wHs4mA1hKlcDIoGOvPuTEID12s1EbNqUtU4xdG3lF/out-0.webp\", alt: \"Fitness guide\" }"
+   },
+   {
+    "hook": "image",
+    "name": "product-image",
+    "label": "Product Lifestyle Photo",
+    "default": "{ src: \"https://replicate.delivery/xezq/2odFb62wHs4mA1hKlcDIoGOvPuTEID12s1EbNqUtU4xdG3lF/out-0.webp\", alt: \"Fitness lifestyle\" }"
+   }
+  ]
+ },
+ "peptides/guide/longevity": {
+  "block-01": [
+   {
+    "hook": "text",
+    "name": "page-title",
+    "label": "Page title",
+    "default": "Longevity Guide"
+   },
+   {
+    "hook": "longtext",
+    "name": "page-subtitle",
+    "label": "Subtitle",
+    "default": "What declines, what restores it, and how to build a longevity protocol that fits your biology."
+   },
+   {
+    "hook": "image",
+    "name": "hero-image",
+    "label": "Hero Image",
+    "default": "{ src: \"https://replicate.delivery/xezq/2odFb62wHs4mA1hKlcDIoGOvPuTEID12s1EbNqUtU4xdG3lF/out-0.webp\", alt: \"Longevity guide\" }"
+   },
+   {
+    "hook": "image",
+    "name": "product-image",
+    "label": "Product Lifestyle Photo",
+    "default": "{ src: \"https://replicate.delivery/xezq/2odFb62wHs4mA1hKlcDIoGOvPuTEID12s1EbNqUtU4xdG3lF/out-0.webp\", alt: \"Longevity lifestyle\" }"
+   }
+  ]
+ },
+ "peptides/guide/recovery": {
+  "block-01": [
+   {
+    "hook": "text",
+    "name": "page-title",
+    "label": "Page title",
+    "default": "Recovery Guide"
+   },
+   {
+    "hook": "longtext",
+    "name": "page-subtitle",
+    "label": "Subtitle",
+    "default": "How peptides accelerate healing — from chronic inflammation to post-surgical repair."
+   },
+   {
+    "hook": "image",
+    "name": "hero-image",
+    "label": "Hero Image",
+    "default": "{ src: \"https://replicate.delivery/xezq/2odFb62wHs4mA1hKlcDIoGOvPuTEID12s1EbNqUtU4xdG3lF/out-0.webp\", alt: \"Recovery guide\" }"
+   },
+   {
+    "hook": "image",
+    "name": "product-image",
+    "label": "Product Lifestyle Photo",
+    "default": "{ src: \"https://replicate.delivery/xezq/2odFb62wHs4mA1hKlcDIoGOvPuTEID12s1EbNqUtU4xdG3lF/out-0.webp\", alt: \"Recovery lifestyle\" }"
+   }
+  ]
+ },
+ "peptides/guide/weightloss": {
+  "block-01": [
+   {
+    "hook": "text",
+    "name": "page-title",
+    "label": "Page title",
+    "default": "Weight Loss Guide"
+   },
+   {
+    "hook": "longtext",
+    "name": "page-subtitle",
+    "label": "Subtitle",
+    "default": "What works, why it works, and what to expect — from your first week to your goal weight."
+   },
+   {
+    "hook": "image",
+    "name": "hero-image",
+    "label": "Hero Image",
+    "default": "{ src: \"https://replicate.delivery/xezq/2odFb62wHs4mA1hKlcDIoGOvPuTEID12s1EbNqUtU4xdG3lF/out-0.webp\", alt: \"Weight loss guide\" }"
+   }
+  ]
+ },
+ "peptides/shop": {
+  "block-01": [
+   {
+    "hook": "text",
+    "name": "headline",
+    "label": "Headline",
+    "default": "Your protocol,\nbuilt here."
+   },
+   {
+    "hook": "text",
+    "name": "cta-text",
+    "label": "CTA Text",
+    "default": "Get Started for $0"
+   },
+   {
+    "hook": "navigation",
+    "name": "cta-link",
+    "label": "CTA Link",
+    "default": "{ destination: \"/sign-up\", openIn: \"SELF\" }"
+   }
+  ]
+ },
+ "semaglutide-injectable": {
+  "block-01": [
+   {
+    "hook": "text",
+    "name": "eyebrow",
+    "label": "Eyebrow Text",
+    "default": "COMPOUNDED SEMAGLUTIDE PRESCRIBED ONLINE"
+   },
+   {
+    "hook": "text",
+    "name": "headline",
+    "label": "Headline",
+    "default": "Personalized Semaglutide Treatment"
+   },
+   {
+    "hook": "text",
+    "name": "subheadline",
+    "label": "Subheadline",
+    "default": "Start with a free, no-obligation evaluation — only pay if a provider prescribes treatment for you."
+   },
+   {
+    "hook": "text",
+    "name": "cta-text",
+    "label": "CTA Button Text",
+    "default": "Get Started"
+   },
+   {
+    "hook": "navigation",
+    "name": "cta-link",
+    "label": "CTA Link",
+    "default": "{\n      action: \"OPEN_PAGE\",\n      destination: \"/sign-up\",\n      openIn: \"SELF\",\n    }"
+   },
+   {
+    "hook": "image",
+    "name": "lifestyle-image",
+    "label": "Lifestyle Photo",
+    "default": "{\n      src: \"https://images.unsplash.com/photo-1512290923902-8a9f81dc236c\",\n      alt: \"Natural lifestyle scene\",\n    }"
+   },
+   {
+    "hook": "image",
+    "name": "product-image",
+    "label": "Product Bottle/Vial",
+    "default": "{\n      src: \"https://images.unsplash.com/photo-1620916566398-39f1143ab7be\",\n      alt: \"Product bottle\",\n    }"
+   }
+  ],
+  "block-02": [
+   {
+    "hook": "text",
+    "name": "heading",
+    "label": "Heading",
+    "default": "If prescribed, your subscription includes:"
+   }
+  ],
+  "block-03": [
+   {
+    "hook": "text",
+    "name": "heading",
+    "label": "Heading",
+    "default": "What are Compounded Peptides?"
+   },
+   {
+    "hook": "longtext",
+    "name": "body-text",
+    "label": "Body text",
+    "default": "Semaglutide is a long-acting GLP-1 (Glucagon-Like Peptide-1) receptor agonist. It works by mimicking a natural hormone released in the gastrointestinal tract that targets areas of the brain that regulate appetite and food intake. By slowing gastric emptying and signaling satiety, it helps patients manage caloric intake and metabolic health. Compounded Semaglutide is a patient-specific medication prescribed by a licensed provider and prepared in a regulated 503A or 503B pharmacy. Every batch undergoes rigorous third-party verification, with a Certificate of Analysis (CoA) ensuring the purity and potency of the peptide delivered to your door.\n\nAthos exclusively works with licensed, FDA-registered compounding pharmacies in the United States."
+   },
+   {
+    "hook": "image",
+    "name": "product-image",
+    "label": "Product image",
+    "default": "{\n      src: \"https://replicate.delivery/xezq/F27bLNRR5FLfQ6Mzxy2nbyT3TnL6rkCXAfdMX73CFjZVvOXWA/out-0.webp\",\n      alt: \"Compounded peptide vial\",\n    }"
+   }
+  ],
+  "block-04": [
+   {
+    "hook": "text",
+    "name": "eyebrow",
+    "label": "Eyebrow Text",
+    "default": "PROVEN  |  GLP-1 INJECTABLE"
+   },
+   {
+    "hook": "text",
+    "name": "headline",
+    "label": "Headline",
+    "default": "The Most Studied\nWeight Loss Compound."
+   },
+   {
+    "hook": "longtext",
+    "name": "description",
+    "label": "Description",
+    "default": "This compounded GLP-1 injectable works by reducing your appetite, slowing digestion, and helping your body manage blood sugar — the same proven pathway behind the most prescribed weight loss treatments in the world."
+   },
+   {
+    "hook": "text",
+    "name": "cta-text",
+    "label": "CTA Button Text",
+    "default": "Get Started for \\$0"
+   },
+   {
+    "hook": "navigation",
+    "name": "cta-link",
+    "label": "CTA Button Link",
+    "default": "{\n      destination: \"/sign-up\",\n      openIn: \"SELF\",\n    }"
+   },
+   {
+    "hook": "image",
+    "name": "hero-image",
+    "label": "Hero Image",
+    "default": "{\n      src: \"https://replicate.delivery/xezq/2odFb62wHs4mA1hKlcDIoGOvPuTEID12s1EbNqUtU4xdG3lF/out-0.webp\",\n      alt: \"Compounded GLP-1 injectable\",\n    }"
+   }
+  ],
+  "block-05": [
+   {
+    "hook": "text",
+    "name": "banner-text",
+    "label": "Banner Text",
+    "default": "Millions already use injectable peptides from unregulated sources without medical oversight. Athos doctor-backed platform provides verified purity, proper dosing, and safe access."
+   },
+   {
+    "hook": "image",
+    "name": "vial-image",
+    "label": "Vial Image",
+    "default": "{\n      src: \"https://replicate.delivery/xezq/zVmDRGbSBFbuBdd6VzQEARA5nJAi0ulGKDK65px4SFZaF3lF/out-0.webp\",\n      alt: \"Semaglutide vial\",\n    }"
+   }
+  ],
+  "block-06": [
+   {
+    "hook": "text",
+    "name": "section-title",
+    "label": "Section Title",
+    "default": "How Athos Works"
+   },
+   {
+    "hook": "longtext",
+    "name": "section-subtitle",
+    "label": "Section Subtitle",
+    "default": "Get started with no insurance required."
+   },
+   {
+    "hook": "array",
+    "name": "steps",
+    "label": "Steps",
+    "default": "[\n      {\n        title: \"Medical Forms\",\n        description: \"Share your medical details — takes less than 5 minutes\",\n      },\n      {\n        title: \"Get Your Personalized Treatment Plan\",\n        description: \"Your healthcare provider will determine if treatment is right for you\",\n      },\n      {\n        title: \"Receive Medication\",\n        description: \"If prescribed, medication and supplies mailed straight to your door\",\n      },\n    ]"
+   }
+  ],
+  "block-07": [
+   {
+    "hook": "text",
+    "name": "heading",
+    "label": "Heading",
+    "default": "Overcome Weight Management Roadblocks"
+   },
+   {
+    "hook": "text",
+    "name": "subtitle",
+    "label": "Subtitle",
+    "default": "Athos offers the support you've been waiting for."
+   },
+   {
+    "hook": "image",
+    "name": "lifestyle-image",
+    "label": "Lifestyle Image",
+    "default": "{\n      src: \"https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b\",\n      alt: \"Lifestyle photo\",\n    }"
+   },
+   {
+    "hook": "array",
+    "name": "features",
+    "label": "Features",
+    "default": "[\n      {\n        title: \"Medically Supervised Weight Management Treatments\",\n        description: \"Weight management is personal. Our providers review your history and goals to create a plan that fits your body and lifestyle.\",\n        icon: \"stethoscope\",\n      },\n      {\n        title: \"Ongoing Provider Support\",\n        description: \"Message your care team anytime and get guidance as you progress — adjustments, check-ins, and answers when you need them.\",\n        icon: \"chat\",\n      },\n      {\n        title: \"Trusted, Licensed Care\",\n        description: \"Work with licensed clinicians and vetted partner pharmacies for safe, discreet delivery and consistent follow-up.\",\n        icon: \"badge\",\n      },\n    ]"
+   }
+  ],
+  "block-08": [
+   {
+    "hook": "text",
+    "name": "main-title",
+    "label": "Main Title",
+    "default": "Why Athos"
+   },
+   {
+    "hook": "text",
+    "name": "subtitle",
+    "label": "Subtitle",
+    "default": "The same products you believe in — prescribed legally, dosed correctly, backed by clinical oversight."
+   },
+   {
+    "hook": "text",
+    "name": "others-heading",
+    "label": "Others Column Heading",
+    "default": "Gray Market"
+   },
+   {
+    "hook": "text",
+    "name": "athos-heading",
+    "label": "Athos Column Heading",
+    "default": "Athos"
+   },
+   {
+    "hook": "longtext",
+    "name": "closing-text",
+    "label": "Closing Text",
+    "default": "Millions of people are already self-administering peptides with no licensed provider, no regulated pharmacy, and no purity verification. Athos is the clinical alternative that never existed — until now."
+   },
+   {
+    "hook": "text",
+    "name": "cta-text",
+    "label": "CTA Button Text",
+    "default": "Start Treatment"
+   },
+   {
+    "hook": "navigation",
+    "name": "cta-link",
+    "label": "CTA Link",
+    "default": "{\n      destination: \"/\",\n      openIn: \"SELF\",\n    }"
+   }
+  ],
+  "block-09": [
+   {
+    "hook": "text",
+    "name": "heading",
+    "label": "Heading",
+    "default": "Frequently Asked Questions"
+   },
+   {
+    "hook": "array",
+    "name": "faqs",
+    "label": "FAQ Items",
+    "default": "[\n      {\n        question: \"What is the Semaglutide Injection?\",\n        answer: \"It is a once-weekly shot that helps you manage your weight by mimicking a natural hormone in your body. Our version is 'compounded,' meaning it is custom-made for you in a high-end, regulated pharmacy. It contains the same active ingredient as the famous brand-name shots but allows for more flexible dosing and a reliable supply.\",\n      },\n      {\n        question: \"How does the shot actually help me lose weight?\",\n        answer: \"Think of it as a 'reset' for your appetite. It slows down how quickly your stomach empties and tells your brain that you're full. Most people notice that 'food noise'—those constant cravings and thoughts about your next meal—simply disappears, making it much easier to stick to healthy portions.\",\n      },\n      {\n        question: \"Is this injection safe for me?\",\n        answer: \"Yes, when used under the care of a licensed doctor. We only work with top-tier, US-based pharmacies that test every single batch for purity. While these custom mixes aren't pre-approved by the FDA, we ensure they meet strict quality standards so you know exactly what you're putting into your body.\",\n      },\n      {\n        question: \"Does the injection hurt?\",\n        answer: \"Not really! It uses a very tiny, thin needle designed to go just under the skin (usually in your stomach or thigh). It's a quick, once-a-week process that takes about 30 seconds. Most of our members are surprised by how easy and painless it actually is.\",\n      },\n      {\n        question: \"Will I have side effects?\",\n        answer: \"Some people feel a bit of nausea or an upset stomach at first, especially in the first few weeks. To prevent this, we start you on a very low dose and slowly increase it as your body gets used to the medication. Most side effects are mild and fade away quickly.\",\n      },\n      {\n        question: \"How much weight can I expect to lose?\",\n        answer: \"Everyone is different, but the results with Semaglutide are typically very impressive compared to diet and exercise alone. You'll work with your doctor to set a goal that feels right for your body and lifestyle. The key is staying consistent with your weekly shots.\",\n      },\n      {\n        question: \"How soon will I see the 'food noise' stop?\",\n        answer: \"Many people feel the 'quieting' of their appetite within just a few days of their first shot. While the scale will start moving in the first month, the most exciting body changes usually happen after about 2 or 3 months when you've reached your full strength dose.\",\n      },\n    ]"
+   }
+  ]
+ },
+ "semaglutide-oral": {
+  "block-01": [
+   {
+    "hook": "text",
+    "name": "eyebrow",
+    "label": "Eyebrow Text",
+    "default": "ORAL SEMAGLUTIDE PRESCRIBED ONLINE"
+   },
+   {
+    "hook": "text",
+    "name": "headline",
+    "label": "Headline",
+    "default": "Semaglutide Without the Needle"
+   },
+   {
+    "hook": "text",
+    "name": "subheadline",
+    "label": "Subheadline",
+    "default": "Compounded semaglutide troches and capsules — prescribed by a licensed provider, dosed to your body, and delivered to your door."
+   },
+   {
+    "hook": "text",
+    "name": "cta-text",
+    "label": "CTA Button Text",
+    "default": "Claim Free Evaluation"
+   },
+   {
+    "hook": "navigation",
+    "name": "cta-link",
+    "label": "CTA Link",
+    "default": "{\n      action: \"OPEN_PAGE\",\n      destination: \"/sign-up\",\n      openIn: \"SELF\",\n    }"
+   },
+   {
+    "hook": "image",
+    "name": "lifestyle-image",
+    "label": "Lifestyle Photo",
+    "default": "{\n      src: \"https://images.unsplash.com/photo-1512290923902-8a9f81dc236c\",\n      alt: \"Natural lifestyle scene\",\n    }"
+   },
+   {
+    "hook": "image",
+    "name": "product-image",
+    "label": "Product Composite",
+    "default": "{\n      src: \"https://assets.softr-files.com/applications/9da2c9c4-100f-4a3e-bd8f-4c76ad65641a/assets/b7c08fa8-79a2-4119-a96d-563b2fcbbae1.png\",\n      alt: \"Semaglutide troches and capsules\",\n    }"
+   }
+  ],
+  "block-02": [
+   {
+    "hook": "text",
+    "name": "heading",
+    "label": "Heading",
+    "default": "If prescribed, your subscription includes:"
+   }
+  ],
+  "block-03": [
+   {
+    "hook": "text",
+    "name": "heading",
+    "label": "Heading",
+    "default": "Take Semaglutide Orally,\nNo Injections"
+   },
+   {
+    "hook": "longtext",
+    "name": "body-text",
+    "label": "Body text",
+    "default": "Semaglutide tablets and drops are needle-free alternatives that mimic your body's natural fullness hormones to curb cravings. Tablets are taken as a simple daily pill, while drops are placed under the tongue for quick absorption. Both options help you stay satisfied longer and manage \"food noise\" without the need for weekly injections.\n\nThese medications are custom-made in regulated 503A pharmacies and third-party tested for purity and potency. While compounded medications are not FDA-approved, we ensure every batch meets strict clinical standards and includes a Certificate of Analysis.\n\nAthos exclusively works with licensed, FDA-registered compounding pharmacies in the United States."
+   },
+   {
+    "hook": "image",
+    "name": "product-image",
+    "label": "Product image",
+    "default": "{\n      src: \"https://replicate.delivery/xezq/F27bLNRR5FLfQ6Mzxy2nbyT3TnL6rkCXAfdMX73CFjZVvOXWA/out-0.webp\",\n      alt: \"Compounded peptide vial\",\n    }"
+   }
+  ],
+  "block-04": [
+   {
+    "hook": "text",
+    "name": "eyebrow",
+    "label": "Eyebrow Text",
+    "default": "NEW  |  ORAL SEMAGLUTIDE NOW AVAILABLE"
+   },
+   {
+    "hook": "text",
+    "name": "headline",
+    "label": "Headline",
+    "default": "Same Compound.\nNo Needles."
+   },
+   {
+    "hook": "longtext",
+    "name": "description",
+    "label": "Description",
+    "default": "Compounded oral semaglutide — available as tablets or sublingual troches — delivers the same GLP-1 receptor activation without injections. Clinically comparable weight loss of 13–15% at 48 weeks."
+   },
+   {
+    "hook": "text",
+    "name": "cta-text",
+    "label": "CTA Button Text",
+    "default": "Get Started for \\$0"
+   },
+   {
+    "hook": "navigation",
+    "name": "cta-link",
+    "label": "CTA Button Link",
+    "default": "{\n      destination: \"/sign-up\",\n      openIn: \"SELF\",\n    }"
+   },
+   {
+    "hook": "image",
+    "name": "hero-image",
+    "label": "Hero Image",
+    "default": "{\n      src: \"https://replicate.delivery/xezq/2odFb62wHs4mA1hKlcDIoGOvPuTEID12s1EbNqUtU4xdG3lF/out-0.webp\",\n      alt: \"Oral semaglutide tablets\",\n    }"
+   }
+  ],
+  "block-05": [
+   {
+    "hook": "text",
+    "name": "banner-text",
+    "label": "Banner Text",
+    "default": "Millions already use injectable peptides from unregulated sources without medical oversight. Athos doctor-backed platform provides verified purity, proper dosing, and safe access."
+   },
+   {
+    "hook": "image",
+    "name": "vial-image",
+    "label": "Vial Image",
+    "default": "{\n      src: \"https://replicate.delivery/xezq/zVmDRGbSBFbuBdd6VzQEARA5nJAi0ulGKDK65px4SFZaF3lF/out-0.webp\",\n      alt: \"Semaglutide vial\",\n    }"
+   }
+  ],
+  "block-06": [
+   {
+    "hook": "text",
+    "name": "section-title",
+    "label": "Section Title",
+    "default": "How Athos Works"
+   },
+   {
+    "hook": "longtext",
+    "name": "section-subtitle",
+    "label": "Section Subtitle",
+    "default": "Get started with no insurance required."
+   },
+   {
+    "hook": "array",
+    "name": "steps",
+    "label": "Steps",
+    "default": "[\n      {\n        title: \"Medical Forms\",\n        description: \"Share your medical details — takes less than 5 minutes\",\n      },\n      {\n        title: \"Get Your Personalized Treatment Plan\",\n        description: \"Your healthcare provider will determine if treatment is right for you\",\n      },\n      {\n        title: \"Receive Medication\",\n        description: \"If prescribed, medication and supplies mailed straight to your door\",\n      },\n    ]"
+   }
+  ],
+  "block-07": [
+   {
+    "hook": "text",
+    "name": "heading",
+    "label": "Heading",
+    "default": "Overcome Weight Management Roadblocks"
+   },
+   {
+    "hook": "text",
+    "name": "subtitle",
+    "label": "Subtitle",
+    "default": "Athos offers the support you've been waiting for."
+   },
+   {
+    "hook": "image",
+    "name": "lifestyle-image",
+    "label": "Lifestyle Image",
+    "default": "{\n      src: \"https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b\",\n      alt: \"Lifestyle photo\",\n    }"
+   },
+   {
+    "hook": "array",
+    "name": "features",
+    "label": "Features",
+    "default": "[\n      {\n        title: \"Medically Supervised Weight Management Treatments\",\n        description: \"Weight management is personal. Our providers review your history and goals to create a plan that fits your body and lifestyle.\",\n        icon: \"stethoscope\",\n      },\n      {\n        title: \"Ongoing Provider Support\",\n        description: \"Message your care team anytime and get guidance as you progress — adjustments, check-ins, and answers when you need them.\",\n        icon: \"chat\",\n      },\n      {\n        title: \"Trusted, Licensed Care\",\n        description: \"Work with licensed clinicians and vetted partner pharmacies for safe, discreet delivery and consistent follow-up.\",\n        icon: \"badge\",\n      },\n    ]"
+   }
+  ],
+  "block-08": [
+   {
+    "hook": "text",
+    "name": "main-title",
+    "label": "Main Title",
+    "default": "Why Athos"
+   },
+   {
+    "hook": "text",
+    "name": "subtitle",
+    "label": "Subtitle",
+    "default": "The same products you believe in — prescribed legally, dosed correctly, backed by clinical oversight."
+   },
+   {
+    "hook": "text",
+    "name": "others-heading",
+    "label": "Others Column Heading",
+    "default": "Gray Market"
+   },
+   {
+    "hook": "text",
+    "name": "athos-heading",
+    "label": "Athos Column Heading",
+    "default": "Athos"
+   },
+   {
+    "hook": "longtext",
+    "name": "closing-text",
+    "label": "Closing Text",
+    "default": "Millions of people are already self-administering peptides with no licensed provider, no regulated pharmacy, and no purity verification. Athos is the clinical alternative that never existed — until now."
+   },
+   {
+    "hook": "text",
+    "name": "cta-text",
+    "label": "CTA Button Text",
+    "default": "Start Treatment"
+   },
+   {
+    "hook": "navigation",
+    "name": "cta-link",
+    "label": "CTA Link",
+    "default": "{\n      destination: \"/\",\n      openIn: \"SELF\",\n    }"
+   }
+  ],
+  "block-09": [
+   {
+    "hook": "text",
+    "name": "heading",
+    "label": "Heading",
+    "default": "Frequently Asked Questions"
+   },
+   {
+    "hook": "array",
+    "name": "faqs",
+    "label": "FAQ Items",
+    "default": "[\n      {\n        question: \"What is Oral Semaglutide?\",\n        answer: \"It is a needle-free way to manage your weight by taking a daily pill or placing liquid drops under your tongue. Our versions are 'compounded,' meaning they are custom-made for you in a high-end, regulated pharmacy. They contain the exact same active ingredient as the famous brand-name shots but fit seamlessly into your daily routine.\",\n      },\n      {\n        question: \"How does the oral version actually help me lose weight?\",\n        answer: \"Think of it as a daily 'reset' for your appetite. It mimics a natural hormone to slow down how quickly your stomach empties and tells your brain that you're full. Most people notice that 'food noise'—the constant cravings and thoughts about your next meal—simply disappears, making it much easier to stick to healthy portions.\",\n      },\n      {\n        question: \"Is oral Semaglutide safe for me?\",\n        answer: \"Yes, when used under the care of a licensed doctor. We only work with top-tier, US-based pharmacies that test every single batch for purity. While these custom mixes aren't pre-approved by the FDA, we ensure they meet strict quality standards so you know exactly what you're putting into your body.\",\n      },\n      {\n        question: \"How do I take it?\",\n        answer: \"Unlike the once-weekly shot, the oral versions are taken once a day. If you choose the tablets, you swallow a small pill in the morning on an empty stomach. If you choose the drops, you simply place a liquid dose under your tongue for quick absorption. Your doctor will walk you through the easiest routine for your schedule.\",\n      },\n      {\n        question: \"Will I have side effects?\",\n        answer: \"Some people feel a bit of nausea or an upset stomach at first as their body adjusts to the medication. To prevent this, we start you on a very low dose and slowly increase it over several weeks. Most side effects are mild and fade away quickly as your body gets used to it.\",\n      },\n      {\n        question: \"How much weight can I expect to lose?\",\n        answer: \"Everyone is different, but taking Semaglutide daily offers impressive results compared to diet and exercise alone. You'll work with your doctor to set a realistic goal that fits your body and lifestyle. The key to seeing the best results is staying consistent with your daily tablets or drops.\",\n      },\n      {\n        question: \"How soon will I see the 'food noise' stop?\",\n        answer: \"Many people feel a 'quieting' of their appetite within the first week or two of starting. While the scale will start moving in the first month, the most exciting body changes usually happen after about 2 or 3 months when your body has reached its full strength dose.\",\n      },\n    ]"
+   }
+  ]
+ },
+ "tb-500": {
+  "block-01": [
+   {
+    "hook": "text",
+    "name": "eyebrow",
+    "label": "Eyebrow Text",
+    "default": "PHYSICIAN-PRESCRIBED TB-500 THERAPY"
+   },
+   {
+    "hook": "text",
+    "name": "headline",
+    "label": "Headline",
+    "default": "Systemic Repair. Total Reach."
+   },
+   {
+    "hook": "text",
+    "name": "subheadline",
+    "label": "Subheadline",
+    "default": "TB-500 circulates systemically to find and repair damage anywhere in your body — accelerating cell migration, building new blood vessels, and reducing restrictive scar tissue. Prescribed and delivered."
+   },
+   {
+    "hook": "text",
+    "name": "cta-text",
+    "label": "CTA Button Text",
+    "default": "Claim Free Evaluation"
+   },
+   {
+    "hook": "navigation",
+    "name": "cta-link",
+    "label": "CTA Link",
+    "default": "{\n      action: \"OPEN_PAGE\",\n      destination: \"/sign-up\",\n      openIn: \"SELF\",\n    }"
+   },
+   {
+    "hook": "image",
+    "name": "lifestyle-image",
+    "label": "Lifestyle Photo",
+    "default": "{\n      src: \"https://images.unsplash.com/photo-1512290923902-8a9f81dc236c\",\n      alt: \"Athletic recovery scene\",\n    }"
+   },
+   {
+    "hook": "image",
+    "name": "product-image",
+    "label": "Product Composite",
+    "default": "{\n      src: \"https://images.unsplash.com/photo-1620916566398-39f1143ab7be\",\n      alt: \"TB-500 therapy vial\",\n    }"
+   }
+  ],
+  "block-02": [
+   {
+    "hook": "text",
+    "name": "heading",
+    "label": "Heading",
+    "default": "If prescribed, your subscription includes:"
+   }
+  ],
+  "block-03": [
+   {
+    "hook": "text",
+    "name": "heading",
+    "label": "Heading",
+    "default": "What is TB-500 Therapy?"
+   },
+   {
+    "hook": "longtext",
+    "name": "body-text",
+    "label": "Body text",
+    "default": "TB-500 is a synthetic form of Thymosin Beta-4, a naturally occurring peptide that operates systemically — meaning it circulates through the entire body to find and repair damage regardless of injection site. It accelerates healing by regulating actin, the building block of cell structure, to drive cell migration directly to injured tissue while stimulating new blood vessel growth in nutrient-starved areas like tendons and cartilage.\n\nCompounded TB-500 is prepared in regulated 503A pharmacies and third-party tested for purity and potency. Every batch includes a Certificate of Analysis.\n\nAthos exclusively works with licensed, FDA-registered compounding pharmacies in the United States."
+   },
+   {
+    "hook": "image",
+    "name": "product-image",
+    "label": "Product image",
+    "default": "{\n      src: \"https://replicate.delivery/xezq/F27bLNRR5FLfQ6Mzxy2nbyT3TnL6rkCXAfdMX73CFjZVvOXWA/out-0.webp\",\n      alt: \"Compounded TB-500 vial\",\n    }"
+   }
+  ],
+  "block-04": [
+   {
+    "hook": "text",
+    "name": "eyebrow",
+    "label": "Eyebrow Text",
+    "default": "SYSTEMIC  |  REPAIR PEPTIDE"
+   },
+   {
+    "hook": "text",
+    "name": "headline",
+    "label": "Headline",
+    "default": "Finds the Damage.\nFixes It Anywhere."
+   },
+   {
+    "hook": "longtext",
+    "name": "description",
+    "label": "Description",
+    "default": "TB-500 is a synthetic version of Thymosin Beta-4, a peptide your body already makes. Unlike most repair compounds, it doesn't need to be injected at the injury site — it circulates through your entire body, finds inflammation, and directs repair cells to rebuild. Available in 3 specialized blends."
+   },
+   {
+    "hook": "text",
+    "name": "cta-text",
+    "label": "CTA Button Text",
+    "default": "Get Started for \\$0"
+   },
+   {
+    "hook": "navigation",
+    "name": "cta-link",
+    "label": "CTA Button Link",
+    "default": "{\n      destination: \"/sign-up\",\n      openIn: \"SELF\",\n    }"
+   },
+   {
+    "hook": "image",
+    "name": "hero-image-all",
+    "label": "Hero Image — All Blends",
+    "default": "{\n      src: \"https://replicate.delivery/xezq/2odFb62wHs4mA1hKlcDIoGOvPuTEID12s1EbNqUtU4xdG3lF/out-0.webp\",\n      alt: \"TB-500 peptide blends collection\",\n    }"
+   },
+   {
+    "hook": "image",
+    "name": "hero-image-tb500",
+    "label": "Hero Image — TB-500",
+    "default": "{\n      src: \"https://replicate.delivery/xezq/2odFb62wHs4mA1hKlcDIoGOvPuTEID12s1EbNqUtU4xdG3lF/out-0.webp\",\n      alt: \"TB-500 standalone\",\n    }"
+   },
+   {
+    "hook": "image",
+    "name": "hero-image-valkyr",
+    "label": "Hero Image — Valkyr",
+    "default": "{\n      src: \"https://replicate.delivery/xezq/2odFb62wHs4mA1hKlcDIoGOvPuTEID12s1EbNqUtU4xdG3lF/out-0.webp\",\n      alt: \"Valkyr Wolverine blend\",\n    }"
+   },
+   {
+    "hook": "image",
+    "name": "hero-image-samson",
+    "label": "Hero Image — Samson & Delilah",
+    "default": "{\n      src: \"https://replicate.delivery/xezq/2odFb62wHs4mA1hKlcDIoGOvPuTEID12s1EbNqUtU4xdG3lF/out-0.webp\",\n      alt: \"Samson and Delilah blend\",\n    }"
+   }
+  ],
+  "block-05": [
+   {
+    "hook": "text",
+    "name": "banner-text",
+    "label": "Banner Text",
+    "default": "Millions already use injectable peptides from unregulated sources without medical oversight. Athos doctor-backed platform provides verified purity, proper dosing, and safe access."
+   },
+   {
+    "hook": "image",
+    "name": "vial-image",
+    "label": "Vial Image",
+    "default": "{\n      src: \"https://replicate.delivery/xezq/zVmDRGbSBFbuBdd6VzQEARA5nJAi0ulGKDK65px4SFZaF3lF/out-0.webp\",\n      alt: \"Semaglutide vial\",\n    }"
+   }
+  ],
+  "block-06": [
+   {
+    "hook": "text",
+    "name": "section-title",
+    "label": "Section Title",
+    "default": "How Athos Works"
+   },
+   {
+    "hook": "longtext",
+    "name": "section-subtitle",
+    "label": "Section Subtitle",
+    "default": "Get started with no insurance required."
+   },
+   {
+    "hook": "array",
+    "name": "steps",
+    "label": "Steps",
+    "default": "[\n      {\n        title: \"Medical Forms\",\n        description: \"Share your medical details — takes less than 5 minutes\",\n      },\n      {\n        title: \"Get Your Personalized Treatment Plan\",\n        description: \"Your healthcare provider will determine if treatment is right for you\",\n      },\n      {\n        title: \"Receive Medication\",\n        description: \"If prescribed, medication and supplies mailed straight to your door\",\n      },\n    ]"
+   }
+  ],
+  "block-07": [
+   {
+    "hook": "text",
+    "name": "heading",
+    "label": "Heading",
+    "default": "TB-500 Finds the Damage."
+   },
+   {
+    "hook": "text",
+    "name": "subtitle",
+    "label": "Subtitle",
+    "default": "A synthetic form of Thymosin Beta-4, TB-500 circulates systemically to locate inflammation, recruit cells to injury sites, and rebuild tissue — regardless of where it's injected. Available standalone or in two precision blends."
+   },
+   {
+    "hook": "image",
+    "name": "lifestyle-image",
+    "label": "Lifestyle Image",
+    "default": "{\n      src: \"https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b\",\n      alt: \"Lifestyle photo\",\n    }"
+   },
+   {
+    "hook": "array",
+    "name": "features",
+    "label": "Features",
+    "default": "[\n      {\n        title: \"TB-500 Standalone — Systemic Repair, 1–2x Per Week\",\n        description:\n          \"100% bioavailability via subcutaneous injection. At just 43 amino acids, TB-500 crosses biological barriers easily and circulates body-wide — sequestering actin to drive cell migration, stimulating angiogenesis in nutrient-starved tendons and cartilage, and reducing inflammation without restricting connective tissue flexibility.\",\n        icon: \"syringe\",\n      },\n      {\n        title: \"Valkyr / Wolverine Blend — BPC-157 + TB-500\",\n        description:\n          \"The gold standard for injury recovery. BPC-157 handles localized structural repair — upregulating VEGFR2 at the wound site and restoring gut mucosal lining. TB-500 handles the systemic work — recruiting cells from across the body and preventing restrictive scar tissue formation. Local precision plus full-body reach.\",\n        icon: \"layers\",\n      },\n      {\n        title: \"Samson & Delilah — GHK-Cu / CJC / Ipamorelin / TB-500\",\n        description:\n          \"A total vitality stack. TB-500's systemic tissue repair combines with GHK-Cu's collagen synthesis, plus CJC-1295 and Ipamorelin's growth hormone release for coordinated anti-aging across skin, joints, muscle, and metabolic function. One protocol, four mechanisms.\",\n        icon: \"dna\",\n      },\n    ]"
+   }
+  ],
+  "block-08": [
+   {
+    "hook": "text",
+    "name": "main-title",
+    "label": "Main Title",
+    "default": "Why Athos"
+   },
+   {
+    "hook": "text",
+    "name": "subtitle",
+    "label": "Subtitle",
+    "default": "The same products you believe in — prescribed legally, dosed correctly, backed by clinical oversight."
+   },
+   {
+    "hook": "text",
+    "name": "others-heading",
+    "label": "Others Column Heading",
+    "default": "Gray Market"
+   },
+   {
+    "hook": "text",
+    "name": "athos-heading",
+    "label": "Athos Column Heading",
+    "default": "Athos"
+   },
+   {
+    "hook": "longtext",
+    "name": "closing-text",
+    "label": "Closing Text",
+    "default": "Millions of people are already self-administering peptides with no licensed provider, no regulated pharmacy, and no purity verification. Athos is the clinical alternative that never existed — until now."
+   },
+   {
+    "hook": "text",
+    "name": "cta-text",
+    "label": "CTA Button Text",
+    "default": "Start Treatment"
+   },
+   {
+    "hook": "navigation",
+    "name": "cta-link",
+    "label": "CTA Link",
+    "default": "{\n      destination: \"/\",\n      openIn: \"SELF\",\n    }"
+   }
+  ],
+  "block-09": [
+   {
+    "hook": "text",
+    "name": "heading",
+    "label": "Heading",
+    "default": "Frequently Asked Questions"
+   },
+   {
+    "hook": "array",
+    "name": "faqs",
+    "label": "FAQ Items",
+    "default": "[\n      {\n        question: \"What is TB-500?\",\n        answer: \"It is a synthetic version of a naturally occurring peptide your body uses to heal itself. It acts as a systemic repair signal, traveling through the bloodstream to find inflammation, rebuild damaged fibers, and restore flexibility to stiff joints.\",\n      },\n      {\n        question: \"How is it different from BPC-157?\",\n        answer: \"Think of BPC-157 as the \\\"local architect\\\" that rebuilds specific structures and heals the gut. TB-500 is the \\\"systemic manager\\\" that ensures cells can move freely through the body to reach the site of an injury. When used together, they provide both local and body-wide repair.\",\n      },\n      {\n        question: \"Does my BMI or weight affect the dose?\",\n        answer: \"Yes. Because the peptide must circulate through your entire system, those with higher body mass or a higher BMI generally require a larger \\\"Loading Phase\\\" dose to reach therapeutic saturation. A larger body requires more of the signaling molecule to ensure every area of inflammation is reached.\",\n      },\n      {\n        question: \"Why is this only available as an injection?\",\n        answer: \"TB-500 is a large peptide that would be destroyed by the digestive system if taken as a pill. To ensure 100% bioavailability and allow it to reach the deep tissues of your joints and tendons, it must be administered as a subcutaneous injection.\",\n      },\n      {\n        question: \"Is it safe?\",\n        answer: \"Yes. TB-500 is a bio-identical match for a compound your body already produces. We use only high-end, US-based pharmacies that test every batch for 99%+ purity. It is non-hormonal and does not interfere with other medications.\",\n      },\n      {\n        question: \"Will I have side effects?\",\n        answer: \"Side effects are rare. The most common is slight redness at the injection site. Because it does not affect heart rate or hormones, most users feel no different after the shot, though they notice improved joint comfort and faster recovery over time.\",\n      },\n      {\n        question: \"How soon will I see results?\",\n        answer: \"While the cellular repair starts immediately, most users report a noticeable decrease in joint stiffness and \\\"aching\\\" within the first 10 to 14 days. The most significant structural improvements typically manifest after a full 4-week loading cycle.\",\n      },\n      {\n        question: \"Does the shot hurt?\",\n        answer: \"Not really. It uses a tiny, hair-thin needle for a quick pinch just under the skin of the stomach. Since the peptide is systemic, you do not have to inject it into the painful area—it will find the injury on its own through your circulation.\",\n      },\n      {\n        question: \"Can I take this even if I'm not currently injured?\",\n        answer: \"Absolutely. Many people use TB-500 as a \\\"preventative\\\" to maintain joint flexibility and accelerate recovery from everyday exercise. It is particularly popular for those looking to stay active while managing the \\\"wear and tear\\\" that comes with age.\",\n      },\n    ]"
+   }
+  ]
+ },
+ "tirzepatide-injectable": {
+  "block-01": [
+   {
+    "hook": "text",
+    "name": "eyebrow",
+    "label": "Eyebrow Text",
+    "default": "COMPOUNDED TIRZEPATIDE PRESCRIBED ONLINE"
+   },
+   {
+    "hook": "text",
+    "name": "headline",
+    "label": "Headline",
+    "default": "Personalized Tirzepatide Treatment"
+   },
+   {
+    "hook": "text",
+    "name": "subheadline",
+    "label": "Subheadline",
+    "default": "Start with a free, no-obligation evaluation — only pay if a provider prescribes treatment for you."
+   },
+   {
+    "hook": "text",
+    "name": "cta-text",
+    "label": "CTA Button Text",
+    "default": "Get Started"
+   },
+   {
+    "hook": "navigation",
+    "name": "cta-link",
+    "label": "CTA Link",
+    "default": "{\n      action: \"OPEN_PAGE\",\n      destination: \"/sign-up\",\n      openIn: \"SELF\",\n    }"
+   },
+   {
+    "hook": "image",
+    "name": "lifestyle-image",
+    "label": "Lifestyle Photo",
+    "default": "{\n      src: \"https://images.unsplash.com/photo-1512290923902-8a9f81dc236c\",\n      alt: \"Natural lifestyle scene\",\n    }"
+   },
+   {
+    "hook": "image",
+    "name": "product-image",
+    "label": "Product Bottle/Vial",
+    "default": "{\n      src: \"https://images.unsplash.com/photo-1620916566398-39f1143ab7be\",\n      alt: \"Product bottle\",\n    }"
+   }
+  ],
+  "block-02": [
+   {
+    "hook": "text",
+    "name": "heading",
+    "label": "Heading",
+    "default": "If prescribed, your subscription includes:"
+   }
+  ],
+  "block-03": [
+   {
+    "hook": "text",
+    "name": "heading",
+    "label": "Heading",
+    "default": "What Are Tirzepatide Injections?"
+   },
+   {
+    "hook": "longtext",
+    "name": "body-text",
+    "label": "Body text",
+    "default": "Tirzepatide is a dual-action therapy that mimics two hunger hormones (GLP-1 and GIP). By targeting both, it sends a powerful double signal to your brain to silence cravings and keep you satisfied longer. This advanced approach resets your metabolism so weight management feels natural rather than a struggle. Compounded Tirzepatide is custom-made in regulated 503A pharmacies. Every batch is third-party tested for safety and includes a Certificate of Analysis (CoA) to verify the purity and strength of the medication delivered to your door.\n\nAthos exclusively works with licensed, FDA-registered compounding pharmacies in the United States."
+   },
+   {
+    "hook": "image",
+    "name": "product-image",
+    "label": "Product image",
+    "default": "{\n      src: \"https://replicate.delivery/xezq/F27bLNRR5FLfQ6Mzxy2nbyT3TnL6rkCXAfdMX73CFjZVvOXWA/out-0.webp\",\n      alt: \"Compounded tirzepatide vial\",\n    }"
+   }
+  ],
+  "block-04": [
+   {
+    "hook": "text",
+    "name": "eyebrow",
+    "label": "Eyebrow Text",
+    "default": "ADVANCED  |  DUAL-ACTION INJECTABLE"
+   },
+   {
+    "hook": "text",
+    "name": "headline",
+    "label": "Headline",
+    "default": "Two Hormones.\nOne Weekly Dose."
+   },
+   {
+    "hook": "longtext",
+    "name": "description",
+    "label": "Description",
+    "default": "This compounded dual-action injectable mimics two hormones at once — GLP-1 and GIP — to reduce cravings, slow digestion, and improve how your body handles blood sugar. In clinical trials, it delivered 20.9% average weight loss at 72 weeks."
+   },
+   {
+    "hook": "text",
+    "name": "cta-text",
+    "label": "CTA Button Text",
+    "default": "Get Started for \\$0"
+   },
+   {
+    "hook": "navigation",
+    "name": "cta-link",
+    "label": "CTA Button Link",
+    "default": "{\n      destination: \"/sign-up\",\n      openIn: \"SELF\",\n    }"
+   },
+   {
+    "hook": "image",
+    "name": "hero-image",
+    "label": "Hero Image",
+    "default": "{\n      src: \"https://replicate.delivery/xezq/2odFb62wHs4mA1hKlcDIoGOvPuTEID12s1EbNqUtU4xdG3lF/out-0.webp\",\n      alt: \"Compounded dual-action injectable\",\n    }"
+   }
+  ],
+  "block-05": [
+   {
+    "hook": "text",
+    "name": "banner-text",
+    "label": "Banner Text",
+    "default": "Millions already use injectable peptides from unregulated sources without medical oversight. Athos doctor-backed platform provides verified purity, proper dosing, and safe access."
+   },
+   {
+    "hook": "image",
+    "name": "vial-image",
+    "label": "Vial Image",
+    "default": "{\n      src: \"https://replicate.delivery/xezq/zVmDRGbSBFbuBdd6VzQEARA5nJAi0ulGKDK65px4SFZaF3lF/out-0.webp\",\n      alt: \"Semaglutide vial\",\n    }"
+   }
+  ],
+  "block-06": [
+   {
+    "hook": "text",
+    "name": "section-title",
+    "label": "Section Title",
+    "default": "How Athos Works"
+   },
+   {
+    "hook": "longtext",
+    "name": "section-subtitle",
+    "label": "Section Subtitle",
+    "default": "Get started with no insurance required."
+   },
+   {
+    "hook": "array",
+    "name": "steps",
+    "label": "Steps",
+    "default": "[\n      {\n        title: \"Medical Forms\",\n        description: \"Share your medical details — takes less than 5 minutes\",\n      },\n      {\n        title: \"Get Your Personalized Treatment Plan\",\n        description: \"Your healthcare provider will determine if treatment is right for you\",\n      },\n      {\n        title: \"Receive Medication\",\n        description: \"If prescribed, medication and supplies mailed straight to your door\",\n      },\n    ]"
+   }
+  ],
+  "block-07": [
+   {
+    "hook": "text",
+    "name": "heading",
+    "label": "Heading",
+    "default": "Overcome Weight Management Roadblocks"
+   },
+   {
+    "hook": "text",
+    "name": "subtitle",
+    "label": "Subtitle",
+    "default": "Athos offers the support you've been waiting for."
+   },
+   {
+    "hook": "image",
+    "name": "lifestyle-image",
+    "label": "Lifestyle Image",
+    "default": "{\n      src: \"https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b\",\n      alt: \"Lifestyle photo\",\n    }"
+   },
+   {
+    "hook": "array",
+    "name": "features",
+    "label": "Features",
+    "default": "[\n      {\n        title: \"Medically Supervised Weight Management Treatments\",\n        description: \"Weight management is personal. Our providers review your history and goals to create a plan that fits your body and lifestyle.\",\n        icon: \"stethoscope\",\n      },\n      {\n        title: \"Ongoing Provider Support\",\n        description: \"Message your care team anytime and get guidance as you progress — adjustments, check-ins, and answers when you need them.\",\n        icon: \"chat\",\n      },\n      {\n        title: \"Trusted, Licensed Care\",\n        description: \"Work with licensed clinicians and vetted partner pharmacies for safe, discreet delivery and consistent follow-up.\",\n        icon: \"badge\",\n      },\n    ]"
+   }
+  ],
+  "block-08": [
+   {
+    "hook": "text",
+    "name": "main-title",
+    "label": "Main Title",
+    "default": "Why Athos"
+   },
+   {
+    "hook": "text",
+    "name": "subtitle",
+    "label": "Subtitle",
+    "default": "The same products you believe in — prescribed legally, dosed correctly, backed by clinical oversight."
+   },
+   {
+    "hook": "text",
+    "name": "others-heading",
+    "label": "Others Column Heading",
+    "default": "Gray Market"
+   },
+   {
+    "hook": "text",
+    "name": "athos-heading",
+    "label": "Athos Column Heading",
+    "default": "Athos"
+   },
+   {
+    "hook": "longtext",
+    "name": "closing-text",
+    "label": "Closing Text",
+    "default": "Millions of people are already self-administering peptides with no licensed provider, no regulated pharmacy, and no purity verification. Athos is the clinical alternative that never existed — until now."
+   },
+   {
+    "hook": "text",
+    "name": "cta-text",
+    "label": "CTA Button Text",
+    "default": "Start Treatment"
+   },
+   {
+    "hook": "navigation",
+    "name": "cta-link",
+    "label": "CTA Link",
+    "default": "{\n      destination: \"/\",\n      openIn: \"SELF\",\n    }"
+   }
+  ],
+  "block-09": [
+   {
+    "hook": "text",
+    "name": "heading",
+    "label": "Heading",
+    "default": "Frequently Asked Questions"
+   },
+   {
+    "hook": "array",
+    "name": "faqs",
+    "label": "FAQ Items",
+    "default": "[\n      {\n        question: \"What is the Tirzepatide Injection?\",\n        answer: \"It is a once-weekly shot that mimics two natural hormones (GLP-1 and GIP) to manage weight. Our version is \\\"compounded,\\\" meaning it's custom-made in a high-end, regulated pharmacy. It contains the same active ingredient as brand-name versions but offers more flexible dosing and a steady supply.\",\n      },\n      {\n        question: \"How is it different from other weight loss shots?\",\n        answer: \"While older shots target one hormone, Tirzepatide targets two. This \\\"dual-action\\\" approach provides a more powerful reset for your metabolism and appetite, making it highly effective at quieting \\\"food noise\\\" and curbing intense cravings.\",\n      },\n      {\n        question: \"Is the injection safe?\",\n        answer: \"Yes, when used under a licensed doctor's care. We work only with top-tier, US-based pharmacies that test every batch for purity. While custom mixes aren't pre-approved by the FDA, they are produced in regulated facilities to ensure they meet strict quality and safety standards.\",\n      },\n      {\n        question: \"Does the shot hurt?\",\n        answer: \"Hardly. It uses a tiny, thin needle designed for a quick injection just under the skin (usually the stomach or thigh). The process takes about 30 seconds once a week, and most people find it much easier and more painless than they expected.\",\n      },\n      {\n        question: \"Will I have side effects?\",\n        answer: \"Some people feel mild nausea or an upset stomach initially. To prevent this, we start you on a very low dose and gradually increase it as your body adapts. Most side effects are temporary and fade quickly as you adjust to the medication.\",\n      },\n      {\n        question: \"How much weight can I expect to lose?\",\n        answer: \"Clinical results for Tirzepatide are among the highest ever recorded for weight loss medication. While everyone is different, most people see significant changes compared to diet alone. You'll work with your doctor to set and reach goals that fit your lifestyle.\",\n      },\n      {\n        question: \"How soon will the \\\"food noise\\\" stop?\",\n        answer: \"Many feel their appetite \\\"quiet\\\" within just a few days of the first shot. While the most dramatic physical transformations usually happen after 2 or 3 months at a full dose, the freedom from constant cravings often starts almost immediately.\",\n      },\n    ]"
+   }
+  ]
+ }
+}
