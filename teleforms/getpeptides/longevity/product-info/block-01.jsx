@@ -115,7 +115,7 @@ const GOAL_MAP = { "cellular-energy": "Cellular energy", cognitive: "Cognitive c
 const goalLabel = c => (c.subType && GOAL_MAP[c.subType]) || (c.peptide === "motsc" ? "Metabolic optimization" : "Cellular energy and longevity");
 
 /* ── Orbit ── */
-const ORBIT_BASE = "https://onboard.myorbithealth.com/form/athos-wellness";
+const ORBIT_BASE = "https://checkout.athos.example/form/athos-wellness";
 function buildNotes(d) { const l = d.selectedProduct?.label || "Unknown"; const pr = d.priorPeptides === "none" ? "No prior peptide use" : `Prior: ${d.priorPeptides}`; const micro = d.microDose ? "\nMICRO-DOSE PROTOCOL — BILLING EVERY 2 MONTHS" : ""; return `Patient requests: ${l}\nOther info: ${pr}, BMI ${d.bmi || "?"}, Goal: ${goalLabel(d)}${micro}`; }
 function buildScript(st, notes) { const s = st.replace(/\\/g, "\\\\").replace(/'/g, "\\'"); const n = notes.replace(/\\/g, "\\\\").replace(/'/g, "\\'").replace(/\n/g, "\\n"); return `<script>(function(){function tp(){if(typeof answers==='undefined'||typeof showStep==='undefined'||typeof STEPS==='undefined'){setTimeout(tp,200);return}var ni=STEPS.findIndex(function(s){return s.id.indexOf('note')!==-1});var nid=STEPS[ni]?STEPS[ni].id:'patient-notes';answers['state']='${s}';answers[nid]='${n}';var _o=showStep;window.showStep=function(n){_o(n);if(n===ni){setTimeout(function(){var ta=document.querySelector('.step.active textarea');if(ta){ta.value=answers[nid];ta.dispatchEvent(new Event('input',{bubbles:true}))}},300)}};showStep(3)}tp()})()\x3c/script>`; }
 

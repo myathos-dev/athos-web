@@ -152,15 +152,15 @@ const CategoryIllustrations = {
 
 
 const CHECKOUT_URLS = {
-  nad:        "https://onboard.myorbithealth.com/form/athos-wellness/nad",
-  motsc:      "https://onboard.myorbithealth.com/form/athos-wellness/mots-c",
-  bpc:        "https://onboard.myorbithealth.com/form/athos-wellness/bpc-157",
-  tb500:      "https://onboard.myorbithealth.com/form/athos-wellness/tb-500",
-  wolverine:  "https://onboard.myorbithealth.com/form/athos-wellness/wolverine",
-  cjc:        "https://onboard.myorbithealth.com/form/athos-wellness/cjc-ipamorelin",
-  glo:        "https://onboard.myorbithealth.com/form/athos-wellness/glo",
-  klow:       "https://onboard.myorbithealth.com/form/athos-wellness/klow",
-  sermorelin: "https://onboard.myorbithealth.com/form/athos-wellness/sermorelin",
+  nad:        "https://checkout.athos.example/form/athos-wellness/nad",
+  motsc:      "https://checkout.athos.example/form/athos-wellness/mots-c",
+  bpc:        "https://checkout.athos.example/form/athos-wellness/bpc-157",
+  tb500:      "https://checkout.athos.example/form/athos-wellness/tb-500",
+  wolverine:  "https://checkout.athos.example/form/athos-wellness/wolverine",
+  cjc:        "https://checkout.athos.example/form/athos-wellness/cjc-ipamorelin",
+  glo:        "https://checkout.athos.example/form/athos-wellness/glo",
+  klow:       "https://checkout.athos.example/form/athos-wellness/klow",
+  sermorelin: "https://checkout.athos.example/form/athos-wellness/sermorelin",
 };
 
 const PROMO = {

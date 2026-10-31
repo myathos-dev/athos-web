@@ -2,7 +2,7 @@
 export default function Block() {
   const pageTitle = "Notice of Privacy Practices";
   const lastUpdated = "April 19, 2026";
-  const contactEmail = "privacy@athoshealth.com";
+  const contactEmail = "privacy@athos.example";
   const contactPhone = "(000) 000-0000";
   const postalAddress = "[Registered Agent Address]";
 
@@ -39,7 +39,7 @@ export default function Block() {
               <h2 className="text-2xl md:text-3xl" style={{ color: "#1a1a1a" }}>Who We Are</h2>
             </div>
             <p className="text-base leading-relaxed text-muted-foreground mb-4">Dhruv Physician Assistant, A Professional Corporation P.C. is an independent Medical Services Organization ("MSO") operating a licensed physician and pharmacy network across all 50 states. Dhruv Physician PC provides clinical care, prescribing, and dispensing services through its network of licensed healthcare professionals.</p>
-            <p className="text-base leading-relaxed text-muted-foreground mb-4">Athos, a licensed entity of Symbiotix, is a telehealth platform that facilitates the connection between patients and Dhruv Physician Assistant, A Professional Corporation P.C. by providing administrative and operational support, including the recruitment and onboarding of qualified healthcare professionals. Athos does not provide medical services, store personal health data, or influence clinical decision-making.</p>
+            <p className="text-base leading-relaxed text-muted-foreground mb-4">Athos, a licensed entity of Symbiotix-demo, is a telehealth platform that facilitates the connection between patients and Dhruv Physician Assistant, A Professional Corporation P.C. by providing administrative and operational support, including the recruitment and onboarding of qualified healthcare professionals. Athos does not provide medical services, store personal health data, or influence clinical decision-making.</p>
             <p className="text-base leading-relaxed text-muted-foreground">This Notice of Privacy Practices ("Notice") describes the privacy practices of Dhruv Physician Assistant, A Professional Corporation P.C. and its physicians, healthcare practitioners, and other personnel, including those providing virtual or telemedicine services ("we," "us," or "our").</p>
           </div>
 
@@ -210,7 +210,7 @@ export default function Block() {
           <div className="pt-10" style={{ borderTop: "1px solid rgba(36,92,58,0.12)" }}>
             <p className="text-xs font-medium tracking-wider uppercase mb-4" style={{ color: "rgba(36,92,58,0.5)" }}>Platform Disclaimer</p>
             <div className="space-y-3">
-              <p className="text-xs leading-relaxed text-muted-foreground">Athos is a telehealth platform licensed by Symbiotix, providing administrative and operational support to licensed physicians and healthcare practitioners. Athos does not provide medical or pharmacy services, employ healthcare providers, compound or manufacture medications, or influence clinical decision-making.</p>
+              <p className="text-xs leading-relaxed text-muted-foreground">Athos is a telehealth platform licensed by Symbiotix-demo, providing administrative and operational support to licensed physicians and healthcare practitioners. Athos does not provide medical or pharmacy services, employ healthcare providers, compound or manufacture medications, or influence clinical decision-making.</p>
               <p className="text-xs leading-relaxed text-muted-foreground">All clinical services are delivered by Dhruv Physician Assistant, A Professional Corporation P.C., an independent Medical Services Organization operating licensed 503(A) compounding pharmacies and FDA-registered 503(B) outsourcing facilities, with a physician network across all 50 states.</p>
               <p className="text-xs leading-relaxed text-muted-foreground">Compounded medications are not FDA-approved. Compounded semaglutide is not equivalent to any FDA-approved product. Individual results may vary. Payment does not guarantee prescribing or dispensing of any medication. All treatment decisions are made by the prescribing provider.</p>
               <p className="text-xs leading-relaxed text-muted-foreground">This website is for informational purposes only and does not constitute medical advice, diagnosis, or treatment. This website constitutes an advertisement for telehealth platform services.</p>

@@ -2,7 +2,7 @@
 export default function Block() {
   const pageTitle = "Cash-Pay Policy";
   const lastUpdated = "April 22, 2026";
-  const contactEmail = "legal@athoshealth.com";
+  const contactEmail = "legal@athos.example";
   const emergencyNotice = "Athos is limited to providing consultations for specific non-emergency medical conditions. If you believe you are experiencing a medical emergency, please dial 911 or contact your local medical provider immediately.";
 
   return (
@@ -43,7 +43,7 @@ export default function Block() {
               <span className="flex items-center justify-center w-9 h-9 rounded-full text-sm font-medium" style={{ backgroundColor: "rgba(36,92,58,0.08)", color: "#245C3A" }}>I</span>
               <h2 className="text-2xl md:text-3xl" style={{ color: "#1a1a1a" }}>Attestation</h2>
             </div>
-            <p className="text-base leading-relaxed text-muted-foreground mb-4">Symbiotix LLC, d/b/a Athos ("Athos"), and Dhruv Physician Assistant, A Professional Corporation ("MSO"), hereby attest that:</p>
+            <p className="text-base leading-relaxed text-muted-foreground mb-4">Symbiotix-demo LLC, d/b/a Athos ("Athos"), and Dhruv Physician Assistant, A Professional Corporation ("MSO"), hereby attest that:</p>
             <div className="rounded-xl p-5" style={{ backgroundColor: "rgba(36,92,58,0.06)", border: "1px solid rgba(36,92,58,0.12)" }}>
               <ul className="space-y-3 pl-5">
                 <li className="text-base leading-relaxed" style={{ color: "#1a1a1a" }}>Athos and the MSO do not bill, submit claims to, seek reimbursement from, or participate in any Federal health care program as defined in 42 U.S.C. § 1320a-7b(f).</li>
@@ -129,7 +129,7 @@ export default function Block() {
           <div className="pt-10" style={{ borderTop: "1px solid rgba(36,92,58,0.12)" }}>
             <p className="text-xs font-medium tracking-wider uppercase mb-4" style={{ color: "rgba(36,92,58,0.5)" }}>Platform Disclaimer</p>
             <div className="space-y-3">
-              <p className="text-xs leading-relaxed text-muted-foreground">Athos is a telehealth platform licensed by Symbiotix, providing administrative and operational support to licensed physicians and healthcare practitioners. Athos does not provide medical or pharmacy services, employ healthcare providers, compound or manufacture medications, or influence clinical decision-making.</p>
+              <p className="text-xs leading-relaxed text-muted-foreground">Athos is a telehealth platform licensed by Symbiotix-demo, providing administrative and operational support to licensed physicians and healthcare practitioners. Athos does not provide medical or pharmacy services, employ healthcare providers, compound or manufacture medications, or influence clinical decision-making.</p>
               <p className="text-xs leading-relaxed text-muted-foreground">All clinical services are delivered by Dhruv Physician Assistant, A Professional Corporation, an independent Medical Services Organization operating licensed 503(A) compounding pharmacies and FDA-registered 503(B) outsourcing facilities, with a physician network across all 50 states.</p>
               <p className="text-xs leading-relaxed text-muted-foreground">Compounded medications are not FDA-approved. Compounded semaglutide is not equivalent to any FDA-approved product. Individual results may vary. Payment does not guarantee prescribing or dispensing of any medication. All treatment decisions are made by the prescribing provider.</p>
               <p className="text-xs leading-relaxed text-muted-foreground">This website is for informational purposes only and does not constitute medical advice, diagnosis, or treatment. This website constitutes an advertisement for telehealth platform services.</p>

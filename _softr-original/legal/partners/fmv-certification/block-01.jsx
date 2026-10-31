@@ -14,7 +14,7 @@ export default function Block() {
     const contactEmail = useTextSetting({
         name: "contact-email",
         label: "Legal contact email",
-        initialValue: "legal@athoshealth.com",
+        initialValue: "legal@athos.example",
     });
     const emergencyNotice = useLongTextSetting({
         name: "emergency-notice",
@@ -109,7 +109,7 @@ export default function Block() {
                             <span className="flex items-center justify-center w-9 h-9 rounded-full text-sm font-medium" style={{ backgroundColor: "rgba(36,92,58,0.08)", color: "#245C3A" }}>IV</span>
                             <h2 className="text-2xl md:text-3xl" style={{ color: "#1a1a1a" }}>Purpose</h2>
                         </div>
-                        <p className="text-base leading-relaxed text-muted-foreground mb-4">This Fair Market Value Certification ("Certification") has been prepared to support the Marketing Services Agreement ("MSA") between Symbiotix LLC, d/b/a Athos ("Company"), and its independent Marketing Partners.</p>
+                        <p className="text-base leading-relaxed text-muted-foreground mb-4">This Fair Market Value Certification ("Certification") has been prepared to support the Marketing Services Agreement ("MSA") between Symbiotix-demo LLC, d/b/a Athos ("Company"), and its independent Marketing Partners.</p>
                         <p className="text-base leading-relaxed text-muted-foreground">The purpose of this Certification is to document that the compensation methodology and rates set forth in the MSA reflect fair market value for the marketing services described, are commercially reasonable, and are not determined in a manner that takes into account the volume or value of referrals or business generated between the parties.</p>
                     </div>
 
@@ -128,7 +128,7 @@ export default function Block() {
                         </div>
                         <p className="text-base leading-relaxed text-muted-foreground mb-4">The undersigned valuator confirms:</p>
                         <ul className="space-y-2 pl-6">
-                            <li className="text-base leading-relaxed text-muted-foreground list-disc">The valuator has no financial interest, ownership stake, or compensation arrangement with Athos, Symbiotix, or the MSO other than the fee for this engagement.</li>
+                            <li className="text-base leading-relaxed text-muted-foreground list-disc">The valuator has no financial interest, ownership stake, or compensation arrangement with Athos, Symbiotix-demo, or the MSO other than the fee for this engagement.</li>
                             <li className="text-base leading-relaxed text-muted-foreground list-disc">The fee for this engagement is not contingent on the outcome of the valuation.</li>
                             <li className="text-base leading-relaxed text-muted-foreground list-disc">The valuator is qualified to perform healthcare compensation valuation and holds relevant professional credentials.</li>
                         </ul>
@@ -249,7 +249,7 @@ export default function Block() {
                     <div className="pt-10" style={{ borderTop: "1px solid rgba(36,92,58,0.12)" }}>
                         <p className="text-xs font-medium tracking-wider uppercase mb-4" style={{ color: "rgba(36,92,58,0.5)" }}>Platform Disclaimer</p>
                         <div className="space-y-3">
-                            <p className="text-xs leading-relaxed text-muted-foreground">Athos is a telehealth platform licensed by Symbiotix, providing administrative and operational support to licensed physicians and healthcare practitioners. Athos does not provide medical or pharmacy services, employ healthcare providers, compound or manufacture medications, or influence clinical decision-making.</p>
+                            <p className="text-xs leading-relaxed text-muted-foreground">Athos is a telehealth platform licensed by Symbiotix-demo, providing administrative and operational support to licensed physicians and healthcare practitioners. Athos does not provide medical or pharmacy services, employ healthcare providers, compound or manufacture medications, or influence clinical decision-making.</p>
                             <p className="text-xs leading-relaxed text-muted-foreground">All clinical services are delivered by Dhruv Physician Assistant, A Professional Corporation, an independent Medical Services Organization operating licensed 503(A) compounding pharmacies and FDA-registered 503(B) outsourcing facilities, with a physician network across all 50 states.</p>
                             <p className="text-xs leading-relaxed text-muted-foreground">Compounded medications are not FDA-approved. Compounded semaglutide is not equivalent to any FDA-approved product. Individual results may vary. Payment does not guarantee prescribing or dispensing of any medication. All treatment decisions are made by the prescribing provider.</p>
                             <p className="text-xs leading-relaxed text-muted-foreground">This website is for informational purposes only and does not constitute medical advice, diagnosis, or treatment. This website constitutes an advertisement for telehealth platform services.</p>

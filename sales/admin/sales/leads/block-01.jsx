@@ -16,7 +16,7 @@ const readSelect = ({
   status: "FdlkA", assigned_rep: "KEi5L",
   phone_1: "xEZBF", phone_2: "idy7i", email: "sZk85",
   sales_notes: "YmVZJ", admin_reviewed: "51MnN", admin_notes: "K496s",
-  tasks_completed: "A3XJ9", email_drip_active: "byeHC",
+  tasks_completed: "A3XJ9",
 });
 
 const writeFields = ({
@@ -24,7 +24,7 @@ const writeFields = ({
   status: "FdlkA", assigned_rep: "KEi5L",
   phone_1: "xEZBF", phone_2: "idy7i", email: "sZk85",
   sales_notes: "YmVZJ", admin_reviewed: "51MnN", admin_notes: "K496s",
-  tasks_completed: "A3XJ9", email_drip_active: "byeHC",
+  tasks_completed: "A3XJ9",
 });
 
 /* ── Constants ─────────────────────────────────────────────── */
@@ -159,7 +159,6 @@ export default function Block({ items: sourceItems = [], user = null, isAdmin = 
   const [editNotes, setEditNotes] = useState("");
   const [editAdminNotes, setEditAdminNotes] = useState("");
   const [editAdminReviewed, setEditAdminReviewed] = useState(false);
-  const [editDrip, setEditDrip] = useState(false);
   const [saving, setSaving] = useState(false);
 
   /* ── Note modal state ── */
@@ -264,7 +263,6 @@ export default function Block({ items: sourceItems = [], user = null, isAdmin = 
     setEditNotes(f.sales_notes || "");
     setEditAdminNotes(f.admin_notes || "");
     setEditAdminReviewed(!!f.admin_reviewed);
-    setEditDrip(!!f.email_drip_active);
     setExpandedId(id);
   };
 
@@ -286,7 +284,6 @@ export default function Block({ items: sourceItems = [], user = null, isAdmin = 
       phone_2: editPhone2.trim(),
       email: editEmail.trim(),
       sales_notes: editNotes.trim(),
-      email_drip_active: editDrip,
     };
     if (isAdmin) {
       fields.admin_reviewed = editAdminReviewed;
@@ -503,7 +500,7 @@ export default function Block({ items: sourceItems = [], user = null, isAdmin = 
                       <div style={{ display: "flex", flexDirection: "column", gap: 14 }}>
                         {/* Quick links */}
                         <div style={{ display: "flex", gap: 6, flexWrap: "wrap" }}>
-                          {handle && <a href={`https://instagram.com/${handle}`} target="_blank" rel="noopener noreferrer" style={{ ...pill(false, P), textDecoration: "none", padding: "6px 12px" }}>{I.ig} @{handle} {I.ext}</a>}
+
                           {editPhone1 && <a href={`tel:${editPhone1.replace(/\D/g, "")}`} style={{ ...pill(false, TEAL), textDecoration: "none", padding: "6px 12px" }}>{I.phone} {editPhone1}</a>}
                           {editEmail && <a href={`mailto:${editEmail}`} style={{ ...pill(false, TEAL), textDecoration: "none", padding: "6px 12px" }}>{I.mail} {editEmail}</a>}
                         </div>
@@ -537,14 +534,6 @@ export default function Block({ items: sourceItems = [], user = null, isAdmin = 
                               </button>
                             ))}
                           </div>
-                        </div>
-
-                        {/* Drip toggle */}
-                        <div style={{ backgroundColor: "#fff", borderRadius: 12, border: "1px solid rgba(0,0,0,0.06)", padding: "10px 14px", display: "flex", alignItems: "center", justifyContent: "space-between" }}>
-                          <span style={{ fontSize: 13, fontWeight: 500, color: PD }}>Email Drip Campaign</span>
-                          <button onClick={() => setEditDrip(!editDrip)} style={{ width: 40, height: 22, borderRadius: 11, border: "none", backgroundColor: editDrip ? P : "rgba(0,0,0,0.12)", position: "relative", cursor: "pointer", transition: "background-color .2s", padding: 0, flexShrink: 0 }}>
-                            <span style={{ position: "absolute", top: 2, left: editDrip ? 20 : 2, width: 18, height: 18, borderRadius: "50%", backgroundColor: "#fff", boxShadow: "0 1px 3px rgba(0,0,0,0.2)", transition: "left .2s" }} />
-                          </button>
                         </div>
 
                         {/* Admin panel */}

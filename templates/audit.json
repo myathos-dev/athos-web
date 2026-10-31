@@ -1,17 +1,13 @@
 {
  "brand name 'Athos'": {
-  "hits": 558,
+  "hits": 594,
   "pages": 60
  },
- "domain athoshealth.com": {
-  "hits": 24,
-  "pages": 18
+ "demo domain athos.example": {
+  "hits": 37,
+  "pages": 22
  },
- "domain myathos.com": {
-  "hits": 10,
-  "pages": 2
- },
- "parent entity Symbiotix": {
+ "parent entity Symbiotix-demo": {
   "hits": 41,
   "pages": 19
  },
@@ -19,7 +15,7 @@
   "hits": 63,
   "pages": 19
  },
- "checkout: MyOrbit form URL / athos-wellness slug": {
+ "checkout: mock form URL / athos-wellness slug": {
   "hits": 24,
   "pages": 4
  },

@@ -2,7 +2,7 @@
 export default function Block() {
   const pageTitle = "Terms of Use";
   const lastUpdated = "April 22, 2026";
-  const contactEmail = "legal@athoshealth.com";
+  const contactEmail = "legal@athos.example";
   const emergencyNotice = "Athos is limited to providing consultations for specific non-emergency medical conditions. If you believe you are experiencing a medical emergency, please dial 911 or contact your local medical provider immediately.";
 
   return (
@@ -47,7 +47,7 @@ export default function Block() {
               <span className="flex items-center justify-center w-9 h-9 rounded-full text-sm font-medium" style={{ backgroundColor: "rgba(36,92,58,0.08)", color: "#245C3A" }}>I</span>
               <h2 className="text-2xl md:text-3xl" style={{ color: "#1a1a1a" }}>Acceptance of Terms</h2>
             </div>
-            <p className="text-base leading-relaxed text-muted-foreground mb-4">These Terms of Use ("Terms") govern your access to and use of the website, applications, and services operated by Athos, a licensed entity of Symbiotix (collectively, "Athos," "we," "our," or "us"), including all content, functionality, and services offered on or through myathos.com (the "Platform").</p>
+            <p className="text-base leading-relaxed text-muted-foreground mb-4">These Terms of Use ("Terms") govern your access to and use of the website, applications, and services operated by Athos, a licensed entity of Symbiotix-demo (collectively, "Athos," "we," "our," or "us"), including all content, functionality, and services offered on or through athos.example (the "Platform").</p>
             <p className="text-base leading-relaxed text-muted-foreground mb-4">By accessing the Platform, creating an account, or using any service, you accept and agree to be bound by these Terms, our <a href="/privacy" style={{ color: "#245C3A", textDecoration: "underline" }}>Privacy Policy</a>, and our <a href="/affiliate-disclosure" style={{ color: "#245C3A", textDecoration: "underline" }}>Affiliate Disclosure</a>, each of which is incorporated by reference.</p>
             <p className="text-base leading-relaxed text-muted-foreground">If you do not agree to these Terms, you must not access or use the Platform.</p>
           </div>
@@ -162,7 +162,7 @@ export default function Block() {
               <p className="text-sm leading-relaxed text-muted-foreground">The Platform and all content, services, and functionality are provided on an "as is" and "as available" basis without warranties of any kind, whether express, implied, statutory, or otherwise, including implied warranties of merchantability, fitness for a particular purpose, title, and non-infringement.</p>
             </div>
 
-            <p className="text-base leading-relaxed text-muted-foreground mb-4">To the maximum extent permitted by applicable law, Athos, Symbiotix, the MSO, and their respective officers, directors, employees, agents, and affiliates shall not be liable for any indirect, incidental, special, consequential, or punitive damages, including but not limited to loss of profits, data, use, goodwill, or other intangible losses, arising out of or related to your access to or use of (or inability to access or use) the Platform.</p>
+            <p className="text-base leading-relaxed text-muted-foreground mb-4">To the maximum extent permitted by applicable law, Athos, Symbiotix-demo, the MSO, and their respective officers, directors, employees, agents, and affiliates shall not be liable for any indirect, incidental, special, consequential, or punitive damages, including but not limited to loss of profits, data, use, goodwill, or other intangible losses, arising out of or related to your access to or use of (or inability to access or use) the Platform.</p>
             <p className="text-base leading-relaxed text-muted-foreground mb-4">Athos's total aggregate liability for all claims arising out of or related to these Terms or the Platform shall not exceed the amount you paid to Athos in the twelve (12) months immediately preceding the event giving rise to the claim, or one hundred dollars (\$100), whichever is greater.</p>
             <p className="text-base leading-relaxed text-muted-foreground">Athos is not liable for any clinical decisions, treatment outcomes, prescribing decisions, or adverse events arising from care delivered by the MSO or its providers. Clinical liability rests solely with the MSO and the treating provider.</p>
           </div>
@@ -173,7 +173,7 @@ export default function Block() {
               <span className="flex items-center justify-center w-9 h-9 rounded-full text-sm font-medium" style={{ backgroundColor: "rgba(36,92,58,0.08)", color: "#245C3A" }}>X</span>
               <h2 className="text-2xl md:text-3xl" style={{ color: "#1a1a1a" }}>Indemnification</h2>
             </div>
-            <p className="text-base leading-relaxed text-muted-foreground">You agree to indemnify, defend, and hold harmless Athos, Symbiotix, the MSO, and their respective officers, directors, employees, agents, and affiliates from and against any claims, damages, losses, liabilities, costs, and expenses (including reasonable attorneys' fees) arising out of or related to your violation of these Terms, your use of the Platform, any content you submit or transmit through the Platform, or your violation of any applicable law or the rights of any third party.</p>
+            <p className="text-base leading-relaxed text-muted-foreground">You agree to indemnify, defend, and hold harmless Athos, Symbiotix-demo, the MSO, and their respective officers, directors, employees, agents, and affiliates from and against any claims, damages, losses, liabilities, costs, and expenses (including reasonable attorneys' fees) arising out of or related to your violation of these Terms, your use of the Platform, any content you submit or transmit through the Platform, or your violation of any applicable law or the rights of any third party.</p>
           </div>
 
           {/* XI — Dispute Resolution */}
@@ -230,7 +230,7 @@ export default function Block() {
           <div className="pt-10" style={{ borderTop: "1px solid rgba(36,92,58,0.12)" }}>
             <p className="text-xs font-medium tracking-wider uppercase mb-4" style={{ color: "rgba(36,92,58,0.5)" }}>Platform Disclaimer</p>
             <div className="space-y-3">
-              <p className="text-xs leading-relaxed text-muted-foreground">Athos is a telehealth platform licensed by Symbiotix, providing administrative and operational support to licensed physicians and healthcare practitioners. Athos does not provide medical or pharmacy services, employ healthcare providers, compound or manufacture medications, or influence clinical decision-making.</p>
+              <p className="text-xs leading-relaxed text-muted-foreground">Athos is a telehealth platform licensed by Symbiotix-demo, providing administrative and operational support to licensed physicians and healthcare practitioners. Athos does not provide medical or pharmacy services, employ healthcare providers, compound or manufacture medications, or influence clinical decision-making.</p>
               <p className="text-xs leading-relaxed text-muted-foreground">All clinical services are delivered by Dhruv Physician Assistant, A Professional Corporation, an independent Medical Services Organization operating licensed 503(A) compounding pharmacies and FDA-registered 503(B) outsourcing facilities, with a physician network across all 50 states.</p>
               <p className="text-xs leading-relaxed text-muted-foreground">Compounded medications are not FDA-approved. Compounded semaglutide is not equivalent to any FDA-approved product. Individual results may vary. Payment does not guarantee prescribing or dispensing of any medication. All treatment decisions are made by the prescribing provider.</p>
               <p className="text-xs leading-relaxed text-muted-foreground">This website is for informational purposes only and does not constitute medical advice, diagnosis, or treatment. This website constitutes an advertisement for telehealth platform services.</p>

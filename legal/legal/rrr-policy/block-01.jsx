@@ -2,7 +2,7 @@
 export default function Block() {
   const pageTitle = "Refunds, Returns & Replacements";
   const lastUpdated = "April 19, 2026";
-  const contactEmail = "support@athoshealth.com";
+  const contactEmail = "support@athos.example";
   const contactPhone = "(000) 000-0000";
 
   return (
@@ -37,7 +37,7 @@ export default function Block() {
               <span className="flex items-center justify-center w-9 h-9 rounded-full text-sm font-medium" style={{ backgroundColor: "rgba(36,92,58,0.08)", color: "#245C3A" }}>1</span>
               <h2 className="text-2xl md:text-3xl" style={{ color: "#1a1a1a" }}>Purpose, Scope, and Governing Authority</h2>
             </div>
-            <p className="text-base leading-relaxed text-muted-foreground mb-4">This Refunds, Returns & Replacements Policy ("Policy") governs the conditions under which Athos, a licensed entity of Symbiotix ("Athos," "we," "our," or "us"), and Dhruv Physician Assistant, A Professional Corporation P.C. ("MSO") may issue refunds or authorize replacement shipments.</p>
+            <p className="text-base leading-relaxed text-muted-foreground mb-4">This Refunds, Returns & Replacements Policy ("Policy") governs the conditions under which Athos, a licensed entity of Symbiotix-demo ("Athos," "we," "our," or "us"), and Dhruv Physician Assistant, A Professional Corporation P.C. ("MSO") may issue refunds or authorize replacement shipments.</p>
             <p className="text-base leading-relaxed text-muted-foreground mb-4">This Policy applies to all prescription medications, non-prescription products, subscription services, and any related goods or services purchased or obtained through the Athos website, mobile applications, telehealth platform, or affiliated pharmacies operated by the MSO (collectively, the "Services").</p>
             <p className="text-base leading-relaxed text-muted-foreground">This Policy is issued pursuant to and interpreted in harmony with all applicable federal, state, and local laws, including pharmacy practice acts, consumer protection statutes, and shipping regulations. Where any mandatory legal requirement conflicts with this Policy, the requirement of law shall prevail.</p>
           </div>
@@ -233,7 +233,7 @@ export default function Block() {
           <div className="pt-10" style={{ borderTop: "1px solid rgba(36,92,58,0.12)" }}>
             <p className="text-xs font-medium tracking-wider uppercase mb-4" style={{ color: "rgba(36,92,58,0.5)" }}>Platform Disclaimer</p>
             <div className="space-y-3">
-              <p className="text-xs leading-relaxed text-muted-foreground">Athos is a telehealth platform licensed by Symbiotix, providing administrative and operational support to licensed physicians and healthcare practitioners. Athos does not provide medical or pharmacy services, employ healthcare providers, compound or manufacture medications, or influence clinical decision-making.</p>
+              <p className="text-xs leading-relaxed text-muted-foreground">Athos is a telehealth platform licensed by Symbiotix-demo, providing administrative and operational support to licensed physicians and healthcare practitioners. Athos does not provide medical or pharmacy services, employ healthcare providers, compound or manufacture medications, or influence clinical decision-making.</p>
               <p className="text-xs leading-relaxed text-muted-foreground">All clinical services are delivered by Dhruv Physician Assistant, A Professional Corporation P.C., an independent Medical Services Organization operating licensed 503(A) compounding pharmacies and FDA-registered 503(B) outsourcing facilities, with a physician network across all 50 states.</p>
               <p className="text-xs leading-relaxed text-muted-foreground">Compounded medications are not FDA-approved. Compounded semaglutide is not equivalent to any FDA-approved product. Individual results may vary. Payment does not guarantee prescribing or dispensing of any medication. All treatment decisions are made by the prescribing provider.</p>
               <p className="text-xs leading-relaxed text-muted-foreground">This website is for informational purposes only and does not constitute medical advice, diagnosis, or treatment. This website constitutes an advertisement for telehealth platform services.</p>

@@ -225,7 +225,7 @@ const STACKS = [
 ];
 
 /* ── Orbit Checkout ── */
-const ORBIT_BASE = "https://onboard.myorbithealth.com/form/athos-wellness";
+const ORBIT_BASE = "https://checkout.athos.example/form/athos-wellness";
 
 const CSS = `@keyframes tfSIR{from{opacity:0;transform:translateX(60px)}to{opacity:1;transform:translateX(0)}}@keyframes tfSOL{from{opacity:1;transform:translateX(0)}to{opacity:0;transform:translateX(-60px)}}@keyframes tfSIL{from{opacity:0;transform:translateX(-60px)}to{opacity:1;transform:translateX(0)}}@keyframes tfSOR{from{opacity:1;transform:translateX(0)}to{opacity:0;transform:translateX(60px)}}.tf-ef{animation:tfSIR .4s cubic-bezier(.16,1,.3,1) forwards}.tf-xf{animation:tfSOL .3s cubic-bezier(.7,0,.84,0) forwards}.tf-eb{animation:tfSIL .4s cubic-bezier(.16,1,.3,1) forwards}.tf-xb{animation:tfSOR .3s cubic-bezier(.7,0,.84,0) forwards}.tf-idle{opacity:1;transform:translateX(0)}@keyframes tfFI{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}.tf-fi{animation:tfFI .4s cubic-bezier(.16,1,.3,1) forwards}@keyframes tfFtI{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:translateY(0)}}.tf-fta{animation:tfFtI .35s cubic-bezier(.16,1,.3,1) forwards}`;
 

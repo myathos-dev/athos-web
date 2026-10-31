@@ -2,7 +2,7 @@
 
 **Goal:** onboard a new telehealth client by picking modules and filling in one config file, instead of copying 61 pages and editing them by hand.
 
-This is a proposal for the dev, not a finished system. The inventory files are generated from the migrated pages, so they're accurate today. The build approach is open.
+This is a proposal, not a finished system. The inventory files are generated from the migrated pages, so they're accurate today. The build approach is open.
 
 ## What's in this folder
 
@@ -59,21 +59,20 @@ Softr had already separated these from the code. The migration replaced each one
 
 | Value | Hits | Pages |
 |---|---|---|
-| Brand name "Athos" | 558 | 60 |
+| Brand name "Athos" | 594 | 60 |
 | Brand colors `#245C3A` / `#16625F` / `#1a4d2e` / `#558E8D` | 1,925 | 48 |
 | Fonts: DM Serif Display / DM Sans / Canela / Telegraf | 566 | 42 |
 | MSO name (Dhruv…) | 63 | 19 |
-| Parent entity "Symbiotix" | 41 | 19 |
-| Emails at athoshealth.com | 24 | 18 |
-| Domain myathos.com | 10 | 2 |
-| Checkout: MyOrbit URL / `athos-wellness` slug | 24 | 4 |
+| Parent entity "Symbiotix-demo" | 41 | 19 |
+| Demo domain athos.example | 37 | 22 |
+| Checkout: mock URL / `athos-wellness` slug | 24 | 4 |
 | Images on replicate.delivery | 54 | 17 |
 | Images on Unsplash (placeholders) | 40 | 11 |
 | Images on softr-files | 6 | 6 |
 
 The teleforms had no Softr settings, so everything in them is hardcoded.
 
-## Proposed approach (the dev decides)
+## Proposed approach (open decision)
 
 ### Option A — config-driven React in one codebase (recommended)
 
@@ -134,4 +133,3 @@ This is the fastest to start and the worst to maintain: fixes don't carry over t
   - `/getpeptides/cognitive` and `/getpeptides/fitness` (linked from the guides).
 - **A crash.** `/getpeptides/recovery/product-info` crashes on "Continue to health intake" because of hook order.
 - **Temporary and Softr-hosted images.** Images on replicate.delivery are likely temporary, and images on softr-files go away when Softr is shut off.
-- **Two domains.** The pages use both athoshealth.com and myathos.com. Pick one before it becomes a config default.

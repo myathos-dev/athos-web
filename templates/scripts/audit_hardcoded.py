@@ -9,11 +9,10 @@ import os, re, sys, json
 from collections import defaultdict
 TOKENS = {
   "brand name 'Athos'": r"\bAthos\b",
-  "domain athoshealth.com": r"athoshealth\.com",
-  "domain myathos.com": r"myathos\.com",
-  "parent entity Symbiotix": r"Symbiotix",
+  "demo domain athos.example": r"athos\.example",
+  "parent entity Symbiotix-demo": r"Symbiotix-demo",
   "MSO name (Dhruv...)": r"Dhruv",
-  "checkout: MyOrbit form URL / athos-wellness slug": r"myorbithealth|athos-wellness",
+  "checkout: mock form URL / athos-wellness slug": r"checkout\.athos\.example|athos-wellness",
   "placeholder phone (000) 000-0000": r"\(000\) 000-0000",
   "placeholder address": r"\[Registered Agent Address\]",
   "brand green #245C3A": r"#245C3A",

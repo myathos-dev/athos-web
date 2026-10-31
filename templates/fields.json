@@ -967,7 +967,7 @@
     "hook": "text",
     "name": "contact-email",
     "label": "Legal contact email",
-    "default": "legal@athoshealth.com"
+    "default": "legal@athos.example"
    },
    {
     "hook": "navigation",
@@ -1037,7 +1037,7 @@
     "hook": "text",
     "name": "accessibility-email",
     "label": "Accessibility email",
-    "default": "accessibility@athoshealth.com"
+    "default": "accessibility@athos.example"
    },
    {
     "hook": "text",
@@ -1065,7 +1065,7 @@
     "hook": "text",
     "name": "contact-email",
     "label": "Privacy contact email",
-    "default": "privacy@athoshealth.com"
+    "default": "privacy@athos.example"
    },
    {
     "hook": "text",
@@ -1099,7 +1099,7 @@
     "hook": "text",
     "name": "contact-email",
     "label": "Contact email",
-    "default": "support@athoshealth"
+    "default": "support@athos.example"
    },
    {
     "hook": "text",
@@ -1133,7 +1133,7 @@
     "hook": "text",
     "name": "contact-email",
     "label": "Contact email",
-    "default": "support@athoshealth.com"
+    "default": "support@athos.example"
    }
   ]
  },
@@ -1155,7 +1155,7 @@
     "hook": "text",
     "name": "contact-email",
     "label": "Compliance contact email",
-    "default": "compliance@athoshealth.com"
+    "default": "compliance@athos.example"
    },
    {
     "hook": "navigation",
@@ -1231,7 +1231,7 @@
     "hook": "text",
     "name": "contact-email",
     "label": "Legal contact email",
-    "default": "legal@athoshealth.com"
+    "default": "legal@athos.example"
    },
    {
     "hook": "longtext",
@@ -1259,13 +1259,13 @@
     "hook": "text",
     "name": "contact-email",
     "label": "Contact email",
-    "default": "partners@athoshealth.com"
+    "default": "partners@athos.example"
    },
    {
     "hook": "text",
     "name": "legal-email",
     "label": "Legal email",
-    "default": "legal@athoshealth.com"
+    "default": "legal@athos.example"
    }
   ]
  },
@@ -1287,7 +1287,7 @@
     "hook": "text",
     "name": "contact-email",
     "label": "Legal contact email",
-    "default": "legal@athoshealth.com"
+    "default": "legal@athos.example"
    },
    {
     "hook": "longtext",
@@ -1315,7 +1315,7 @@
     "hook": "text",
     "name": "contact-email",
     "label": "Compliance contact email",
-    "default": "compliance@athoshealth.com"
+    "default": "compliance@athos.example"
    },
    {
     "hook": "longtext",
@@ -1343,7 +1343,7 @@
     "hook": "text",
     "name": "contact-email",
     "label": "Contact email",
-    "default": "legal@athoshealth.com"
+    "default": "legal@athos.example"
    },
    {
     "hook": "longtext",
@@ -1371,7 +1371,7 @@
     "hook": "text",
     "name": "contact-email",
     "label": "Legal contact email",
-    "default": "legal@athoshealth.com"
+    "default": "legal@athos.example"
    },
    {
     "hook": "longtext",
@@ -1399,13 +1399,13 @@
     "hook": "text",
     "name": "contact-email",
     "label": "Legal contact email",
-    "default": "legal@athoshealth.com"
+    "default": "legal@athos.example"
    },
    {
     "hook": "text",
     "name": "support-email",
     "label": "Support contact email",
-    "default": "support@athoshealth.com"
+    "default": "support@athos.example"
    },
    {
     "hook": "longtext",
@@ -1433,13 +1433,13 @@
     "hook": "text",
     "name": "contact-email",
     "label": "Privacy contact email",
-    "default": "privacy@athoshealth.com"
+    "default": "privacy@athos.example"
    },
    {
     "hook": "text",
     "name": "support-email",
     "label": "Support contact email",
-    "default": "support@athoshealth.com"
+    "default": "support@athos.example"
    },
    {
     "hook": "longtext",
@@ -1467,7 +1467,7 @@
     "hook": "text",
     "name": "contact-email",
     "label": "Legal contact email",
-    "default": "legal@athoshealth.com"
+    "default": "legal@athos.example"
    },
    {
     "hook": "longtext",
@@ -1495,7 +1495,7 @@
     "hook": "text",
     "name": "contact-email",
     "label": "Privacy contact email",
-    "default": "privacy@athoshealth.com"
+    "default": "privacy@athos.example"
    },
    {
     "hook": "text",
@@ -1529,13 +1529,13 @@
     "hook": "text",
     "name": "contact-email",
     "label": "Privacy contact email",
-    "default": "privacy@athoshealth.com"
+    "default": "privacy@athos.example"
    },
    {
     "hook": "text",
     "name": "support-email",
     "label": "Support contact email",
-    "default": "support@athoshealth.com"
+    "default": "support@athos.example"
    },
    {
     "hook": "longtext",
@@ -1563,7 +1563,7 @@
     "hook": "text",
     "name": "contact-email",
     "label": "Contact email",
-    "default": "support@athoshealth.com"
+    "default": "support@athos.example"
    },
    {
     "hook": "text",
@@ -1591,19 +1591,19 @@
     "hook": "text",
     "name": "legal-email",
     "label": "Legal email",
-    "default": "legal@athoshealth.com"
+    "default": "legal@athos.example"
    },
    {
     "hook": "text",
     "name": "support-email",
     "label": "Support email",
-    "default": "support@athoshealth.com"
+    "default": "support@athos.example"
    },
    {
     "hook": "text",
     "name": "security-email",
     "label": "Security email",
-    "default": "security@athoshealth.com"
+    "default": "security@athos.example"
    },
    {
     "hook": "text",

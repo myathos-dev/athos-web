@@ -109,7 +109,7 @@ const GOAL_MAP = { "tissue-repair": "Tissue repair", "injury-recovery": "Injury 
 const goalLabel = c => (c.subType && GOAL_MAP[c.subType]) || "Recovery and repair";
 
 /* ── Orbit ── */
-const ORBIT_BASE = "https://onboard.myorbithealth.com/form/athos-wellness";
+const ORBIT_BASE = "https://checkout.athos.example/form/athos-wellness";
 function buildNotes(d) {
   const l = d.selectedProduct?.label || "Unknown";
   const pr = d.priorPeptides === "none" ? "No prior peptide use" : `Prior: ${d.priorPeptides}`;

@@ -2,8 +2,8 @@
 export default function Block() {
   const pageTitle = "Marketing Services Agreement";
   const lastUpdated = "April 22, 2026";
-  const contactEmail = "legal@athoshealth.com";
-  const supportEmail = "support@athoshealth.com";
+  const contactEmail = "legal@athos.example";
+  const supportEmail = "support@athos.example";
   const emergencyNotice = "Athos is limited to providing consultations for specific non-emergency medical conditions. If you believe you are experiencing a medical emergency, please dial 911 or contact your local medical provider immediately.";
 
   return (
@@ -49,7 +49,7 @@ export default function Block() {
               <h2 className="text-2xl md:text-3xl" style={{ color: "#1a1a1a" }}>Parties</h2>
             </div>
             <p className="text-base leading-relaxed text-muted-foreground mb-4">This Agreement is entered into as of the date of electronic execution ("Effective Date") by and between:</p>
-            <p className="text-base leading-relaxed text-muted-foreground mb-4"><strong style={{ color: "#1a1a1a" }}>Company:</strong> Symbiotix LLC, d/b/a Athos ("Company," "Athos," "we," or "us"), operating under the management services organization known as Dhruv Physician Assistant, A Professional Corporation P.C. ("MSO"). Athos provides administrative and technology services only. Athos does not provide medical services, employ healthcare providers, or store personal health data.</p>
+            <p className="text-base leading-relaxed text-muted-foreground mb-4"><strong style={{ color: "#1a1a1a" }}>Company:</strong> Symbiotix-demo LLC, d/b/a Athos ("Company," "Athos," "we," or "us"), operating under the management services organization known as Dhruv Physician Assistant, A Professional Corporation P.C. ("MSO"). Athos provides administrative and technology services only. Athos does not provide medical services, employ healthcare providers, or store personal health data.</p>
             <p className="text-base leading-relaxed text-muted-foreground mb-4"><strong style={{ color: "#1a1a1a" }}>Marketing Partner:</strong> The individual or entity identified in the Partner Application ("Partner," "you," or "your"), an independent marketing contractor engaged to perform the services described in this Agreement.</p>
             <p className="text-base leading-relaxed text-muted-foreground">Company and Partner are each referred to as a "Party" and collectively as the "Parties."</p>
           </div>
@@ -407,7 +407,7 @@ export default function Block() {
           <div className="pt-10" style={{ borderTop: "1px solid rgba(36,92,58,0.12)" }}>
             <p className="text-xs font-medium tracking-wider uppercase mb-4" style={{ color: "rgba(36,92,58,0.5)" }}>Platform Disclaimer</p>
             <div className="space-y-3">
-              <p className="text-xs leading-relaxed text-muted-foreground">Athos is a telehealth platform licensed by Symbiotix, providing administrative and operational support to licensed physicians and healthcare practitioners. Athos does not provide medical or pharmacy services, employ healthcare providers, compound or manufacture medications, or influence clinical decision-making.</p>
+              <p className="text-xs leading-relaxed text-muted-foreground">Athos is a telehealth platform licensed by Symbiotix-demo, providing administrative and operational support to licensed physicians and healthcare practitioners. Athos does not provide medical or pharmacy services, employ healthcare providers, compound or manufacture medications, or influence clinical decision-making.</p>
               <p className="text-xs leading-relaxed text-muted-foreground">All clinical services are delivered by Dhruv Physician Assistant, A Professional Corporation, an independent Medical Services Organization operating licensed 503(A) compounding pharmacies and FDA-registered 503(B) outsourcing facilities, with a physician network across all 50 states.</p>
               <p className="text-xs leading-relaxed text-muted-foreground">Compounded medications are not FDA-approved. Compounded semaglutide is not equivalent to any FDA-approved product. Individual results may vary. Payment does not guarantee prescribing or dispensing of any medication. All treatment decisions are made by the prescribing provider.</p>
               <p className="text-xs leading-relaxed text-muted-foreground">This website is for informational purposes only and does not constitute medical advice, diagnosis, or treatment. This website constitutes an advertisement for telehealth platform services.</p>

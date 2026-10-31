@@ -14,7 +14,7 @@ export default function Block() {
   const contactEmail = useTextSetting({
     name: "contact-email",
     label: "Legal contact email",
-    initialValue: "legal@athoshealth.com",
+    initialValue: "legal@athos.example",
   });
   const emergencyNotice = useLongTextSetting({
     name: "emergency-notice",
@@ -52,7 +52,7 @@ export default function Block() {
           {/* Preamble */}
           <div className="rounded-xl p-6 mb-12" style={{ backgroundColor: "rgba(36,92,58,0.06)", border: "1px solid rgba(36,92,58,0.12)" }}>
             <p className="text-sm font-medium mb-2" style={{ color: "#245C3A" }}>Exhibit C to the Marketing Services Agreement</p>
-            <p className="text-sm leading-relaxed text-muted-foreground">This Addendum supplements and is incorporated into the Marketing Services Agreement ("MSA") between Symbiotix LLC, d/b/a Athos ("Company") and the undersigned Marketing Partner ("Partner"). In the event of a conflict between this Addendum and the MSA, the terms of this Addendum control to the extent of the conflict. Only the section corresponding to Partner's state of residence applies.</p>
+            <p className="text-sm leading-relaxed text-muted-foreground">This Addendum supplements and is incorporated into the Marketing Services Agreement ("MSA") between Symbiotix-demo LLC, d/b/a Athos ("Company") and the undersigned Marketing Partner ("Partner"). In the event of a conflict between this Addendum and the MSA, the terms of this Addendum control to the extent of the conflict. Only the section corresponding to Partner's state of residence applies.</p>
             <div className="mt-4 pt-4" style={{ borderTop: "1px solid rgba(36,92,58,0.12)" }}>
               <p className="text-sm font-medium mb-2" style={{ color: "#245C3A" }}>Attorney review required</p>
               <p className="text-sm leading-relaxed text-muted-foreground">State anti-kickback and fee-splitting laws are complex, frequently amended, and subject to interpretation. This Addendum reflects a good-faith compliance posture but does not constitute legal advice. Attorney review is required before execution.</p>
@@ -386,7 +386,7 @@ export default function Block() {
           <div className="pt-10" style={{ borderTop: "1px solid rgba(36,92,58,0.12)" }}>
             <p className="text-xs font-medium tracking-wider uppercase mb-4" style={{ color: "rgba(36,92,58,0.5)" }}>Platform Disclaimer</p>
             <div className="space-y-3">
-              <p className="text-xs leading-relaxed text-muted-foreground">Athos is a telehealth platform licensed by Symbiotix, providing administrative and operational support to licensed physicians and healthcare practitioners. Athos does not provide medical or pharmacy services, employ healthcare providers, compound or manufacture medications, or influence clinical decision-making.</p>
+              <p className="text-xs leading-relaxed text-muted-foreground">Athos is a telehealth platform licensed by Symbiotix-demo, providing administrative and operational support to licensed physicians and healthcare practitioners. Athos does not provide medical or pharmacy services, employ healthcare providers, compound or manufacture medications, or influence clinical decision-making.</p>
               <p className="text-xs leading-relaxed text-muted-foreground">All clinical services are delivered by Dhruv Physician Assistant, A Professional Corporation, an independent Medical Services Organization operating licensed 503(A) compounding pharmacies and FDA-registered 503(B) outsourcing facilities, with a physician network across all 50 states.</p>
               <p className="text-xs leading-relaxed text-muted-foreground">Compounded medications are not FDA-approved. Compounded semaglutide is not equivalent to any FDA-approved product. Individual results may vary. Payment does not guarantee prescribing or dispensing of any medication. All treatment decisions are made by the prescribing provider.</p>
               <p className="text-xs leading-relaxed text-muted-foreground">This website is for informational purposes only and does not constitute medical advice, diagnosis, or treatment. This website constitutes an advertisement for telehealth platform services.</p>

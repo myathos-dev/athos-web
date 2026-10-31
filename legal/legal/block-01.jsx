@@ -2,7 +2,7 @@
 export default function Block() {
   const pageTitle = "Legal & Transparency";
   const lastUpdated = "April 19, 2026";
-  const contactEmail = "legal@athoshealth.com";
+  const contactEmail = "legal@athos.example";
 
   const privacyPolicyLink = { action: "OPEN_PAGE", destination: "/legal/privacy-policy", openIn: "SELF" };
   const ccpaLink = { action: "OPEN_PAGE", destination: "/legal/ccpa", openIn: "SELF" };
@@ -36,7 +36,7 @@ export default function Block() {
             <div className="space-y-4">
               <div className="rounded-xl p-5" style={{ backgroundColor: "rgba(36,92,58,0.06)", border: "1px solid rgba(36,92,58,0.12)" }}>
                 <p className="text-sm font-medium mb-1" style={{ color: "#245C3A" }}>Athos — Platform Operator</p>
-                <p className="text-sm leading-relaxed text-muted-foreground">Athos is a telehealth platform licensed by Symbiotix. Athos provides administrative and operational support to licensed physicians and healthcare practitioners who deliver clinical care through a secure telehealth platform. Athos does not provide medical or pharmacy services, employ healthcare providers, compound or manufacture medications, or influence clinical decision-making in any capacity. Athos does not collect or store personal data. All information entered on the Platform exists at the session level only and is cleared on browser refresh.</p>
+                <p className="text-sm leading-relaxed text-muted-foreground">Athos is a telehealth platform licensed by Symbiotix-demo. Athos provides administrative and operational support to licensed physicians and healthcare practitioners who deliver clinical care through a secure telehealth platform. Athos does not provide medical or pharmacy services, employ healthcare providers, compound or manufacture medications, or influence clinical decision-making in any capacity. Athos does not collect or store personal data. All information entered on the Platform exists at the session level only and is cleared on browser refresh.</p>
               </div>
               <div className="rounded-xl p-5" style={{ backgroundColor: "rgba(36,92,58,0.06)", border: "1px solid rgba(36,92,58,0.12)" }}>
                 <p className="text-sm font-medium mb-1" style={{ color: "#245C3A" }}>Dhruv Physician Assistant, A Professional Corporation P.C. — Medical Services Organization</p>
@@ -181,7 +181,7 @@ export default function Block() {
           <div className="pt-10" style={{ borderTop: "1px solid rgba(36,92,58,0.12)" }}>
             <p className="text-xs font-medium tracking-wider uppercase mb-4" style={{ color: "rgba(36,92,58,0.5)" }}>Platform Disclaimer</p>
             <div className="space-y-3">
-              <p className="text-xs leading-relaxed text-muted-foreground">Athos is a telehealth platform licensed by Symbiotix, providing administrative and operational support to licensed physicians and healthcare practitioners who deliver clinical care through a secure telehealth platform. Athos does not provide medical or pharmacy services, employ healthcare providers, compound or manufacture medications, or influence clinical decision-making in any capacity.</p>
+              <p className="text-xs leading-relaxed text-muted-foreground">Athos is a telehealth platform licensed by Symbiotix-demo, providing administrative and operational support to licensed physicians and healthcare practitioners who deliver clinical care through a secure telehealth platform. Athos does not provide medical or pharmacy services, employ healthcare providers, compound or manufacture medications, or influence clinical decision-making in any capacity.</p>
               <p className="text-xs leading-relaxed text-muted-foreground">All compounded medications offered through this platform are prescribed by independent, licensed healthcare providers and compounded exclusively by Dhruv Physician Assistant, A Professional Corporation P.C., licensed 503(A) compounding pharmacies and/or FDA-registered 503(B) outsourcing facilities operating in the United States. Product imagery on this website is for illustrative purposes and reflects medications compounded by licensed pharmacy partners, not by Athos.</p>
               <p className="text-xs leading-relaxed text-muted-foreground">Compounded medications are not FDA-approved and have not undergone pre-market review for safety, efficacy, or quality. Compounded semaglutide is not equivalent to, and should not be substituted for, any FDA-approved drug product. Individual results may vary. Data from clinical trials conducted on FDA-approved medications should not be used to assess compounded medications.</p>
               <p className="text-xs leading-relaxed text-muted-foreground">Payment for platform services does not guarantee the prescribing or dispensing of any medication. All treatment decisions are made solely at the discretion of the prescribing provider based on individual medical assessment.</p>

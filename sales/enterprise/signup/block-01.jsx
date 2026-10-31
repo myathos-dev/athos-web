@@ -80,7 +80,7 @@ export default function Block() {
 
         {/* Calendly Iframe */}
         <iframe
-          src="https://calendly.com/arthur-symbiotix/30min?primary_color=16625f&hide_gdpr_banner=1"
+          src="https://calendly.com/your-booking-link/30min?primary_color=16625f&hide_gdpr_banner=1"
           style={{
             width: "100%",
             minWidth: 320,

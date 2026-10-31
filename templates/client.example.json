@@ -23,16 +23,16 @@
 
   "company": {
     "operatorName": "Athos",
-    "legalEntity": "Symbiotix LLC, d/b/a Athos",
-    "domain": "athoshealth.com",
+    "legalEntity": "Symbiotix-demo LLC, d/b/a Athos",
+    "domain": "athos.example",
     "emails": {
-      "legal": "legal@athoshealth.com",
-      "privacy": "privacy@athoshealth.com",
-      "support": "support@athoshealth.com",
-      "compliance": "compliance@athoshealth.com",
-      "partners": "partners@athoshealth.com",
-      "security": "security@athoshealth.com",
-      "accessibility": "accessibility@athoshealth.com"
+      "legal": "legal@athos.example",
+      "privacy": "privacy@athos.example",
+      "support": "support@athos.example",
+      "compliance": "compliance@athos.example",
+      "partners": "partners@athos.example",
+      "security": "security@athos.example",
+      "accessibility": "accessibility@athos.example"
     },
     "phone": null,
     "postalAddress": null,
@@ -44,7 +44,7 @@
     "msoShortName": "Dhruv Physician PC",
     "checkout": {
       "provider": "MyOrbit",
-      "baseUrl": "https://onboard.myorbithealth.com/form/",
+      "baseUrl": "https://checkout.athos.example/form/",
       "clientSlug": "athos-wellness"
     }
   },
